@@ -1,0 +1,1599 @@
+{
+  "timestamp": "2025-07-29T06:41:16.431Z",
+  "files": {
+    "CLAUDE_AUTOMATION.md": {
+      "name": "CLAUDE_AUTOMATION.md",
+      "path": "CLAUDE_AUTOMATION.md",
+      "size": 4146,
+      "modified": "2025-07-29T06:41:15.160Z",
+      "extension": ".md",
+      "lines": 131
+    },
+    "PROJECT_STATUS.md": {
+      "name": "PROJECT_STATUS.md",
+      "path": "PROJECT_STATUS.md",
+      "size": 2369,
+      "modified": "2025-07-29T06:41:15.160Z",
+      "extension": ".md",
+      "lines": 81
+    },
+    "README.md": {
+      "name": "README.md",
+      "path": "README.md",
+      "size": 58,
+      "modified": "2025-07-29T06:41:15.160Z",
+      "extension": ".md",
+      "lines": 3
+    },
+    "continuous-scraper.js": {
+      "name": "continuous-scraper.js",
+      "path": "continuous-scraper.js",
+      "size": 4762,
+      "modified": "2025-07-29T06:41:15.160Z",
+      "extension": ".js",
+      "lines": 149,
+      "functions": [],
+      "imports": [
+        "sqlite3",
+        "path",
+        "./ultimate-scraper",
+        "p-limit"
+      ]
+    },
+    "data/camera-vault.db": {
+      "name": "camera-vault.db",
+      "path": "data/camera-vault.db",
+      "size": 16,
+      "modified": "2025-07-29T06:41:15.160Z",
+      "extension": ".db",
+      "lines": 0
+    },
+    "data/cameras.json": {
+      "name": "cameras.json",
+      "path": "data/cameras.json",
+      "size": 267,
+      "modified": "2025-07-29T06:41:15.160Z",
+      "extension": ".json",
+      "lines": 15
+    },
+    "package.json": {
+      "name": "package.json",
+      "path": "package.json",
+      "size": 508,
+      "modified": "2025-07-29T06:41:15.160Z",
+      "extension": ".json",
+      "lines": 24
+    },
+    "public/attribution.html": {
+      "name": "attribution.html",
+      "path": "public/attribution.html",
+      "size": 13534,
+      "modified": "2025-07-29T06:41:15.161Z",
+      "extension": ".html",
+      "lines": 397,
+      "pageInfo": {
+        "title": "Image Attributions - Camera Manual Vault",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/camera-blog.html": {
+      "name": "camera-blog.html",
+      "path": "public/camera-blog.html",
+      "size": 23846,
+      "modified": "2025-07-29T06:41:15.161Z",
+      "extension": ".html",
+      "lines": 723,
+      "pageInfo": {
+        "title": "Camera Blog - Camera Manual Vault",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/camera-detail.html": {
+      "name": "camera-detail.html",
+      "path": "public/camera-detail.html",
+      "size": 31833,
+      "modified": "2025-07-29T06:41:15.161Z",
+      "extension": ".html",
+      "lines": 967,
+      "pageInfo": {
+        "title": "",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/camera-finder.html": {
+      "name": "camera-finder.html",
+      "path": "public/camera-finder.html",
+      "size": 23910,
+      "modified": "2025-07-29T06:41:15.161Z",
+      "extension": ".html",
+      "lines": 729,
+      "pageInfo": {
+        "title": "Camera Finder - Find Your Perfect Camera",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": true,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/cameras.html": {
+      "name": "cameras.html",
+      "path": "public/cameras.html",
+      "size": 70560,
+      "modified": "2025-07-29T06:41:15.161Z",
+      "extension": ".html",
+      "lines": 1923,
+      "pageInfo": {
+        "title": "Camera Database - Camera Manual Vault",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/css/main.css": {
+      "name": "main.css",
+      "path": "public/css/main.css",
+      "size": 10448,
+      "modified": "2025-07-29T06:41:15.162Z",
+      "extension": ".css",
+      "lines": 429,
+      "cssInfo": {
+        "variables": [
+          {
+            "name": "primary-dark",
+            "value": "#1a1a1a"
+          },
+          {
+            "name": "primary-red",
+            "value": "#e74c3c"
+          },
+          {
+            "name": "secondary-blue",
+            "value": "#3498db"
+          },
+          {
+            "name": "success-green",
+            "value": "#2ecc71"
+          },
+          {
+            "name": "warning-yellow",
+            "value": "#f39c12"
+          },
+          {
+            "name": "text-light",
+            "value": "#ecf0f1"
+          },
+          {
+            "name": "text-dark",
+            "value": "#2c3e50"
+          },
+          {
+            "name": "text-muted",
+            "value": "#7f8c8d"
+          },
+          {
+            "name": "bg-dark",
+            "value": "#2c3e50"
+          },
+          {
+            "name": "bg-light",
+            "value": "#f8f9fa"
+          },
+          {
+            "name": "bg-white",
+            "value": "#ffffff"
+          },
+          {
+            "name": "border-color",
+            "value": "#ddd"
+          },
+          {
+            "name": "shadow-light",
+            "value": "rgba(0,0,0,0.1)"
+          },
+          {
+            "name": "shadow-medium",
+            "value": "rgba(0,0,0,0.15)"
+          },
+          {
+            "name": "shadow-dark",
+            "value": "rgba(0,0,0,0.25)"
+          },
+          {
+            "name": "spacing-xs",
+            "value": "0.25rem"
+          },
+          {
+            "name": "spacing-sm",
+            "value": "0.5rem"
+          },
+          {
+            "name": "spacing-md",
+            "value": "1rem"
+          },
+          {
+            "name": "spacing-lg",
+            "value": "1.5rem"
+          },
+          {
+            "name": "spacing-xl",
+            "value": "2rem"
+          },
+          {
+            "name": "spacing-xxl",
+            "value": "3rem"
+          },
+          {
+            "name": "radius-sm",
+            "value": "4px"
+          },
+          {
+            "name": "radius-md",
+            "value": "8px"
+          },
+          {
+            "name": "radius-lg",
+            "value": "12px"
+          },
+          {
+            "name": "radius-full",
+            "value": "50%"
+          },
+          {
+            "name": "transition-fast",
+            "value": "0.2s ease"
+          },
+          {
+            "name": "transition-normal",
+            "value": "0.3s ease"
+          },
+          {
+            "name": "transition-slow",
+            "value": "0.5s ease"
+          }
+        ],
+        "classes": [
+          "container",
+          "page-content",
+          "grid",
+          "grid-2",
+          "grid-3",
+          "grid-4",
+          "site-header",
+          "header-content",
+          "logo",
+          "logo-icon",
+          "main-nav",
+          "active",
+          "btn",
+          "btn-primary",
+          "btn-secondary",
+          "card",
+          "card-image",
+          "card-title",
+          "card-meta",
+          "form-group",
+          "form-label",
+          "form-textarea",
+          "site-footer",
+          "footer-content",
+          "text-center",
+          "text-right",
+          "text-muted",
+          "text-small",
+          "text-large",
+          "mt-0",
+          "mt-1",
+          "mt-2",
+          "mt-3",
+          "mt-4",
+          "mt-5",
+          "mb-0",
+          "mb-1",
+          "mb-2",
+          "mb-3",
+          "mb-4",
+          "mb-5",
+          "loading",
+          "error",
+          "success",
+          "header-content",
+          "main-nav",
+          "grid-4"
+        ],
+        "ids": [],
+        "keyframes": [],
+        "mediaQueries": [],
+        "sections": {
+          "VARIABLES": {
+            "name": "VARIABLES",
+            "startLine": 8,
+            "endLine": 55
+          },
+          "BASE STYLES": {
+            "name": "BASE STYLES",
+            "startLine": 57,
+            "endLine": 76
+          },
+          "TYPOGRAPHY": {
+            "name": "TYPOGRAPHY",
+            "startLine": 78,
+            "endLine": 110
+          },
+          "LAYOUT": {
+            "name": "LAYOUT",
+            "startLine": 112,
+            "endLine": 136
+          },
+          "HEADER": {
+            "name": "HEADER",
+            "startLine": 138,
+            "endLine": 193
+          },
+          "BUTTONS": {
+            "name": "BUTTONS",
+            "startLine": 195,
+            "endLine": 233
+          },
+          "CARDS": {
+            "name": "CARDS",
+            "startLine": 235,
+            "endLine": 270
+          },
+          "FORMS": {
+            "name": "FORMS",
+            "startLine": 272,
+            "endLine": 303
+          },
+          "FOOTER": {
+            "name": "FOOTER",
+            "startLine": 305,
+            "endLine": 344
+          },
+          "UTILITIES": {
+            "name": "UTILITIES",
+            "startLine": 346,
+            "endLine": 391
+          },
+          "RESPONSIVE": {
+            "name": "RESPONSIVE",
+            "startLine": 393,
+            "endLine": 418
+          }
+        }
+      }
+    },
+    "public/dmca.html": {
+      "name": "dmca.html",
+      "path": "public/dmca.html",
+      "size": 10262,
+      "modified": "2025-07-29T06:41:15.162Z",
+      "extension": ".html",
+      "lines": 323,
+      "pageInfo": {
+        "title": "DMCA Policy - Camera Manual Vault",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/images/camera-placeholder.jpg": {
+      "name": "camera-placeholder.jpg",
+      "path": "public/images/camera-placeholder.jpg",
+      "size": 70142,
+      "modified": "2025-07-29T06:41:15.162Z",
+      "extension": ".jpg",
+      "lines": 0
+    },
+    "public/index.html": {
+      "name": "index.html",
+      "path": "public/index.html",
+      "size": 1583,
+      "modified": "2025-07-29T06:41:15.162Z",
+      "extension": ".html",
+      "lines": 51,
+      "pageInfo": {
+        "title": "Camera Manual Vault",
+        "scripts": [],
+        "stylesheets": [
+          "/css/main.css"
+        ],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/legal.html": {
+      "name": "legal.html",
+      "path": "public/legal.html",
+      "size": 11921,
+      "modified": "2025-07-29T06:41:15.162Z",
+      "extension": ".html",
+      "lines": 370,
+      "pageInfo": {
+        "title": "Legal Disclaimer - Camera Manual Vault",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/login.html": {
+      "name": "login.html",
+      "path": "public/login.html",
+      "size": 14369,
+      "modified": "2025-07-29T06:41:15.162Z",
+      "extension": ".html",
+      "lines": 483,
+      "pageInfo": {
+        "title": "Login - Camera Manual Vault",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": true,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/privacy.html": {
+      "name": "privacy.html",
+      "path": "public/privacy.html",
+      "size": 9086,
+      "modified": "2025-07-29T06:41:15.162Z",
+      "extension": ".html",
+      "lines": 326,
+      "pageInfo": {
+        "title": "Privacy Policy - Camera Manual Vault",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/productions.html": {
+      "name": "productions.html",
+      "path": "public/productions.html",
+      "size": 26530,
+      "modified": "2025-07-29T06:41:15.163Z",
+      "extension": ".html",
+      "lines": 754,
+      "pageInfo": {
+        "title": "Productions - Cameras Used in Movies & TV",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "public/terms.html": {
+      "name": "terms.html",
+      "path": "public/terms.html",
+      "size": 10462,
+      "modified": "2025-07-29T06:41:15.163Z",
+      "extension": ".html",
+      "lines": 331,
+      "pageInfo": {
+        "title": "Terms of Service - Camera Manual Vault",
+        "scripts": [],
+        "stylesheets": [],
+        "hasForm": false,
+        "navigation": [
+          {
+            "href": "/",
+            "text": "Home"
+          },
+          {
+            "href": "/cameras",
+            "text": "Cameras"
+          },
+          {
+            "href": "/camera-finder",
+            "text": "Camera Finder"
+          },
+          {
+            "href": "/productions",
+            "text": "Productions"
+          },
+          {
+            "href": "/camera-blog",
+            "text": "Camera Blog"
+          },
+          {
+            "href": "/login",
+            "text": "Login"
+          }
+        ]
+      }
+    },
+    "scripts/generate-structure.js": {
+      "name": "generate-structure.js",
+      "path": "scripts/generate-structure.js",
+      "size": 24221,
+      "modified": "2025-07-29T06:41:15.163Z",
+      "extension": ".js",
+      "lines": 840,
+      "functions": [
+        "main"
+      ],
+      "imports": [
+        "fs",
+        "path",
+        "child_process"
+      ]
+    },
+    "server.js": {
+      "name": "server.js",
+      "path": "server.js",
+      "size": 14200,
+      "modified": "2025-07-29T06:41:15.163Z",
+      "extension": ".js",
+      "lines": 403,
+      "functions": [],
+      "imports": [
+        "dotenv",
+        "express",
+        "axios",
+        "sharp",
+        "fs",
+        "path",
+        "crypto",
+        "sqlite3",
+        "helmet",
+        "compression",
+        "cors"
+      ]
+    }
+  },
+  "directories": {
+    "data": {
+      "name": "data",
+      "path": "data",
+      "fileCount": 0
+    },
+    "public": {
+      "name": "public",
+      "path": "public",
+      "fileCount": 0
+    },
+    "public/css": {
+      "name": "css",
+      "path": "public/css",
+      "fileCount": 0
+    },
+    "public/images": {
+      "name": "images",
+      "path": "public/images",
+      "fileCount": 0
+    },
+    "scripts": {
+      "name": "scripts",
+      "path": "scripts",
+      "fileCount": 0
+    }
+  },
+  "metrics": {
+    "totalFiles": 23,
+    "totalDirectories": 5,
+    "totalLines": 9452,
+    "filesByType": {
+      ".md": 3,
+      ".js": 3,
+      ".db": 1,
+      ".json": 2,
+      ".html": 12,
+      ".css": 1,
+      ".jpg": 1
+    },
+    "largestFiles": [
+      {
+        "path": "public/cameras.html",
+        "size": 70560
+      },
+      {
+        "path": "public/images/camera-placeholder.jpg",
+        "size": 70142
+      },
+      {
+        "path": "public/camera-detail.html",
+        "size": 31833
+      },
+      {
+        "path": "public/productions.html",
+        "size": 26530
+      },
+      {
+        "path": "scripts/generate-structure.js",
+        "size": 24221
+      },
+      {
+        "path": "public/camera-finder.html",
+        "size": 23910
+      },
+      {
+        "path": "public/camera-blog.html",
+        "size": 23846
+      },
+      {
+        "path": "public/login.html",
+        "size": 14369
+      },
+      {
+        "path": "server.js",
+        "size": 14200
+      },
+      {
+        "path": "public/attribution.html",
+        "size": 13534
+      },
+      {
+        "path": "public/legal.html",
+        "size": 11921
+      },
+      {
+        "path": "public/terms.html",
+        "size": 10462
+      },
+      {
+        "path": "public/css/main.css",
+        "size": 10448
+      },
+      {
+        "path": "public/dmca.html",
+        "size": 10262
+      },
+      {
+        "path": "public/privacy.html",
+        "size": 9086
+      },
+      {
+        "path": "continuous-scraper.js",
+        "size": 4762
+      },
+      {
+        "path": "CLAUDE_AUTOMATION.md",
+        "size": 4146
+      },
+      {
+        "path": "PROJECT_STATUS.md",
+        "size": 2369
+      },
+      {
+        "path": "public/index.html",
+        "size": 1583
+      },
+      {
+        "path": "package.json",
+        "size": 508
+      }
+    ]
+  },
+  "cssAnalysis": {
+    "public/css/main.css": {
+      "variables": [
+        {
+          "name": "primary-dark",
+          "value": "#1a1a1a"
+        },
+        {
+          "name": "primary-red",
+          "value": "#e74c3c"
+        },
+        {
+          "name": "secondary-blue",
+          "value": "#3498db"
+        },
+        {
+          "name": "success-green",
+          "value": "#2ecc71"
+        },
+        {
+          "name": "warning-yellow",
+          "value": "#f39c12"
+        },
+        {
+          "name": "text-light",
+          "value": "#ecf0f1"
+        },
+        {
+          "name": "text-dark",
+          "value": "#2c3e50"
+        },
+        {
+          "name": "text-muted",
+          "value": "#7f8c8d"
+        },
+        {
+          "name": "bg-dark",
+          "value": "#2c3e50"
+        },
+        {
+          "name": "bg-light",
+          "value": "#f8f9fa"
+        },
+        {
+          "name": "bg-white",
+          "value": "#ffffff"
+        },
+        {
+          "name": "border-color",
+          "value": "#ddd"
+        },
+        {
+          "name": "shadow-light",
+          "value": "rgba(0,0,0,0.1)"
+        },
+        {
+          "name": "shadow-medium",
+          "value": "rgba(0,0,0,0.15)"
+        },
+        {
+          "name": "shadow-dark",
+          "value": "rgba(0,0,0,0.25)"
+        },
+        {
+          "name": "spacing-xs",
+          "value": "0.25rem"
+        },
+        {
+          "name": "spacing-sm",
+          "value": "0.5rem"
+        },
+        {
+          "name": "spacing-md",
+          "value": "1rem"
+        },
+        {
+          "name": "spacing-lg",
+          "value": "1.5rem"
+        },
+        {
+          "name": "spacing-xl",
+          "value": "2rem"
+        },
+        {
+          "name": "spacing-xxl",
+          "value": "3rem"
+        },
+        {
+          "name": "radius-sm",
+          "value": "4px"
+        },
+        {
+          "name": "radius-md",
+          "value": "8px"
+        },
+        {
+          "name": "radius-lg",
+          "value": "12px"
+        },
+        {
+          "name": "radius-full",
+          "value": "50%"
+        },
+        {
+          "name": "transition-fast",
+          "value": "0.2s ease"
+        },
+        {
+          "name": "transition-normal",
+          "value": "0.3s ease"
+        },
+        {
+          "name": "transition-slow",
+          "value": "0.5s ease"
+        }
+      ],
+      "classes": [
+        "container",
+        "page-content",
+        "grid",
+        "grid-2",
+        "grid-3",
+        "grid-4",
+        "site-header",
+        "header-content",
+        "logo",
+        "logo-icon",
+        "main-nav",
+        "active",
+        "btn",
+        "btn-primary",
+        "btn-secondary",
+        "card",
+        "card-image",
+        "card-title",
+        "card-meta",
+        "form-group",
+        "form-label",
+        "form-textarea",
+        "site-footer",
+        "footer-content",
+        "text-center",
+        "text-right",
+        "text-muted",
+        "text-small",
+        "text-large",
+        "mt-0",
+        "mt-1",
+        "mt-2",
+        "mt-3",
+        "mt-4",
+        "mt-5",
+        "mb-0",
+        "mb-1",
+        "mb-2",
+        "mb-3",
+        "mb-4",
+        "mb-5",
+        "loading",
+        "error",
+        "success",
+        "header-content",
+        "main-nav",
+        "grid-4"
+      ],
+      "ids": [],
+      "keyframes": [],
+      "mediaQueries": [],
+      "sections": {
+        "VARIABLES": {
+          "name": "VARIABLES",
+          "startLine": 8,
+          "endLine": 55
+        },
+        "BASE STYLES": {
+          "name": "BASE STYLES",
+          "startLine": 57,
+          "endLine": 76
+        },
+        "TYPOGRAPHY": {
+          "name": "TYPOGRAPHY",
+          "startLine": 78,
+          "endLine": 110
+        },
+        "LAYOUT": {
+          "name": "LAYOUT",
+          "startLine": 112,
+          "endLine": 136
+        },
+        "HEADER": {
+          "name": "HEADER",
+          "startLine": 138,
+          "endLine": 193
+        },
+        "BUTTONS": {
+          "name": "BUTTONS",
+          "startLine": 195,
+          "endLine": 233
+        },
+        "CARDS": {
+          "name": "CARDS",
+          "startLine": 235,
+          "endLine": 270
+        },
+        "FORMS": {
+          "name": "FORMS",
+          "startLine": 272,
+          "endLine": 303
+        },
+        "FOOTER": {
+          "name": "FOOTER",
+          "startLine": 305,
+          "endLine": 344
+        },
+        "UTILITIES": {
+          "name": "UTILITIES",
+          "startLine": 346,
+          "endLine": 391
+        },
+        "RESPONSIVE": {
+          "name": "RESPONSIVE",
+          "startLine": 393,
+          "endLine": 418
+        }
+      },
+      "totalSelectors": 47
+    },
+    "mainCSS": {
+      "variables": [
+        {
+          "name": "primary-dark",
+          "value": "#1a1a1a"
+        },
+        {
+          "name": "primary-red",
+          "value": "#e74c3c"
+        },
+        {
+          "name": "secondary-blue",
+          "value": "#3498db"
+        },
+        {
+          "name": "success-green",
+          "value": "#2ecc71"
+        },
+        {
+          "name": "warning-yellow",
+          "value": "#f39c12"
+        },
+        {
+          "name": "text-light",
+          "value": "#ecf0f1"
+        },
+        {
+          "name": "text-dark",
+          "value": "#2c3e50"
+        },
+        {
+          "name": "text-muted",
+          "value": "#7f8c8d"
+        },
+        {
+          "name": "bg-dark",
+          "value": "#2c3e50"
+        },
+        {
+          "name": "bg-light",
+          "value": "#f8f9fa"
+        },
+        {
+          "name": "bg-white",
+          "value": "#ffffff"
+        },
+        {
+          "name": "border-color",
+          "value": "#ddd"
+        },
+        {
+          "name": "shadow-light",
+          "value": "rgba(0,0,0,0.1)"
+        },
+        {
+          "name": "shadow-medium",
+          "value": "rgba(0,0,0,0.15)"
+        },
+        {
+          "name": "shadow-dark",
+          "value": "rgba(0,0,0,0.25)"
+        },
+        {
+          "name": "spacing-xs",
+          "value": "0.25rem"
+        },
+        {
+          "name": "spacing-sm",
+          "value": "0.5rem"
+        },
+        {
+          "name": "spacing-md",
+          "value": "1rem"
+        },
+        {
+          "name": "spacing-lg",
+          "value": "1.5rem"
+        },
+        {
+          "name": "spacing-xl",
+          "value": "2rem"
+        },
+        {
+          "name": "spacing-xxl",
+          "value": "3rem"
+        },
+        {
+          "name": "radius-sm",
+          "value": "4px"
+        },
+        {
+          "name": "radius-md",
+          "value": "8px"
+        },
+        {
+          "name": "radius-lg",
+          "value": "12px"
+        },
+        {
+          "name": "radius-full",
+          "value": "50%"
+        },
+        {
+          "name": "transition-fast",
+          "value": "0.2s ease"
+        },
+        {
+          "name": "transition-normal",
+          "value": "0.3s ease"
+        },
+        {
+          "name": "transition-slow",
+          "value": "0.5s ease"
+        }
+      ],
+      "classes": [
+        "container",
+        "page-content",
+        "grid",
+        "grid-2",
+        "grid-3",
+        "grid-4",
+        "site-header",
+        "header-content",
+        "logo",
+        "logo-icon",
+        "main-nav",
+        "active",
+        "btn",
+        "btn-primary",
+        "btn-secondary",
+        "card",
+        "card-image",
+        "card-title",
+        "card-meta",
+        "form-group",
+        "form-label",
+        "form-textarea",
+        "site-footer",
+        "footer-content",
+        "text-center",
+        "text-right",
+        "text-muted",
+        "text-small",
+        "text-large",
+        "mt-0",
+        "mt-1",
+        "mt-2",
+        "mt-3",
+        "mt-4",
+        "mt-5",
+        "mb-0",
+        "mb-1",
+        "mb-2",
+        "mb-3",
+        "mb-4",
+        "mb-5",
+        "loading",
+        "error",
+        "success",
+        "header-content",
+        "main-nav",
+        "grid-4"
+      ],
+      "ids": [],
+      "keyframes": [],
+      "mediaQueries": [],
+      "sections": {
+        "VARIABLES": {
+          "name": "VARIABLES",
+          "startLine": 8,
+          "endLine": 55
+        },
+        "BASE STYLES": {
+          "name": "BASE STYLES",
+          "startLine": 57,
+          "endLine": 76
+        },
+        "TYPOGRAPHY": {
+          "name": "TYPOGRAPHY",
+          "startLine": 78,
+          "endLine": 110
+        },
+        "LAYOUT": {
+          "name": "LAYOUT",
+          "startLine": 112,
+          "endLine": 136
+        },
+        "HEADER": {
+          "name": "HEADER",
+          "startLine": 138,
+          "endLine": 193
+        },
+        "BUTTONS": {
+          "name": "BUTTONS",
+          "startLine": 195,
+          "endLine": 233
+        },
+        "CARDS": {
+          "name": "CARDS",
+          "startLine": 235,
+          "endLine": 270
+        },
+        "FORMS": {
+          "name": "FORMS",
+          "startLine": 272,
+          "endLine": 303
+        },
+        "FOOTER": {
+          "name": "FOOTER",
+          "startLine": 305,
+          "endLine": 344
+        },
+        "UTILITIES": {
+          "name": "UTILITIES",
+          "startLine": 346,
+          "endLine": 391
+        },
+        "RESPONSIVE": {
+          "name": "RESPONSIVE",
+          "startLine": 393,
+          "endLine": 418
+        }
+      },
+      "totalSelectors": 47
+    }
+  },
+  "apiRoutes": [
+    {
+      "method": "GET",
+      "path": "/api/cameras",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/camera/:id",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/search",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/stats",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/image-proxy",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/images/cameras/:filename",
+      "file": "server.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/camera-finder",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/camera/:id",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/camera-blog",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/privacy",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/terms",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/dmca",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/attribution",
+      "file": "server.js"
+    },
+    {
+      "method": "GET",
+      "path": "/legal",
+      "file": "server.js"
+    }
+  ],
+  "databaseSchema": {
+    "cameras": {
+      "name": "cameras",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "constraints": "PRIMARY KEY"
+        },
+        {
+          "name": "brand",
+          "type": "TEXT",
+          "constraints": "NOT NULL"
+        },
+        {
+          "name": "model",
+          "type": "TEXT",
+          "constraints": "NOT NULL"
+        },
+        {
+          "name": "fullName",
+          "type": "TEXT",
+          "constraints": ""
+        },
+        {
+          "name": "category",
+          "type": "TEXT",
+          "constraints": ""
+        },
+        {
+          "name": "releaseYear",
+          "type": "INTEGER",
+          "constraints": ""
+        },
+        {
+          "name": "price",
+          "type": "REAL",
+          "constraints": ""
+        },
+        {
+          "name": "imageUrl",
+          "type": "TEXT",
+          "constraints": ""
+        },
+        {
+          "name": "localImagePath",
+          "type": "TEXT",
+          "constraints": ""
+        },
+        {
+          "name": "imageVerified",
+          "type": "BOOLEAN",
+          "constraints": "DEFAULT 0"
+        },
+        {
+          "name": "imageLastChecked",
+          "type": "DATETIME",
+          "constraints": ""
+        },
+        {
+          "name": "manualUrl",
+          "type": "TEXT",
+          "constraints": ""
+        },
+        {
+          "name": "specs",
+          "type": "TEXT",
+          "constraints": ""
+        },
+        {
+          "name": "features",
+          "type": "TEXT",
+          "constraints": ""
+        },
+        {
+          "name": "lastUpdated",
+          "type": "DATETIME",
+          "constraints": "DEFAULT CURRENT_TIMESTAMP"
+        }
+      ]
+    },
+    "image_cache": {
+      "name": "image_cache",
+      "columns": [
+        {
+          "name": "url",
+          "type": "TEXT",
+          "constraints": "PRIMARY KEY"
+        },
+        {
+          "name": "localPath",
+          "type": "TEXT",
+          "constraints": ""
+        },
+        {
+          "name": "contentType",
+          "type": "TEXT",
+          "constraints": ""
+        },
+        {
+          "name": "size",
+          "type": "INTEGER",
+          "constraints": ""
+        },
+        {
+          "name": "cachedAt",
+          "type": "DATETIME",
+          "constraints": "DEFAULT CURRENT_TIMESTAMP"
+        },
+        {
+          "name": "lastAccessed",
+          "type": "DATETIME",
+          "constraints": "DEFAULT CURRENT_TIMESTAMP"
+        }
+      ]
+    }
+  },
+  "gitChanges": {
+    "recentCommits": [],
+    "lastCommitFiles": []
+  }
+}
