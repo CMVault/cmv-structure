@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 7/29/2025, 6:41:16 AM
+Generated: 7/29/2025, 7:05:19 AM
 
 ## Directory Structure
 
@@ -28,6 +28,7 @@ Generated: 7/29/2025, 6:41:16 AM
 │   ├── login.html
 │   ├── privacy.html
 │   ├── productions.html
+│   ├── search.html
 │   └── terms.html
 ├── scripts
 │   └── generate-structure.js
@@ -116,6 +117,12 @@ Generated: 7/29/2025, 6:41:16 AM
 - Modified: 7/29/2025
 - Page Title: Productions - Cameras Used in Movies & TV
 
+#### search.html
+- Size: 32.26 KB
+- Lines: 984
+- Modified: 7/29/2025
+- Page Title: Search Results - Camera Manual Vault
+
 #### terms.html
 - Size: 10.22 KB
 - Lines: 331
@@ -154,8 +161,8 @@ Generated: 7/29/2025, 6:41:16 AM
 - Modified: 7/29/2025
 
 #### PROJECT_STATUS.md
-- Size: 2.31 KB
-- Lines: 81
+- Size: 2.32 KB
+- Lines: 90
 - Modified: 7/29/2025
 
 #### README.md
