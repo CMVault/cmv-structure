@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 8:36:26 PM
+Generated: 8/3/2025, 8:41:57 PM
 
 ## Directory Structure
 
@@ -9,6 +9,7 @@ Generated: 8/3/2025, 8:36:26 PM
 ├── data
 │   ├── camera-vault.db
 │   └── cameras.json
+├── fix-automation.sh
 ├── fix-database.js
 ├── package-lock.json
 ├── package.json
@@ -60,7 +61,7 @@ Generated: 8/3/2025, 8:36:26 PM
 ### /data
 
 #### camera-vault.db
-- Size: 16.00 B
+- Size: 28.00 KB
 - Lines: 0
 - Modified: 8/3/2025
 
@@ -164,6 +165,11 @@ Generated: 8/3/2025, 8:36:26 PM
 
 ### /
 
+#### fix-automation.sh
+- Size: 1.80 KB
+- Lines: 0
+- Modified: 8/3/2025
+
 #### fix-database.js
 - Size: 9.27 KB
 - Lines: 206
@@ -181,8 +187,8 @@ Generated: 8/3/2025, 8:36:26 PM
 - Modified: 8/3/2025
 
 #### PROJECT_STATUS.md
-- Size: 2.07 KB
-- Lines: 78
+- Size: 2.11 KB
+- Lines: 72
 - Modified: 8/3/2025
 
 #### quick-check.sh
