@@ -1,11 +1,12 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 9:11:06 PM
+Generated: 8/3/2025, 9:11:40 PM
 
 ## Directory Structure
 
 ```
 ├── PROJECT_STATUS.md
 ├── README.md
+├── auto-scraper.js
 ├── cleanup.js
 ├── data
 │   ├── camera-vault.db
@@ -165,6 +166,12 @@ Generated: 8/3/2025, 9:11:06 PM
 - Modified: 8/3/2025
 
 ### /
+
+#### auto-scraper.js
+- Size: 10.16 KB
+- Lines: 361
+- Modified: 8/3/2025
+- Functions: main
 
 #### cleanup.js
 - Size: 2.52 KB
