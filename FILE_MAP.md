@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 11:27:40 PM
+Generated: 8/3/2025, 11:45:32 PM
 
 ## Directory Structure
 
@@ -7,7 +7,9 @@ Generated: 8/3/2025, 11:27:40 PM
 ├── PROJECT_STATUS.md
 ├── README.md
 ├── auto-scraper.js
+├── automation-routes.js
 ├── cleanup.js
+├── cmv-automation.js
 ├── config
 │   └── server.config.js
 ├── continuous-auto-scraper.js
@@ -21,6 +23,7 @@ Generated: 8/3/2025, 11:27:40 PM
 ├── package.json
 ├── public
 │   ├── attribution.html
+│   ├── automation-monitor.html
 │   ├── camera-blog.html
 │   ├── camera-detail.html
 │   ├── camera-finder.html
@@ -108,6 +111,12 @@ Generated: 8/3/2025, 11:27:40 PM
 - Lines: 397
 - Modified: 8/3/2025
 - Page Title: Image Attributions - Camera Manual Vault
+
+#### automation-monitor.html
+- Size: 14.20 KB
+- Lines: 433
+- Modified: 8/3/2025
+- Page Title: CMV Automation Monitor
 
 #### camera-blog.html
 - Size: 23.29 KB
@@ -226,11 +235,22 @@ Generated: 8/3/2025, 11:27:40 PM
 - Modified: 8/3/2025
 - Functions: main
 
+#### automation-routes.js
+- Size: 6.61 KB
+- Lines: 223
+- Modified: 8/3/2025
+- Functions: getLastBackupTime
+
 #### cleanup.js
 - Size: 2.52 KB
 - Lines: 97
 - Modified: 8/3/2025
 - Functions: log, cleanup
+
+#### cmv-automation.js
+- Size: 16.44 KB
+- Lines: 564
+- Modified: 8/3/2025
 
 #### continuous-auto-scraper.js
 - Size: 1.15 KB
