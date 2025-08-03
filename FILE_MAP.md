@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 11:14:43 PM
+Generated: 8/3/2025, 11:18:55 PM
 
 ## Directory Structure
 
@@ -8,6 +8,8 @@ Generated: 8/3/2025, 11:14:43 PM
 ├── README.md
 ├── auto-scraper.js
 ├── cleanup.js
+├── config
+│   └── server.config.js
 ├── continuous-auto-scraper.js
 ├── data
 │   ├── attributions
@@ -67,6 +69,13 @@ Generated: 8/3/2025, 11:14:43 PM
 ```
 
 ## File Details
+
+### /config
+
+#### server.config.js
+- Size: 562.00 B
+- Lines: 22
+- Modified: 8/3/2025
 
 ### /data
 
