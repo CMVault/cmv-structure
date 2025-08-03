@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-08-03T23:20:56.645Z",
+  "timestamp": "2025-08-03T23:22:00.302Z",
   "files": {
     "PROJECT_STATUS.md": {
       "name": "PROJECT_STATUS.md",
       "path": "PROJECT_STATUS.md",
       "size": 3815,
-      "modified": "2025-08-03T23:20:53.623Z",
+      "modified": "2025-08-03T23:21:58.822Z",
       "extension": ".md",
       "lines": 119
     },
@@ -13,7 +13,7 @@
       "name": "README.md",
       "path": "README.md",
       "size": 58,
-      "modified": "2025-08-03T23:20:53.623Z",
+      "modified": "2025-08-03T23:21:58.822Z",
       "extension": ".md",
       "lines": 3
     },
@@ -21,7 +21,7 @@
       "name": "auto-scraper.js",
       "path": "auto-scraper.js",
       "size": 10386,
-      "modified": "2025-08-03T23:20:53.623Z",
+      "modified": "2025-08-03T23:21:58.822Z",
       "extension": ".js",
       "lines": 365,
       "functions": [
@@ -41,7 +41,7 @@
       "name": "cleanup.js",
       "path": "cleanup.js",
       "size": 2580,
-      "modified": "2025-08-03T23:20:53.624Z",
+      "modified": "2025-08-03T23:21:58.823Z",
       "extension": ".js",
       "lines": 97,
       "functions": [
@@ -57,7 +57,7 @@
       "name": "server.config.js",
       "path": "config/server.config.js",
       "size": 562,
-      "modified": "2025-08-03T23:20:53.624Z",
+      "modified": "2025-08-03T23:21:58.823Z",
       "extension": ".js",
       "lines": 22,
       "functions": [],
@@ -69,7 +69,7 @@
       "name": "continuous-auto-scraper.js",
       "path": "continuous-auto-scraper.js",
       "size": 1173,
-      "modified": "2025-08-03T23:20:53.624Z",
+      "modified": "2025-08-03T23:21:58.823Z",
       "extension": ".js",
       "lines": 48,
       "functions": [
@@ -84,7 +84,7 @@
       "name": "attribution-report.json",
       "path": "data/attributions/attribution-report.json",
       "size": 831,
-      "modified": "2025-08-03T23:20:53.624Z",
+      "modified": "2025-08-03T23:21:58.823Z",
       "extension": ".json",
       "lines": 28
     },
@@ -92,7 +92,7 @@
       "name": "camera-vault.db",
       "path": "data/camera-vault.db",
       "size": 36864,
-      "modified": "2025-08-03T23:20:53.624Z",
+      "modified": "2025-08-03T23:21:58.823Z",
       "extension": ".db",
       "lines": 0
     },
@@ -100,7 +100,7 @@
       "name": "camera-vault.db.backup",
       "path": "data/camera-vault.db.backup",
       "size": 12288,
-      "modified": "2025-08-03T23:20:53.624Z",
+      "modified": "2025-08-03T23:21:58.823Z",
       "extension": ".backup",
       "lines": 0
     },
@@ -108,7 +108,7 @@
       "name": "cameras.json",
       "path": "data/cameras.json",
       "size": 267,
-      "modified": "2025-08-03T23:20:53.624Z",
+      "modified": "2025-08-03T23:21:58.823Z",
       "extension": ".json",
       "lines": 15
     },
@@ -116,23 +116,23 @@
       "name": "package-lock.json",
       "path": "package-lock.json",
       "size": 224261,
-      "modified": "2025-08-03T23:20:53.625Z",
+      "modified": "2025-08-03T23:21:58.824Z",
       "extension": ".json",
       "lines": 5826
     },
     "package.json": {
       "name": "package.json",
       "path": "package.json",
-      "size": 860,
-      "modified": "2025-08-03T23:20:53.625Z",
+      "size": 796,
+      "modified": "2025-08-03T23:21:58.824Z",
       "extension": ".json",
-      "lines": 35
+      "lines": 33
     },
     "public/attribution.html": {
       "name": "attribution.html",
       "path": "public/attribution.html",
       "size": 13534,
-      "modified": "2025-08-03T23:20:53.625Z",
+      "modified": "2025-08-03T23:21:58.824Z",
       "extension": ".html",
       "lines": 397,
       "pageInfo": {
@@ -172,7 +172,7 @@
       "name": "camera-blog.html",
       "path": "public/camera-blog.html",
       "size": 23846,
-      "modified": "2025-08-03T23:20:53.625Z",
+      "modified": "2025-08-03T23:21:58.824Z",
       "extension": ".html",
       "lines": 723,
       "pageInfo": {
@@ -212,7 +212,7 @@
       "name": "camera-detail.html",
       "path": "public/camera-detail.html",
       "size": 31833,
-      "modified": "2025-08-03T23:20:53.625Z",
+      "modified": "2025-08-03T23:21:58.824Z",
       "extension": ".html",
       "lines": 967,
       "pageInfo": {
@@ -252,7 +252,7 @@
       "name": "camera-finder.html",
       "path": "public/camera-finder.html",
       "size": 23910,
-      "modified": "2025-08-03T23:20:53.626Z",
+      "modified": "2025-08-03T23:21:58.825Z",
       "extension": ".html",
       "lines": 729,
       "pageInfo": {
@@ -292,7 +292,7 @@
       "name": "cameras.html",
       "path": "public/cameras.html",
       "size": 70560,
-      "modified": "2025-08-03T23:20:53.626Z",
+      "modified": "2025-08-03T23:21:58.825Z",
       "extension": ".html",
       "lines": 1923,
       "pageInfo": {
@@ -332,7 +332,7 @@
       "name": "main.css",
       "path": "public/css/main.css",
       "size": 10448,
-      "modified": "2025-08-03T23:20:53.626Z",
+      "modified": "2025-08-03T23:21:58.825Z",
       "extension": ".css",
       "lines": 429,
       "cssInfo": {
@@ -565,7 +565,7 @@
       "name": "dmca.html",
       "path": "public/dmca.html",
       "size": 10262,
-      "modified": "2025-08-03T23:20:53.626Z",
+      "modified": "2025-08-03T23:21:58.825Z",
       "extension": ".html",
       "lines": 323,
       "pageInfo": {
@@ -605,7 +605,7 @@
       "name": "camera-placeholder.jpg",
       "path": "public/images/camera-placeholder.jpg",
       "size": 70142,
-      "modified": "2025-08-03T23:20:53.626Z",
+      "modified": "2025-08-03T23:21:58.825Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -613,7 +613,7 @@
       "name": "canon-eos-r5.jpg",
       "path": "public/images/cameras/canon-eos-r5.jpg",
       "size": 4927,
-      "modified": "2025-08-03T23:20:53.626Z",
+      "modified": "2025-08-03T23:21:58.826Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -621,7 +621,7 @@
       "name": "sony-a7r-v.jpg",
       "path": "public/images/cameras/sony-a7r-v.jpg",
       "size": 4927,
-      "modified": "2025-08-03T23:20:53.627Z",
+      "modified": "2025-08-03T23:21:58.826Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -629,7 +629,7 @@
       "name": "canon-eos-r5-thumb.jpg",
       "path": "public/images/cameras/thumbs/canon-eos-r5-thumb.jpg",
       "size": 13865,
-      "modified": "2025-08-03T23:20:53.627Z",
+      "modified": "2025-08-03T23:21:58.826Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -637,7 +637,7 @@
       "name": "sony-a7r-v-thumb.jpg",
       "path": "public/images/cameras/thumbs/sony-a7r-v-thumb.jpg",
       "size": 13865,
-      "modified": "2025-08-03T23:20:53.627Z",
+      "modified": "2025-08-03T23:21:58.826Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -645,7 +645,7 @@
       "name": "index.html",
       "path": "public/index.html",
       "size": 1583,
-      "modified": "2025-08-03T23:20:53.627Z",
+      "modified": "2025-08-03T23:21:58.826Z",
       "extension": ".html",
       "lines": 51,
       "pageInfo": {
@@ -687,7 +687,7 @@
       "name": "legal.html",
       "path": "public/legal.html",
       "size": 11921,
-      "modified": "2025-08-03T23:20:53.627Z",
+      "modified": "2025-08-03T23:21:58.826Z",
       "extension": ".html",
       "lines": 370,
       "pageInfo": {
@@ -727,7 +727,7 @@
       "name": "login.html",
       "path": "public/login.html",
       "size": 14369,
-      "modified": "2025-08-03T23:20:53.627Z",
+      "modified": "2025-08-03T23:21:58.826Z",
       "extension": ".html",
       "lines": 483,
       "pageInfo": {
@@ -767,7 +767,7 @@
       "name": "privacy.html",
       "path": "public/privacy.html",
       "size": 9086,
-      "modified": "2025-08-03T23:20:53.627Z",
+      "modified": "2025-08-03T23:21:58.826Z",
       "extension": ".html",
       "lines": 326,
       "pageInfo": {
@@ -807,7 +807,7 @@
       "name": "productions.html",
       "path": "public/productions.html",
       "size": 26530,
-      "modified": "2025-08-03T23:20:53.627Z",
+      "modified": "2025-08-03T23:21:58.826Z",
       "extension": ".html",
       "lines": 754,
       "pageInfo": {
@@ -847,7 +847,7 @@
       "name": "search.html",
       "path": "public/search.html",
       "size": 33038,
-      "modified": "2025-08-03T23:20:53.627Z",
+      "modified": "2025-08-03T23:21:58.827Z",
       "extension": ".html",
       "lines": 984,
       "pageInfo": {
@@ -887,7 +887,7 @@
       "name": "terms.html",
       "path": "public/terms.html",
       "size": 10462,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.827Z",
       "extension": ".html",
       "lines": 331,
       "pageInfo": {
@@ -927,7 +927,7 @@
       "name": "quick-db-fix.js",
       "path": "quick-db-fix.js",
       "size": 1464,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.827Z",
       "extension": ".js",
       "lines": 64,
       "functions": [],
@@ -940,7 +940,7 @@
       "name": "restore-generate-structure.sh",
       "path": "restore-generate-structure.sh",
       "size": 2524,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.827Z",
       "extension": ".sh",
       "lines": 0
     },
@@ -948,7 +948,7 @@
       "name": "generate-structure.js",
       "path": "scripts/generate-structure.js",
       "size": 24221,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.827Z",
       "extension": ".js",
       "lines": 840,
       "functions": [
@@ -964,7 +964,7 @@
       "name": "server.js",
       "path": "server.js",
       "size": 19647,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.827Z",
       "extension": ".js",
       "lines": 599,
       "functions": [
@@ -996,7 +996,7 @@
       "name": "404.ejs",
       "path": "views/pages/404.ejs",
       "size": 406,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.827Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1004,7 +1004,7 @@
       "name": "attribution.ejs",
       "path": "views/pages/attribution.ejs",
       "size": 234,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.827Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1012,7 +1012,7 @@
       "name": "camera-blog.ejs",
       "path": "views/pages/camera-blog.ejs",
       "size": 569,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1020,7 +1020,7 @@
       "name": "camera-detail.ejs",
       "path": "views/pages/camera-detail.ejs",
       "size": 1869,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1028,7 +1028,7 @@
       "name": "camera-finder.ejs",
       "path": "views/pages/camera-finder.ejs",
       "size": 2704,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1036,7 +1036,7 @@
       "name": "cameras.ejs",
       "path": "views/pages/cameras.ejs",
       "size": 2233,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1044,7 +1044,7 @@
       "name": "dmca.ejs",
       "path": "views/pages/dmca.ejs",
       "size": 213,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1052,7 +1052,7 @@
       "name": "error.ejs",
       "path": "views/pages/error.ejs",
       "size": 313,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1060,7 +1060,7 @@
       "name": "index.ejs",
       "path": "views/pages/index.ejs",
       "size": 1606,
-      "modified": "2025-08-03T23:20:53.628Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1068,7 +1068,7 @@
       "name": "legal.ejs",
       "path": "views/pages/legal.ejs",
       "size": 211,
-      "modified": "2025-08-03T23:20:53.629Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1076,7 +1076,7 @@
       "name": "login.ejs",
       "path": "views/pages/login.ejs",
       "size": 894,
-      "modified": "2025-08-03T23:20:53.629Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1084,7 +1084,7 @@
       "name": "privacy.ejs",
       "path": "views/pages/privacy.ejs",
       "size": 276,
-      "modified": "2025-08-03T23:20:53.629Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1092,7 +1092,7 @@
       "name": "productions.ejs",
       "path": "views/pages/productions.ejs",
       "size": 561,
-      "modified": "2025-08-03T23:20:53.629Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1100,7 +1100,7 @@
       "name": "search.ejs",
       "path": "views/pages/search.ejs",
       "size": 1584,
-      "modified": "2025-08-03T23:20:53.629Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1108,7 +1108,7 @@
       "name": "terms.ejs",
       "path": "views/pages/terms.ejs",
       "size": 261,
-      "modified": "2025-08-03T23:20:53.629Z",
+      "modified": "2025-08-03T23:21:58.828Z",
       "extension": ".ejs",
       "lines": 0
     }
@@ -1173,7 +1173,7 @@
   "metrics": {
     "totalFiles": 50,
     "totalDirectories": 11,
-    "totalLines": 16851,
+    "totalLines": 16849,
     "filesByType": {
       ".md": 2,
       ".js": 7,

@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 11:20:57 PM
+Generated: 8/3/2025, 11:22:00 PM
 
 ## Directory Structure
 
@@ -244,8 +244,8 @@ Generated: 8/3/2025, 11:20:57 PM
 - Modified: 8/3/2025
 
 #### package.json
-- Size: 860.00 B
-- Lines: 35
+- Size: 796.00 B
+- Lines: 33
 - Modified: 8/3/2025
 
 #### PROJECT_STATUS.md
