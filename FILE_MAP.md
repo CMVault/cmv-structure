@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 11:22:00 PM
+Generated: 8/3/2025, 11:22:40 PM
 
 ## Directory Structure
 
@@ -239,13 +239,13 @@ Generated: 8/3/2025, 11:22:00 PM
 - Functions: runScraper
 
 #### package-lock.json
-- Size: 219.00 KB
-- Lines: 5826
+- Size: 219.03 KB
+- Lines: 5827
 - Modified: 8/3/2025
 
 #### package.json
-- Size: 796.00 B
-- Lines: 33
+- Size: 815.00 B
+- Lines: 37
 - Modified: 8/3/2025
 
 #### PROJECT_STATUS.md

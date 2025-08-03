@@ -134,7 +134,7 @@ npm start         # Start server
 ## 🏗️ Architecture Status:
 - Total Files: 50
 - Total Directories: 11
-- Total Lines of Code: 16,849
+- Total Lines of Code: 16,854
 - Main File Types: .ejs (15), .html (13), .js (7), .jpg (5), .json (4)
 - API Routes: 22
 - Database Tables: 0
