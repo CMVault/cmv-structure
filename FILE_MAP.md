@@ -1,24 +1,15 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 6:11:23 PM
+Generated: 8/3/2025, 6:50:16 PM
 
 ## Directory Structure
 
 ```
-├── CLAUDE_AUTOMATION.md
 ├── PROJECT_STATUS.md
 ├── README.md
-├── auto-check.js
-├── auto-convert-to-ejs.js
-├── auto-setup-ejs.js
-├── continuous-scraper.js
 ├── data
 │   ├── camera-vault.db
 │   └── cameras.json
-├── fix-automation.sh
 ├── fix-database.js
-├── fix-package-json.js
-├── fix-package.js
-├── nano fix-package-json.js
 ├── package-lock.json
 ├── package.json
 ├── public
@@ -42,10 +33,7 @@ Generated: 8/3/2025, 6:11:23 PM
 ├── quick-check.sh
 ├── scripts
 │   └── generate-structure.js
-├── server-no-sharp.js
 ├── server.js
-├── test-automation.js
-├── test.txt
 └── views
     └── pages
         ├── 404.ejs
@@ -176,58 +164,11 @@ Generated: 8/3/2025, 6:11:23 PM
 
 ### /
 
-#### auto-check.js
-- Size: 15.54 KB
-- Lines: 542
-- Modified: 8/3/2025
-- Functions: selfTest, main
-
-#### auto-convert-to-ejs.js
-- Size: 6.97 KB
-- Lines: 215
-- Modified: 8/3/2025
-- Functions: convertHTMLtoEJS, convertFile, createLayoutFiles, main
-
-#### auto-setup-ejs.js
-- Size: 22.42 KB
-- Lines: 683
-- Modified: 8/3/2025
-
-#### CLAUDE_AUTOMATION.md
-- Size: 4.05 KB
-- Lines: 131
-- Modified: 8/3/2025
-
-#### continuous-scraper.js
-- Size: 4.65 KB
-- Lines: 149
-- Modified: 8/3/2025
-
-#### fix-automation.sh
-- Size: 1.80 KB
-- Lines: 0
-- Modified: 8/3/2025
-
 #### fix-database.js
 - Size: 9.27 KB
 - Lines: 206
 - Modified: 8/3/2025
 - Functions: fixDatabase
-
-#### fix-package-json.js
-- Size: 816.00 B
-- Lines: 33
-- Modified: 8/3/2025
-
-#### fix-package.js
-- Size: 717.00 B
-- Lines: 30
-- Modified: 8/3/2025
-
-#### nano fix-package-json.js
-- Size: 816.00 B
-- Lines: 33
-- Modified: 8/3/2025
 
 #### package-lock.json
 - Size: 201.97 KB
@@ -254,25 +195,9 @@ Generated: 8/3/2025, 6:11:23 PM
 - Lines: 3
 - Modified: 8/3/2025
 
-#### server-no-sharp.js
-- Size: 13.94 KB
-- Lines: 443
-- Modified: 8/3/2025
-
 #### server.js
 - Size: 13.87 KB
 - Lines: 403
-- Modified: 8/3/2025
-
-#### test-automation.js
-- Size: 4.81 KB
-- Lines: 184
-- Modified: 8/3/2025
-- Functions: testAutomation
-
-#### test.txt
-- Size: 53.00 B
-- Lines: 2
 - Modified: 8/3/2025
 
 ### /scripts
