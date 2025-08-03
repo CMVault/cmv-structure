@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/3/2025, 11:12:20 PM
+Generated: 8/3/2025, 11:14:43 PM
 
 ## Project Overview
 - **Total Files**: 49
-- **Total Lines**: 16,633
+- **Total Lines**: 16,740
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -38,11 +38,19 @@ Generated: 8/3/2025, 11:12:20 PM
 - GET /api/camera/:id
 - GET /api/search
 - GET /api/stats
-- GET /api/image-proxy
-- GET /images/cameras/:filename
+- GET /api/homepage
+- GET /api/brands
 - POST /api/camera-finder
+- GET /api/networks
+- GET /api/image-proxy
+- GET /
+- GET /cameras
 - GET /camera/:id
+- GET /camera-finder
+- GET /productions
 - GET /camera-blog
+- GET /search
+- GET /login
 - GET /privacy
 - GET /terms
 - GET /dmca

@@ -1,5 +1,5 @@
 # API ROUTES - Camera Manual Vault
-Generated: 8/3/2025, 11:12:20 PM
+Generated: 8/3/2025, 11:14:43 PM
 
 ## Available Endpoints
 
@@ -18,17 +18,41 @@ Generated: 8/3/2025, 11:12:20 PM
 #### `GET /api/stats`
 - File: server.js
 
+#### `GET /api/homepage`
+- File: server.js
+
+#### `GET /api/brands`
+- File: server.js
+
+#### `GET /api/networks`
+- File: server.js
+
 #### `GET /api/image-proxy`
 - File: server.js
 - Description: Image processing endpoint
 
-#### `GET /images/cameras/:filename`
+#### `GET /`
+- File: server.js
+
+#### `GET /cameras`
 - File: server.js
 
 #### `GET /camera/:id`
 - File: server.js
 
+#### `GET /camera-finder`
+- File: server.js
+
+#### `GET /productions`
+- File: server.js
+
 #### `GET /camera-blog`
+- File: server.js
+
+#### `GET /search`
+- File: server.js
+
+#### `GET /login`
 - File: server.js
 
 #### `GET /privacy`
@@ -52,35 +76,4 @@ Generated: 8/3/2025, 11:12:20 PM
 - File: server.js
 
 ## Database Schema
-
-### Table: cameras
-
-| Column | Type | Constraints |
-|--------|------|-------------|
-| id | TEXT | PRIMARY KEY |
-| brand | TEXT | NOT NULL |
-| model | TEXT | NOT NULL |
-| fullName | TEXT |  |
-| category | TEXT |  |
-| releaseYear | INTEGER |  |
-| price | REAL |  |
-| imageUrl | TEXT |  |
-| localImagePath | TEXT |  |
-| imageVerified | BOOLEAN | DEFAULT 0 |
-| imageLastChecked | DATETIME |  |
-| manualUrl | TEXT |  |
-| specs | TEXT |  |
-| features | TEXT |  |
-| lastUpdated | DATETIME | DEFAULT CURRENT_TIMESTAMP |
-
-### Table: image_cache
-
-| Column | Type | Constraints |
-|--------|------|-------------|
-| url | TEXT | PRIMARY KEY |
-| localPath | TEXT |  |
-| contentType | TEXT |  |
-| size | INTEGER |  |
-| cachedAt | DATETIME | DEFAULT CURRENT_TIMESTAMP |
-| lastAccessed | DATETIME | DEFAULT CURRENT_TIMESTAMP |
 
