@@ -1,5 +1,5 @@
 # API ROUTES - Camera Manual Vault
-Generated: 8/3/2025, 11:45:32 PM
+Generated: 8/3/2025, 11:51:52 PM
 
 ## Available Endpoints
 
@@ -68,6 +68,9 @@ Generated: 8/3/2025, 11:45:32 PM
 - File: server.js
 
 #### `GET /legal`
+- File: server.js
+
+#### `GET /automation-monitor`
 - File: server.js
 
 ### POST Requests
