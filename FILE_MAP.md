@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 5:46:43 PM
+Generated: 8/3/2025, 5:55:19 PM
 
 ## Directory Structure
 
@@ -44,6 +44,7 @@ Generated: 8/3/2025, 5:46:43 PM
 │   └── generate-structure.js
 ├── server-no-sharp.js
 ├── server.js
+├── test-automation.js
 └── views
     └── pages
         ├── 404.ejs
@@ -261,6 +262,12 @@ Generated: 8/3/2025, 5:46:43 PM
 - Size: 13.87 KB
 - Lines: 403
 - Modified: 8/3/2025
+
+#### test-automation.js
+- Size: 4.81 KB
+- Lines: 184
+- Modified: 8/3/2025
+- Functions: testAutomation
 
 ### /scripts
 
