@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 9:13:01 PM
+Generated: 8/3/2025, 10:36:06 PM
 
 ## Directory Structure
 
@@ -10,10 +10,11 @@ Generated: 8/3/2025, 9:13:01 PM
 ├── cleanup.js
 ├── continuous-auto-scraper.js
 ├── data
+│   ├── attributions
+│   │   └── attribution-report.json
 │   ├── camera-vault.db
+│   ├── camera-vault.db.backup
 │   └── cameras.json
-├── fix-automation.sh
-├── fix-database.js
 ├── package-lock.json
 ├── package.json
 ├── public
@@ -26,7 +27,13 @@ Generated: 8/3/2025, 9:13:01 PM
 │   │   └── main.css
 │   ├── dmca.html
 │   ├── images
-│   │   └── camera-placeholder.jpg
+│   │   ├── camera-placeholder.jpg
+│   │   └── cameras
+│   │       ├── canon-eos-r5.jpg
+│   │       ├── sony-a7r-v.jpg
+│   │       └── thumbs
+│   │           ├── canon-eos-r5-thumb.jpg
+│   │           └── sony-a7r-v-thumb.jpg
 │   ├── index.html
 │   ├── legal.html
 │   ├── login.html
@@ -34,7 +41,7 @@ Generated: 8/3/2025, 9:13:01 PM
 │   ├── productions.html
 │   ├── search.html
 │   └── terms.html
-├── quick-check.sh
+├── quick-db-fix.js
 ├── scripts
 │   └── generate-structure.js
 ├── server.js
@@ -48,7 +55,6 @@ Generated: 8/3/2025, 9:13:01 PM
         ├── cameras.ejs
         ├── dmca.ejs
         ├── error.ejs
-        ├── index-full.ejs
         ├── index.ejs
         ├── legal.ejs
         ├── login.ejs
@@ -64,13 +70,25 @@ Generated: 8/3/2025, 9:13:01 PM
 ### /data
 
 #### camera-vault.db
-- Size: 28.00 KB
+- Size: 36.00 KB
+- Lines: 0
+- Modified: 8/3/2025
+
+#### camera-vault.db.backup
+- Size: 12.00 KB
 - Lines: 0
 - Modified: 8/3/2025
 
 #### cameras.json
 - Size: 267.00 B
 - Lines: 15
+- Modified: 8/3/2025
+
+### /data/attributions
+
+#### attribution-report.json
+- Size: 831.00 B
+- Lines: 28
 - Modified: 8/3/2025
 
 ### /public
@@ -166,11 +184,35 @@ Generated: 8/3/2025, 9:13:01 PM
 - Lines: 0
 - Modified: 8/3/2025
 
+### /public/images/cameras
+
+#### canon-eos-r5.jpg
+- Size: 4.81 KB
+- Lines: 0
+- Modified: 8/3/2025
+
+#### sony-a7r-v.jpg
+- Size: 4.81 KB
+- Lines: 0
+- Modified: 8/3/2025
+
+### /public/images/cameras/thumbs
+
+#### canon-eos-r5-thumb.jpg
+- Size: 13.54 KB
+- Lines: 0
+- Modified: 8/3/2025
+
+#### sony-a7r-v-thumb.jpg
+- Size: 13.54 KB
+- Lines: 0
+- Modified: 8/3/2025
+
 ### /
 
 #### auto-scraper.js
-- Size: 10.16 KB
-- Lines: 361
+- Size: 10.14 KB
+- Lines: 365
 - Modified: 8/3/2025
 - Functions: main
 
@@ -186,35 +228,24 @@ Generated: 8/3/2025, 9:13:01 PM
 - Modified: 8/3/2025
 - Functions: runScraper
 
-#### fix-automation.sh
-- Size: 1.80 KB
-- Lines: 0
-- Modified: 8/3/2025
-
-#### fix-database.js
-- Size: 9.27 KB
-- Lines: 206
-- Modified: 8/3/2025
-- Functions: fixDatabase
-
 #### package-lock.json
-- Size: 201.97 KB
-- Lines: 5394
+- Size: 219.00 KB
+- Lines: 5826
 - Modified: 8/3/2025
 
 #### package.json
-- Size: 874.00 B
+- Size: 860.00 B
 - Lines: 35
 - Modified: 8/3/2025
 
 #### PROJECT_STATUS.md
-- Size: 2.11 KB
-- Lines: 72
+- Size: 3.64 KB
+- Lines: 134
 - Modified: 8/3/2025
 
-#### quick-check.sh
-- Size: 6.38 KB
-- Lines: 0
+#### quick-db-fix.js
+- Size: 1.43 KB
+- Lines: 64
 - Modified: 8/3/2025
 
 #### README.md
@@ -274,11 +305,6 @@ Generated: 8/3/2025, 9:13:01 PM
 
 #### error.ejs
 - Size: 313.00 B
-- Lines: 0
-- Modified: 8/3/2025
-
-#### index-full.ejs
-- Size: 17.21 KB
 - Lines: 0
 - Modified: 8/3/2025
 
