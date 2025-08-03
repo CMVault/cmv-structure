@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-08-03T17:45:44.129Z",
+  "timestamp": "2025-08-03T17:46:43.412Z",
   "files": {
     "CLAUDE_AUTOMATION.md": {
       "name": "CLAUDE_AUTOMATION.md",
       "path": "CLAUDE_AUTOMATION.md",
       "size": 4146,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.904Z",
       "extension": ".md",
       "lines": 131
     },
@@ -13,7 +13,7 @@
       "name": "PROJECT_STATUS.md",
       "path": "PROJECT_STATUS.md",
       "size": 1630,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.904Z",
       "extension": ".md",
       "lines": 66
     },
@@ -21,15 +21,34 @@
       "name": "README.md",
       "path": "README.md",
       "size": 58,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.904Z",
       "extension": ".md",
       "lines": 3
+    },
+    "auto-check.js": {
+      "name": "auto-check.js",
+      "path": "auto-check.js",
+      "size": 15915,
+      "modified": "2025-08-03T17:46:41.904Z",
+      "extension": ".js",
+      "lines": 542,
+      "functions": [
+        "selfTest",
+        "main"
+      ],
+      "imports": [
+        "fs",
+        "path",
+        "child_process",
+        "util",
+        "axios"
+      ]
     },
     "auto-convert-to-ejs.js": {
       "name": "auto-convert-to-ejs.js",
       "path": "auto-convert-to-ejs.js",
       "size": 7136,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.904Z",
       "extension": ".js",
       "lines": 215,
       "functions": [
@@ -47,7 +66,7 @@
       "name": "auto-setup-ejs.js",
       "path": "auto-setup-ejs.js",
       "size": 22961,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.904Z",
       "extension": ".js",
       "lines": 683,
       "functions": [],
@@ -63,7 +82,7 @@
       "name": "continuous-scraper.js",
       "path": "continuous-scraper.js",
       "size": 4762,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.904Z",
       "extension": ".js",
       "lines": 149,
       "functions": [],
@@ -78,7 +97,7 @@
       "name": "camera-vault.db",
       "path": "data/camera-vault.db",
       "size": 16,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.904Z",
       "extension": ".db",
       "lines": 0
     },
@@ -86,7 +105,7 @@
       "name": "cameras.json",
       "path": "data/cameras.json",
       "size": 267,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.905Z",
       "extension": ".json",
       "lines": 15
     },
@@ -94,7 +113,7 @@
       "name": "fix-automation.sh",
       "path": "fix-automation.sh",
       "size": 1846,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.905Z",
       "extension": ".sh",
       "lines": 0
     },
@@ -102,7 +121,7 @@
       "name": "fix-database.js",
       "path": "fix-database.js",
       "size": 9496,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.905Z",
       "extension": ".js",
       "lines": 206,
       "functions": [
@@ -118,7 +137,7 @@
       "name": "fix-package-json.js",
       "path": "fix-package-json.js",
       "size": 816,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.905Z",
       "extension": ".js",
       "lines": 33,
       "functions": [],
@@ -130,7 +149,7 @@
       "name": "fix-package.js",
       "path": "fix-package.js",
       "size": 717,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.905Z",
       "extension": ".js",
       "lines": 30,
       "functions": [],
@@ -142,7 +161,7 @@
       "name": "nano fix-package-json.js",
       "path": "nano fix-package-json.js",
       "size": 816,
-      "modified": "2025-08-03T17:45:42.307Z",
+      "modified": "2025-08-03T17:46:41.905Z",
       "extension": ".js",
       "lines": 33,
       "functions": [],
@@ -154,7 +173,7 @@
       "name": "package-lock.json",
       "path": "package-lock.json",
       "size": 206820,
-      "modified": "2025-08-03T17:45:42.579Z",
+      "modified": "2025-08-03T17:46:42.177Z",
       "extension": ".json",
       "lines": 5394
     },
@@ -162,7 +181,7 @@
       "name": "package.json",
       "path": "package.json",
       "size": 566,
-      "modified": "2025-08-03T17:45:42.579Z",
+      "modified": "2025-08-03T17:46:42.177Z",
       "extension": ".json",
       "lines": 26
     },
@@ -170,7 +189,7 @@
       "name": "attribution.html",
       "path": "public/attribution.html",
       "size": 13534,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.177Z",
       "extension": ".html",
       "lines": 397,
       "pageInfo": {
@@ -210,7 +229,7 @@
       "name": "camera-blog.html",
       "path": "public/camera-blog.html",
       "size": 23846,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.177Z",
       "extension": ".html",
       "lines": 723,
       "pageInfo": {
@@ -250,7 +269,7 @@
       "name": "camera-detail.html",
       "path": "public/camera-detail.html",
       "size": 31833,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.177Z",
       "extension": ".html",
       "lines": 967,
       "pageInfo": {
@@ -290,7 +309,7 @@
       "name": "camera-finder.html",
       "path": "public/camera-finder.html",
       "size": 23910,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 729,
       "pageInfo": {
@@ -330,7 +349,7 @@
       "name": "cameras.html",
       "path": "public/cameras.html",
       "size": 70560,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 1923,
       "pageInfo": {
@@ -370,7 +389,7 @@
       "name": "main.css",
       "path": "public/css/main.css",
       "size": 10448,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".css",
       "lines": 429,
       "cssInfo": {
@@ -603,7 +622,7 @@
       "name": "dmca.html",
       "path": "public/dmca.html",
       "size": 10262,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 323,
       "pageInfo": {
@@ -643,7 +662,7 @@
       "name": "camera-placeholder.jpg",
       "path": "public/images/camera-placeholder.jpg",
       "size": 70142,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -651,7 +670,7 @@
       "name": "index.html",
       "path": "public/index.html",
       "size": 1583,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 51,
       "pageInfo": {
@@ -693,7 +712,7 @@
       "name": "legal.html",
       "path": "public/legal.html",
       "size": 11921,
-      "modified": "2025-08-03T17:45:42.580Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 370,
       "pageInfo": {
@@ -733,7 +752,7 @@
       "name": "login.html",
       "path": "public/login.html",
       "size": 14369,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 483,
       "pageInfo": {
@@ -773,7 +792,7 @@
       "name": "privacy.html",
       "path": "public/privacy.html",
       "size": 9086,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 326,
       "pageInfo": {
@@ -813,7 +832,7 @@
       "name": "productions.html",
       "path": "public/productions.html",
       "size": 26530,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 754,
       "pageInfo": {
@@ -853,7 +872,7 @@
       "name": "search.html",
       "path": "public/search.html",
       "size": 33038,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 984,
       "pageInfo": {
@@ -893,7 +912,7 @@
       "name": "terms.html",
       "path": "public/terms.html",
       "size": 10462,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".html",
       "lines": 331,
       "pageInfo": {
@@ -933,7 +952,7 @@
       "name": "quick-check.sh",
       "path": "quick-check.sh",
       "size": 6528,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.178Z",
       "extension": ".sh",
       "lines": 0
     },
@@ -941,7 +960,7 @@
       "name": "generate-structure.js",
       "path": "scripts/generate-structure.js",
       "size": 24221,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".js",
       "lines": 840,
       "functions": [
@@ -957,7 +976,7 @@
       "name": "server-no-sharp.js",
       "path": "server-no-sharp.js",
       "size": 14278,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".js",
       "lines": 443,
       "functions": [],
@@ -980,7 +999,7 @@
       "name": "server.js",
       "path": "server.js",
       "size": 14200,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".js",
       "lines": 403,
       "functions": [],
@@ -1002,7 +1021,7 @@
       "name": "404.ejs",
       "path": "views/pages/404.ejs",
       "size": 406,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1010,7 +1029,7 @@
       "name": "attribution.ejs",
       "path": "views/pages/attribution.ejs",
       "size": 234,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1018,7 +1037,7 @@
       "name": "camera-blog.ejs",
       "path": "views/pages/camera-blog.ejs",
       "size": 569,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1026,7 +1045,7 @@
       "name": "camera-detail.ejs",
       "path": "views/pages/camera-detail.ejs",
       "size": 1869,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1034,7 +1053,7 @@
       "name": "camera-finder.ejs",
       "path": "views/pages/camera-finder.ejs",
       "size": 2704,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1042,7 +1061,7 @@
       "name": "cameras.ejs",
       "path": "views/pages/cameras.ejs",
       "size": 2233,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1050,7 +1069,7 @@
       "name": "dmca.ejs",
       "path": "views/pages/dmca.ejs",
       "size": 213,
-      "modified": "2025-08-03T17:45:42.581Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1058,7 +1077,7 @@
       "name": "error.ejs",
       "path": "views/pages/error.ejs",
       "size": 313,
-      "modified": "2025-08-03T17:45:42.582Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1066,7 +1085,7 @@
       "name": "index-full.ejs",
       "path": "views/pages/index-full.ejs",
       "size": 17619,
-      "modified": "2025-08-03T17:45:42.582Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1074,7 +1093,7 @@
       "name": "index.ejs",
       "path": "views/pages/index.ejs",
       "size": 1606,
-      "modified": "2025-08-03T17:45:42.582Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1082,7 +1101,7 @@
       "name": "legal.ejs",
       "path": "views/pages/legal.ejs",
       "size": 211,
-      "modified": "2025-08-03T17:45:42.582Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1090,7 +1109,7 @@
       "name": "login.ejs",
       "path": "views/pages/login.ejs",
       "size": 894,
-      "modified": "2025-08-03T17:45:42.582Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1098,7 +1117,7 @@
       "name": "privacy.ejs",
       "path": "views/pages/privacy.ejs",
       "size": 276,
-      "modified": "2025-08-03T17:45:42.582Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1106,7 +1125,7 @@
       "name": "productions.ejs",
       "path": "views/pages/productions.ejs",
       "size": 561,
-      "modified": "2025-08-03T17:45:42.582Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1114,7 +1133,7 @@
       "name": "search.ejs",
       "path": "views/pages/search.ejs",
       "size": 1584,
-      "modified": "2025-08-03T17:45:42.582Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -1122,7 +1141,7 @@
       "name": "terms.ejs",
       "path": "views/pages/terms.ejs",
       "size": 261,
-      "modified": "2025-08-03T17:45:42.582Z",
+      "modified": "2025-08-03T17:46:42.179Z",
       "extension": ".ejs",
       "lines": 0
     }
@@ -1165,12 +1184,12 @@
     }
   },
   "metrics": {
-    "totalFiles": 50,
+    "totalFiles": 51,
     "totalDirectories": 7,
-    "totalLines": 17460,
+    "totalLines": 18002,
     "filesByType": {
       ".md": 3,
-      ".js": 10,
+      ".js": 11,
       ".db": 1,
       ".json": 3,
       ".sh": 2,
@@ -1225,6 +1244,10 @@
         "size": 17619
       },
       {
+        "path": "auto-check.js",
+        "size": 15915
+      },
+      {
         "path": "public/login.html",
         "size": 14369
       },
@@ -1255,10 +1278,6 @@
       {
         "path": "public/dmca.html",
         "size": 10262
-      },
-      {
-        "path": "fix-database.js",
-        "size": 9496
       }
     ]
   },

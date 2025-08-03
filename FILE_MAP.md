@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 5:45:44 PM
+Generated: 8/3/2025, 5:46:43 PM
 
 ## Directory Structure
 
@@ -7,6 +7,7 @@ Generated: 8/3/2025, 5:45:44 PM
 ├── CLAUDE_AUTOMATION.md
 ├── PROJECT_STATUS.md
 ├── README.md
+├── auto-check.js
 ├── auto-convert-to-ejs.js
 ├── auto-setup-ejs.js
 ├── continuous-scraper.js
@@ -172,6 +173,12 @@ Generated: 8/3/2025, 5:45:44 PM
 - Modified: 8/3/2025
 
 ### /
+
+#### auto-check.js
+- Size: 15.54 KB
+- Lines: 542
+- Modified: 8/3/2025
+- Functions: selfTest, main
 
 #### auto-convert-to-ejs.js
 - Size: 6.97 KB
