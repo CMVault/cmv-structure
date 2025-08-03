@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 9:11:40 PM
+Generated: 8/3/2025, 9:12:17 PM
 
 ## Directory Structure
 
@@ -8,6 +8,7 @@ Generated: 8/3/2025, 9:11:40 PM
 ├── README.md
 ├── auto-scraper.js
 ├── cleanup.js
+├── continuous-auto-scraper.js
 ├── data
 │   ├── camera-vault.db
 │   └── cameras.json
@@ -178,6 +179,12 @@ Generated: 8/3/2025, 9:11:40 PM
 - Lines: 97
 - Modified: 8/3/2025
 - Functions: log, cleanup
+
+#### continuous-auto-scraper.js
+- Size: 1.15 KB
+- Lines: 48
+- Modified: 8/3/2025
+- Functions: runScraper
 
 #### fix-automation.sh
 - Size: 1.80 KB
