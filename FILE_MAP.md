@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/3/2025, 10:37:48 PM
+Generated: 8/3/2025, 11:01:49 PM
 
 ## Directory Structure
 
@@ -42,6 +42,7 @@ Generated: 8/3/2025, 10:37:48 PM
 │   ├── search.html
 │   └── terms.html
 ├── quick-db-fix.js
+├── restore-generate-structure.sh
 ├── scripts
 │   └── generate-structure.js
 ├── server.js
@@ -239,8 +240,8 @@ Generated: 8/3/2025, 10:37:48 PM
 - Modified: 8/3/2025
 
 #### PROJECT_STATUS.md
-- Size: 3.64 KB
-- Lines: 134
+- Size: 4.75 KB
+- Lines: 159
 - Modified: 8/3/2025
 
 #### quick-db-fix.js
@@ -251,6 +252,11 @@ Generated: 8/3/2025, 10:37:48 PM
 #### README.md
 - Size: 58.00 B
 - Lines: 3
+- Modified: 8/3/2025
+
+#### restore-generate-structure.sh
+- Size: 2.46 KB
+- Lines: 0
 - Modified: 8/3/2025
 
 #### server.js
