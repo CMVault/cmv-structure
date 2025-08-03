@@ -1,5 +1,5 @@
 # CSS GUIDE - Camera Manual Vault
-Generated: 8/3/2025, 6:55:54 PM
+Generated: 8/3/2025, 8:03:22 PM
 
 ## Main CSS File Analysis
 
