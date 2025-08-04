@@ -1,5 +1,5 @@
 # API ROUTES - Camera Manual Vault
-Generated: 8/4/2025, 4:47:00 PM
+Generated: 8/4/2025, 5:30:00 PM
 
 ## Available Endpoints
 

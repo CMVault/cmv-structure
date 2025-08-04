@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 4:47:00 PM
+Generated: 8/4/2025, 5:30:00 PM
 
 ## Directory Structure
 
@@ -64,7 +64,9 @@ Generated: 8/4/2025, 4:47:00 PM
 │   ├── camera-blog.html
 │   ├── camera-detail.html
 │   ├── camera-finder.html
+│   ├── cameras-fixed.html
 │   ├── cameras.html
+│   ├── cameras.html.backup
 │   ├── css
 │   │   └── main.css
 │   ├── dmca.html
@@ -334,11 +336,22 @@ Generated: 8/4/2025, 4:47:00 PM
 - Modified: 8/4/2025
 - Page Title: Camera Finder - Find Your Perfect Camera
 
+#### cameras-fixed.html
+- Size: 7.18 KB
+- Lines: 212
+- Modified: 8/4/2025
+- Page Title: Camera Database - Camera Manual Vault
+
 #### cameras.html
 - Size: 68.91 KB
 - Lines: 1923
 - Modified: 8/4/2025
 - Page Title: Camera Database - Camera Manual Vault
+
+#### cameras.html.backup
+- Size: 68.91 KB
+- Lines: 0
+- Modified: 8/4/2025
 
 #### dmca.html
 - Size: 10.02 KB
@@ -720,8 +733,8 @@ Generated: 8/4/2025, 4:47:00 PM
 - Functions: finishUp
 
 #### fix-api-response.js
-- Size: 483.00 B
-- Lines: 20
+- Size: 453.00 B
+- Lines: 19
 - Modified: 8/4/2025
 
 #### fix-column-names.js
