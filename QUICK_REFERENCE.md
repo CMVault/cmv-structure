@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/3/2025, 11:58:56 PM
+Generated: 8/4/2025, 12:18:41 AM
 
 ## Project Overview
-- **Total Files**: 53
-- **Total Lines**: 18,097
+- **Total Files**: 116
+- **Total Lines**: 19,357
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -75,11 +75,11 @@ node scripts/generate-structure.js ../cmv-structure
 ```
 
 ## File Type Distribution
+- .jpg: 45 files
+- .json: 25 files
 - .ejs: 15 files
 - .html: 14 files
-- .js: 9 files
-- .jpg: 5 files
-- .json: 4 files
+- .js: 11 files
 - .md: 2 files
 - .db: 1 files
 - .backup: 1 files
@@ -90,10 +90,10 @@ node scripts/generate-structure.js ../cmv-structure
 - package-lock.json: 219.03 KB
 - public/cameras.html: 68.91 KB
 - public/images/camera-placeholder.jpg: 68.50 KB
-- data/camera-vault.db: 36.00 KB
-- public/search.html: 32.26 KB
-- public/camera-detail.html: 31.09 KB
-- public/productions.html: 25.91 KB
-- scripts/generate-structure.js: 23.65 KB
-- public/camera-finder.html: 23.35 KB
-- public/camera-blog.html: 23.29 KB
+- public/images/cameras/arri-alexa-mini-lf.jpg: 68.50 KB
+- public/images/cameras/blackmagic-ursa-mini-pro-12k.jpg: 68.50 KB
+- public/images/cameras/canon-ae-1.jpg: 68.50 KB
+- public/images/cameras/canon-eos-5d-mark-iv.jpg: 68.50 KB
+- public/images/cameras/canon-eos-r6.jpg: 68.50 KB
+- public/images/cameras/canon-eos-r7.jpg: 68.50 KB
+- public/images/cameras/fujifilm-gfx-100-ii.jpg: 68.50 KB
