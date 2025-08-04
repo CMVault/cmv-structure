@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 12:32:20 AM
+Generated: 8/4/2025, 12:37:51 AM
 
 ## Directory Structure
 
@@ -43,6 +43,7 @@ Generated: 8/4/2025, 12:32:20 AM
 │   └── cameras.json
 ├── debug-save.js
 ├── fix-all-database.js
+├── fix-column-names.js
 ├── package-lock.json
 ├── package.json
 ├── public
@@ -115,6 +116,7 @@ Generated: 8/4/2025, 12:32:20 AM
 ├── scripts
 │   └── generate-structure.js
 ├── server.js
+├── start-automation.js
 └── views
     └── pages
         ├── 404.ejs
@@ -643,6 +645,11 @@ Generated: 8/4/2025, 12:32:20 AM
 - Modified: 8/4/2025
 - Functions: finishUp
 
+#### fix-column-names.js
+- Size: 4.19 KB
+- Lines: 133
+- Modified: 8/4/2025
+
 #### package-lock.json
 - Size: 219.03 KB
 - Lines: 5827
@@ -678,6 +685,11 @@ Generated: 8/4/2025, 12:32:20 AM
 - Lines: 611
 - Modified: 8/4/2025
 - Functions: dbAll, dbGet, dbRun, findAvailablePort, isPortAvailable...
+
+#### start-automation.js
+- Size: 4.08 KB
+- Lines: 89
+- Modified: 8/4/2025
 
 ### /scripts
 
