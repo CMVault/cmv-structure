@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 6:45:02 PM
+Generated: 8/4/2025, 7:17:13 PM
 
 ## Directory Structure
 
@@ -7,6 +7,7 @@ Generated: 8/4/2025, 6:45:02 PM
 ├── PROJECT_STATUS.md
 ├── README.md
 ├── auto-scraper.js
+├── auto-scraper.js.backup
 ├── automation-adapter.js
 ├── automation-routes.js
 ├── automation-scheduler.js
@@ -16,6 +17,7 @@ Generated: 8/4/2025, 6:45:02 PM
 ├── cmv-automation-real-images.js
 ├── cmv-automation-with-images.js
 ├── cmv-automation.js
+├── cmv-automation.js.backup
 ├── complete-db-fix.sh
 ├── config
 │   └── server.config.js
@@ -61,6 +63,7 @@ Generated: 8/4/2025, 6:45:02 PM
 ├── fix-api-response.js
 ├── fix-column-names.js
 ├── fix-server-now.js
+├── implement-cmv.sh
 ├── nano fix-api-response.js
 ├── package-lock.json
 ├── package.json
@@ -440,52 +443,52 @@ Generated: 8/4/2025, 6:45:02 PM
 ### /public/images/cameras
 
 #### arri-alexa-mini-lf.jpg
-- Size: 12.60 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### blackmagic-ursa-mini-pro-12k.jpg
-- Size: 16.35 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-ae-1.jpg
-- Size: 12.87 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-5d-mark-iv.jpg
-- Size: 18.02 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r5.jpg
-- Size: 15.09 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r6.jpg
-- Size: 15.12 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r7.jpg
-- Size: 14.81 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-gfx-100-ii.jpg
-- Size: 14.45 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-h2s.jpg
-- Size: 13.25 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-t5.jpg
-- Size: 12.53 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -495,114 +498,114 @@ Generated: 8/4/2025, 6:45:02 PM
 - Modified: 8/4/2025
 
 #### leica-m6.jpg
-- Size: 10.17 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-d780.jpg
-- Size: 10.03 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-d850.jpg
-- Size: 10.10 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-f3.jpg
-- Size: 9.13 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z6-iii.jpg
-- Size: 9.65 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z9.jpg
-- Size: 9.24 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### red-komodo.jpg
-- Size: 12.15 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7-iv.jpg
-- Size: 12.26 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7r-v.jpg
-- Size: 12.77 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7s-iii.jpg
-- Size: 12.79 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx3.jpg
-- Size: 12.18 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx6.jpg
-- Size: 12.20 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 ### /public/images/cameras/thumbs
 
 #### arri-alexa-mini-lf-thumb.jpg
-- Size: 1.81 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### blackmagic-ursa-mini-pro-12k-thumb.jpg
-- Size: 2.27 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-ae-1-thumb.jpg
-- Size: 1.72 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-5d-mark-iv-thumb.jpg
-- Size: 2.41 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r5-thumb.jpg
-- Size: 1.95 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r6-thumb.jpg
-- Size: 1.94 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r7-thumb.jpg
-- Size: 1.94 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-gfx-100-ii-thumb.jpg
-- Size: 1.82 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-h2s-thumb.jpg
-- Size: 1.61 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-t5-thumb.jpg
-- Size: 1.51 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -612,72 +615,77 @@ Generated: 8/4/2025, 6:45:02 PM
 - Modified: 8/4/2025
 
 #### leica-m6-thumb.jpg
-- Size: 1.31 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-d780-thumb.jpg
-- Size: 1.10 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-d850-thumb.jpg
-- Size: 1.10 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-f3-thumb.jpg
-- Size: 1.03 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z6-iii-thumb.jpg
-- Size: 1.07 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z9-thumb.jpg
-- Size: 1.03 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### red-komodo-thumb.jpg
-- Size: 1.64 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7-iv-thumb.jpg
-- Size: 1.48 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7r-v-thumb.jpg
-- Size: 1.56 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7s-iii-thumb.jpg
-- Size: 1.57 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx3-thumb.jpg
-- Size: 1.41 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx6-thumb.jpg
-- Size: 1.41 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 ### /
 
 #### auto-scraper.js
-- Size: 10.14 KB
-- Lines: 365
+- Size: 10.31 KB
+- Lines: 287
 - Modified: 8/4/2025
-- Functions: main
+- Functions: createSafeFilename
+
+#### auto-scraper.js.backup
+- Size: 10.14 KB
+- Lines: 0
+- Modified: 8/4/2025
 
 #### automation-adapter.js
 - Size: 7.91 KB
@@ -724,8 +732,13 @@ Generated: 8/4/2025, 6:45:02 PM
 - Modified: 8/4/2025
 
 #### cmv-automation.js
+- Size: 10.34 KB
+- Lines: 305
+- Modified: 8/4/2025
+
+#### cmv-automation.js.backup
 - Size: 16.44 KB
-- Lines: 564
+- Lines: 0
 - Modified: 8/4/2025
 
 #### complete-db-fix.sh
@@ -778,6 +791,11 @@ Generated: 8/4/2025, 6:45:02 PM
 #### fix-server-now.js
 - Size: 1.83 KB
 - Lines: 54
+- Modified: 8/4/2025
+
+#### implement-cmv.sh
+- Size: 13.47 KB
+- Lines: 0
 - Modified: 8/4/2025
 
 #### nano fix-api-response.js
