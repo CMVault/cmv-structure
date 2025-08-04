@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 6:14:36 PM
+Generated: 8/4/2025, 6:15:38 PM
 
 ## Directory Structure
 
@@ -142,6 +142,7 @@ Generated: 8/4/2025, 6:14:36 PM
 ├── start-automation.js
 ├── start-cmv.sh
 ├── ultimate-schema-fix.js
+├── update-camera-images.js
 └── views
     └── pages
         ├── 404.ejs
@@ -843,6 +844,12 @@ Generated: 8/4/2025, 6:14:36 PM
 - Lines: 459
 - Modified: 8/4/2025
 - Functions: finishSetup
+
+#### update-camera-images.js
+- Size: 6.77 KB
+- Lines: 183
+- Modified: 8/4/2025
+- Functions: updateCameraImages, createBrandedPlaceholder
 
 ### /scripts
 

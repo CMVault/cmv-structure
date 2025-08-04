@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/4/2025, 6:14:36 PM
+Generated: 8/4/2025, 6:15:38 PM
 
 ## Project Overview
-- **Total Files**: 144
-- **Total Lines**: 23,542
+- **Total Files**: 145
+- **Total Lines**: 23,725
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -76,7 +76,7 @@ node scripts/generate-structure.js ../cmv-structure
 
 ## File Type Distribution
 - .jpg: 47 files
-- .js: 28 files
+- .js: 29 files
 - .json: 28 files
 - .ejs: 15 files
 - .html: 14 files
