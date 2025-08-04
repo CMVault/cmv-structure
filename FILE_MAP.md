@@ -1,11 +1,12 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 7:17:53 PM
+Generated: 8/4/2025, 7:22:47 PM
 
 ## Directory Structure
 
 ```
 ├── PROJECT_STATUS.md
 ├── README.md
+├── activate-discovery.sh
 ├── auto-scraper.js.backup
 ├── automation-routes.js
 ├── backup-20250804-121715
@@ -1291,6 +1292,11 @@ Generated: 8/4/2025, 7:17:53 PM
 - Modified: 8/4/2025
 
 ### /
+
+#### activate-discovery.sh
+- Size: 20.91 KB
+- Lines: 0
+- Modified: 8/4/2025
 
 #### auto-scraper.js.backup
 - Size: 10.14 KB
