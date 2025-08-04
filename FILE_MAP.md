@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 8:56:28 PM
+Generated: 8/4/2025, 9:01:26 PM
 
 ## Directory Structure
 
@@ -164,6 +164,7 @@ Generated: 8/4/2025, 8:56:28 PM
 ├── fix-all-database.js
 ├── fix-api-response.js
 ├── fix-column-names.js
+├── fix-db-columns.js
 ├── fix-everything-intelligently.js
 ├── fix-now.sh
 ├── fix-report.json
@@ -1400,6 +1401,11 @@ Generated: 8/4/2025, 8:56:28 PM
 #### fix-column-names.js
 - Size: 4.19 KB
 - Lines: 133
+- Modified: 8/4/2025
+
+#### fix-db-columns.js
+- Size: 2.71 KB
+- Lines: 72
 - Modified: 8/4/2025
 
 #### fix-everything-intelligently.js
