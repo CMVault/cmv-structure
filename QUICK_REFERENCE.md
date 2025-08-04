@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/4/2025, 5:30:00 PM
+Generated: 8/4/2025, 5:33:08 PM
 
 ## Project Overview
-- **Total Files**: 139
-- **Total Lines**: 23,907
+- **Total Files**: 138
+- **Total Lines**: 21,984
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -15,7 +15,6 @@ Generated: 8/4/2025, 5:30:00 PM
 - **camera-blog.html**: /public/camera-blog.html
 - **camera-detail.html**: /public/camera-detail.html
 - **camera-finder.html**: /public/camera-finder.html
-- **cameras-fixed.html**: /public/cameras-fixed.html
 - **cameras.html**: /public/cameras.html
 - **dmca.html**: /public/dmca.html
 - **index.html**: /public/index.html
@@ -79,8 +78,8 @@ node scripts/generate-structure.js ../cmv-structure
 - .jpg: 47 files
 - .js: 25 files
 - .json: 25 files
-- .html: 15 files
 - .ejs: 15 files
+- .html: 14 files
 - .sh: 3 files
 - .db: 3 files
 - .backup: 3 files
@@ -91,10 +90,10 @@ node scripts/generate-structure.js ../cmv-structure
 - package-lock.json: 304.64 KB
 - data/camera-vault.db: 128.00 KB
 - data/camera-vault-backup-1754269121092.db: 112.00 KB
-- public/cameras.html: 68.91 KB
 - public/cameras.html.backup: 68.91 KB
 - public/images/camera-placeholder.jpg: 68.50 KB
 - public/images/cameras/arri-alexa-mini-lf.jpg: 68.50 KB
 - public/images/cameras/blackmagic-ursa-mini-pro-12k.jpg: 68.50 KB
 - public/images/cameras/canon-ae-1.jpg: 68.50 KB
 - public/images/cameras/canon-eos-5d-mark-iv.jpg: 68.50 KB
+- public/images/cameras/canon-eos-r5.jpg: 68.50 KB
