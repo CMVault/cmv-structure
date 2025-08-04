@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 10:08:59 PM
+Generated: 8/4/2025, 10:10:01 PM
 
 ## Directory Structure
 
@@ -201,7 +201,9 @@ Generated: 8/4/2025, 10:08:59 PM
 │   │       ├── blackmagic-ursa-mini-pro-12k.jpg
 │   │       ├── canon-ae-1.jpg
 │   │       ├── canon-eos-5d-mark-iv.jpg
+│   │       ├── canon-eos-r5-undefined.jpg
 │   │       ├── canon-eos-r5.jpg
+│   │       ├── canon-eos-r6-mark-ii-undefined.jpg
 │   │       ├── canon-eos-r6.jpg
 │   │       ├── canon-eos-r7.jpg
 │   │       ├── fujifilm-gfx-100-ii.jpg
@@ -1120,8 +1122,18 @@ Generated: 8/4/2025, 10:08:59 PM
 - Lines: 0
 - Modified: 8/4/2025
 
+#### canon-eos-r5-undefined.jpg
+- Size: 15.30 KB
+- Lines: 0
+- Modified: 8/4/2025
+
 #### canon-eos-r5.jpg
 - Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-eos-r6-mark-ii-undefined.jpg
+- Size: 16.81 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -1587,8 +1599,8 @@ Generated: 8/4/2025, 10:08:59 PM
 - Modified: 8/4/2025
 
 #### unified-camera-system.js
-- Size: 12.98 KB
-- Lines: 383
+- Size: 12.97 KB
+- Lines: 384
 - Modified: 8/4/2025
 - Functions: scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups, delay
 
