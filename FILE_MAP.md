@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 6:10:16 PM
+Generated: 8/4/2025, 6:14:36 PM
 
 ## Directory Structure
 
@@ -26,6 +26,7 @@ Generated: 8/4/2025, 6:10:16 PM
 │   │   ├── blackmagic-ursa-mini-pro-12k.json
 │   │   ├── canon-ae-1.json
 │   │   ├── canon-eos-5d-mark-iv.json
+│   │   ├── canon-eos-r5.json
 │   │   ├── canon-eos-r6.json
 │   │   ├── canon-eos-r7.json
 │   │   ├── fujifilm-gfx-100-ii.json
@@ -33,12 +34,14 @@ Generated: 8/4/2025, 6:10:16 PM
 │   │   ├── fujifilm-x-t5.json
 │   │   ├── hasselblad-500c-m.json
 │   │   ├── leica-m6.json
+│   │   ├── nikon-d780.json
 │   │   ├── nikon-d850.json
 │   │   ├── nikon-f3.json
 │   │   ├── nikon-z6-iii.json
 │   │   ├── nikon-z9.json
 │   │   ├── red-komodo.json
 │   │   ├── sony-a7-iv.json
+│   │   ├── sony-a7r-v.json
 │   │   ├── sony-a7s-iii.json
 │   │   ├── sony-fx3.json
 │   │   └── sony-fx6.json
@@ -203,53 +206,58 @@ Generated: 8/4/2025, 6:10:16 PM
 ### /data/attributions
 
 #### arri-alexa-mini-lf.json
-- Size: 200.00 B
-- Lines: 7
+- Size: 222.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### attribution-report.json
-- Size: 831.00 B
-- Lines: 28
+- Size: 3.52 KB
+- Lines: 126
 - Modified: 8/4/2025
 
 #### blackmagic-ursa-mini-pro-12k.json
-- Size: 210.00 B
-- Lines: 7
+- Size: 232.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### canon-ae-1.json
-- Size: 192.00 B
-- Lines: 7
+- Size: 275.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### canon-eos-5d-mark-iv.json
-- Size: 202.00 B
-- Lines: 7
+- Size: 295.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### canon-eos-r5.json
+- Size: 279.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### canon-eos-r6.json
-- Size: 194.00 B
-- Lines: 7
+- Size: 279.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### canon-eos-r7.json
-- Size: 194.00 B
-- Lines: 7
+- Size: 279.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### fujifilm-gfx-100-ii.json
-- Size: 201.00 B
-- Lines: 7
+- Size: 223.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### fujifilm-x-h2s.json
-- Size: 196.00 B
-- Lines: 7
+- Size: 218.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### fujifilm-x-t5.json
-- Size: 195.00 B
-- Lines: 7
+- Size: 217.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### hasselblad-500c-m.json
@@ -258,53 +266,63 @@ Generated: 8/4/2025, 6:10:16 PM
 - Modified: 8/4/2025
 
 #### leica-m6.json
-- Size: 190.00 B
-- Lines: 7
+- Size: 212.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### nikon-d780.json
+- Size: 275.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### nikon-d850.json
-- Size: 192.00 B
-- Lines: 7
+- Size: 275.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### nikon-f3.json
-- Size: 190.00 B
-- Lines: 7
+- Size: 271.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### nikon-z6-iii.json
-- Size: 194.00 B
-- Lines: 7
+- Size: 279.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### nikon-z9.json
-- Size: 190.00 B
-- Lines: 7
+- Size: 271.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### red-komodo.json
-- Size: 192.00 B
-- Lines: 7
+- Size: 214.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### sony-a7-iv.json
-- Size: 192.00 B
-- Lines: 7
+- Size: 273.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### sony-a7r-v.json
+- Size: 273.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### sony-a7s-iii.json
-- Size: 194.00 B
-- Lines: 7
+- Size: 277.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### sony-fx3.json
-- Size: 190.00 B
-- Lines: 7
+- Size: 269.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### sony-fx6.json
-- Size: 190.00 B
-- Lines: 7
+- Size: 269.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 ### /public
@@ -414,52 +432,52 @@ Generated: 8/4/2025, 6:10:16 PM
 ### /public/images/cameras
 
 #### arri-alexa-mini-lf.jpg
-- Size: 68.50 KB
+- Size: 12.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### blackmagic-ursa-mini-pro-12k.jpg
-- Size: 68.50 KB
+- Size: 16.35 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-ae-1.jpg
-- Size: 68.50 KB
+- Size: 12.87 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-5d-mark-iv.jpg
-- Size: 68.50 KB
+- Size: 18.02 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r5.jpg
-- Size: 68.50 KB
+- Size: 15.09 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r6.jpg
-- Size: 68.50 KB
+- Size: 15.12 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r7.jpg
-- Size: 68.50 KB
+- Size: 14.81 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-gfx-100-ii.jpg
-- Size: 68.50 KB
+- Size: 14.45 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-h2s.jpg
-- Size: 68.50 KB
+- Size: 13.25 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-t5.jpg
-- Size: 68.50 KB
+- Size: 12.53 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -469,114 +487,114 @@ Generated: 8/4/2025, 6:10:16 PM
 - Modified: 8/4/2025
 
 #### leica-m6.jpg
-- Size: 68.50 KB
+- Size: 10.17 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-d780.jpg
-- Size: 68.50 KB
+- Size: 10.03 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-d850.jpg
-- Size: 68.50 KB
+- Size: 10.10 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-f3.jpg
-- Size: 68.50 KB
+- Size: 9.13 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z6-iii.jpg
-- Size: 68.50 KB
+- Size: 9.65 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z9.jpg
-- Size: 68.50 KB
+- Size: 9.24 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### red-komodo.jpg
-- Size: 68.50 KB
+- Size: 12.15 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7-iv.jpg
-- Size: 68.50 KB
+- Size: 12.26 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7r-v.jpg
-- Size: 68.50 KB
+- Size: 12.77 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7s-iii.jpg
-- Size: 68.50 KB
+- Size: 12.79 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx3.jpg
-- Size: 68.50 KB
+- Size: 12.18 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx6.jpg
-- Size: 68.50 KB
+- Size: 12.20 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 ### /public/images/cameras/thumbs
 
 #### arri-alexa-mini-lf-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.81 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### blackmagic-ursa-mini-pro-12k-thumb.jpg
-- Size: 2.60 KB
+- Size: 2.27 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-ae-1-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.72 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-5d-mark-iv-thumb.jpg
-- Size: 2.60 KB
+- Size: 2.41 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r5-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.95 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r6-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.94 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r7-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.94 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-gfx-100-ii-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.82 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-h2s-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.61 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-t5-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.51 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -586,62 +604,62 @@ Generated: 8/4/2025, 6:10:16 PM
 - Modified: 8/4/2025
 
 #### leica-m6-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.31 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-d780-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.10 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-d850-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.10 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-f3-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.03 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z6-iii-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.07 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z9-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.03 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### red-komodo-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.64 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7-iv-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.48 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7r-v-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.56 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7s-iii-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.57 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx3-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.41 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx6-thumb.jpg
-- Size: 2.60 KB
+- Size: 1.41 KB
 - Lines: 0
 - Modified: 8/4/2025
 
