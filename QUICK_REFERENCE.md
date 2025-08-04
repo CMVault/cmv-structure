@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/4/2025, 3:43:11 PM
+Generated: 8/4/2025, 3:50:34 PM
 
 ## Project Overview
 - **Total Files**: 135
-- **Total Lines**: 23,549
+- **Total Lines**: 23,590
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -88,7 +88,7 @@ node scripts/generate-structure.js ../cmv-structure
 
 ## Largest Files
 - package-lock.json: 304.64 KB
-- data/camera-vault.db: 124.00 KB
+- data/camera-vault.db: 128.00 KB
 - data/camera-vault-backup-1754269121092.db: 112.00 KB
 - public/cameras.html: 68.91 KB
 - public/images/camera-placeholder.jpg: 68.50 KB
