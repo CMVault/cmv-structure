@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 10:24:06 PM
+Generated: 8/4/2025, 10:32:37 PM
 
 ## Directory Structure
 
@@ -1612,7 +1612,7 @@ Generated: 8/4/2025, 10:24:06 PM
 - Functions: scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups, delay
 
 #### unified-camera-system.js
-- Size: 12.97 KB
+- Size: 12.96 KB
 - Lines: 384
 - Modified: 8/4/2025
 - Functions: scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups, delay
