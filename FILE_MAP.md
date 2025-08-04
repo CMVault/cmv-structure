@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 10:54:03 PM
+Generated: 8/4/2025, 10:57:08 PM
 
 ## Directory Structure
 
@@ -7,6 +7,7 @@ Generated: 8/4/2025, 10:54:03 PM
 ├── PROJECT_STATUS.md
 ├── README.md
 ├── activate-discovery.sh
+├── add-all-missing-functions.js
 ├── auto-scraper.js.backup
 ├── automated-cmv-fix.js
 ├── automation-routes.js
@@ -220,9 +221,13 @@ Generated: 8/4/2025, 10:54:03 PM
 │   │       ├── nikon-d850.jpg
 │   │       ├── nikon-f3.jpg
 │   │       ├── nikon-z6-iii.jpg
+│   │       ├── nikon-z8-undefined.jpg
+│   │       ├── nikon-z9-undefined.jpg
 │   │       ├── nikon-z9.jpg
 │   │       ├── red-komodo.jpg
+│   │       ├── sony-a7-iv-undefined.jpg
 │   │       ├── sony-a7-iv.jpg
+│   │       ├── sony-a7r-v-undefined.jpg
 │   │       ├── sony-a7r-v.jpg
 │   │       ├── sony-a7s-iii.jpg
 │   │       ├── sony-fx3.jpg
@@ -1202,6 +1207,16 @@ Generated: 8/4/2025, 10:54:03 PM
 - Lines: 0
 - Modified: 8/4/2025
 
+#### nikon-z8-undefined.jpg
+- Size: 12.36 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-z9-undefined.jpg
+- Size: 12.36 KB
+- Lines: 0
+- Modified: 8/4/2025
+
 #### nikon-z9.jpg
 - Size: 68.50 KB
 - Lines: 0
@@ -1212,8 +1227,18 @@ Generated: 8/4/2025, 10:54:03 PM
 - Lines: 0
 - Modified: 8/4/2025
 
+#### sony-a7-iv-undefined.jpg
+- Size: 13.81 KB
+- Lines: 0
+- Modified: 8/4/2025
+
 #### sony-a7-iv.jpg
 - Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-a7r-v-undefined.jpg
+- Size: 14.16 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -1360,6 +1385,12 @@ Generated: 8/4/2025, 10:54:03 PM
 - Size: 20.91 KB
 - Lines: 0
 - Modified: 8/4/2025
+
+#### add-all-missing-functions.js
+- Size: 1.29 KB
+- Lines: 45
+- Modified: 8/4/2025
+- Functions: scheduleBackup, scheduleDiscovery
 
 #### auto-scraper.js.backup
 - Size: 10.14 KB
@@ -1632,8 +1663,8 @@ Generated: 8/4/2025, 10:54:03 PM
 - Functions: scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups, delay
 
 #### unified-camera-system.js
-- Size: 12.98 KB
-- Lines: 387
+- Size: 13.11 KB
+- Lines: 393
 - Modified: 8/4/2025
 - Functions: delay, scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups
 
