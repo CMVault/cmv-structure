@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 10:37:59 PM
+Generated: 8/4/2025, 10:45:50 PM
 
 ## Directory Structure
 
@@ -174,6 +174,7 @@ Generated: 8/4/2025, 10:37:59 PM
 ├── fix-delay-issue.js
 ├── fix-everything-intelligently.js
 ├── fix-extra-braces.js
+├── fix-function-order.js
 ├── fix-now.sh
 ├── fix-report.json
 ├── fix-server-now.js
@@ -1486,6 +1487,12 @@ Generated: 8/4/2025, 10:37:59 PM
 - Size: 2.63 KB
 - Lines: 81
 - Modified: 8/4/2025
+
+#### fix-function-order.js
+- Size: 1.87 KB
+- Lines: 62
+- Modified: 8/4/2025
+- Functions: delay, scheduleDiscovery
 
 #### fix-now.sh
 - Size: 1.65 KB
