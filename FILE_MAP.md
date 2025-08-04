@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 10:08:17 PM
+Generated: 8/4/2025, 10:08:59 PM
 
 ## Directory Structure
 
@@ -261,6 +261,7 @@ Generated: 8/4/2025, 10:08:17 PM
 ├── smart-fix-unified-system.js
 ├── start-cmv.sh
 ├── ultimate-schema-fix.js
+├── undo-and-fix.sh
 ├── unified-camera-system-temp.js
 ├── unified-camera-system.backup-1754340358242.js
 ├── unified-camera-system.broken.js
@@ -1564,6 +1565,11 @@ Generated: 8/4/2025, 10:08:17 PM
 - Lines: 459
 - Modified: 8/4/2025
 - Functions: finishSetup
+
+#### undo-and-fix.sh
+- Size: 3.24 KB
+- Lines: 0
+- Modified: 8/4/2025
 
 #### unified-camera-system-temp.js
 - Size: 14.00 B
