@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 12:50:08 AM
+Generated: 8/4/2025, 3:22:26 PM
 
 ## Directory Structure
 
@@ -10,8 +10,10 @@ Generated: 8/4/2025, 12:50:08 AM
 ├── automation-adapter.js
 ├── automation-routes.js
 ├── cleanup.js
+├── cmv-automation-fixed.js
 ├── cmv-automation-with-images.js
 ├── cmv-automation.js
+├── complete-db-fix.sh
 ├── config
 │   └── server.config.js
 ├── continuous-auto-scraper.js
@@ -40,11 +42,13 @@ Generated: 8/4/2025, 12:50:08 AM
 │   │   └── sony-fx6.json
 │   ├── automation-report.json
 │   ├── camera-vault-backup-1754268515576.db
+│   ├── camera-vault-backup-1754269121092.db
 │   ├── camera-vault.db
 │   ├── camera-vault.db.backup
 │   └── cameras.json
 ├── debug-save.js
 ├── diagnose-db.js
+├── disable-auto-automation.js
 ├── fix-all-database.js
 ├── fix-column-names.js
 ├── package-lock.json
@@ -74,6 +78,7 @@ Generated: 8/4/2025, 12:50:08 AM
 │   │       ├── fujifilm-x-t5.jpg
 │   │       ├── hasselblad-500c-m.jpg
 │   │       ├── leica-m6.jpg
+│   │       ├── nikon-d780.jpg
 │   │       ├── nikon-d850.jpg
 │   │       ├── nikon-f3.jpg
 │   │       ├── nikon-z6-iii.jpg
@@ -97,6 +102,7 @@ Generated: 8/4/2025, 12:50:08 AM
 │   │           ├── fujifilm-x-t5-thumb.jpg
 │   │           ├── hasselblad-500c-m-thumb.jpg
 │   │           ├── leica-m6-thumb.jpg
+│   │           ├── nikon-d780-thumb.jpg
 │   │           ├── nikon-d850-thumb.jpg
 │   │           ├── nikon-f3-thumb.jpg
 │   │           ├── nikon-z6-iii-thumb.jpg
@@ -153,8 +159,8 @@ Generated: 8/4/2025, 12:50:08 AM
 ### /data
 
 #### automation-report.json
-- Size: 3.78 KB
-- Lines: 117
+- Size: 178.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### camera-vault-backup-1754268515576.db
@@ -162,8 +168,13 @@ Generated: 8/4/2025, 12:50:08 AM
 - Lines: 0
 - Modified: 8/4/2025
 
-#### camera-vault.db
+#### camera-vault-backup-1754269121092.db
 - Size: 112.00 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### camera-vault.db
+- Size: 124.00 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -406,7 +417,7 @@ Generated: 8/4/2025, 12:50:08 AM
 - Modified: 8/4/2025
 
 #### canon-eos-r5.jpg
-- Size: 4.81 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -445,6 +456,11 @@ Generated: 8/4/2025, 12:50:08 AM
 - Lines: 0
 - Modified: 8/4/2025
 
+#### nikon-d780.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
 #### nikon-d850.jpg
 - Size: 68.50 KB
 - Lines: 0
@@ -476,7 +492,7 @@ Generated: 8/4/2025, 12:50:08 AM
 - Modified: 8/4/2025
 
 #### sony-a7r-v.jpg
-- Size: 4.81 KB
+- Size: 68.50 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -498,52 +514,52 @@ Generated: 8/4/2025, 12:50:08 AM
 ### /public/images/cameras/thumbs
 
 #### arri-alexa-mini-lf-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### blackmagic-ursa-mini-pro-12k-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-ae-1-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-5d-mark-iv-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r5-thumb.jpg
-- Size: 13.54 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r6-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### canon-eos-r7-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-gfx-100-ii-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-h2s-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### fujifilm-x-t5-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -553,57 +569,62 @@ Generated: 8/4/2025, 12:50:08 AM
 - Modified: 8/4/2025
 
 #### leica-m6-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-d780-thumb.jpg
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-d850-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-f3-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z6-iii-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### nikon-z9-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### red-komodo-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7-iv-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7r-v-thumb.jpg
-- Size: 13.54 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-a7s-iii-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx3-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
 #### sony-fx6-thumb.jpg
-- Size: 2.36 KB
+- Size: 2.60 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -632,14 +653,24 @@ Generated: 8/4/2025, 12:50:08 AM
 - Modified: 8/4/2025
 - Functions: log, cleanup
 
+#### cmv-automation-fixed.js
+- Size: 12.13 KB
+- Lines: 337
+- Modified: 8/4/2025
+
 #### cmv-automation-with-images.js
-- Size: 24.63 KB
-- Lines: 827
+- Size: 24.72 KB
+- Lines: 829
 - Modified: 8/4/2025
 
 #### cmv-automation.js
 - Size: 16.44 KB
 - Lines: 564
+- Modified: 8/4/2025
+
+#### complete-db-fix.sh
+- Size: 438.00 B
+- Lines: 0
 - Modified: 8/4/2025
 
 #### continuous-auto-scraper.js
@@ -656,6 +687,11 @@ Generated: 8/4/2025, 12:50:08 AM
 #### diagnose-db.js
 - Size: 8.18 KB
 - Lines: 182
+- Modified: 8/4/2025
+
+#### disable-auto-automation.js
+- Size: 2.53 KB
+- Lines: 72
 - Modified: 8/4/2025
 
 #### fix-all-database.js
@@ -680,8 +716,8 @@ Generated: 8/4/2025, 12:50:08 AM
 - Modified: 8/4/2025
 
 #### PROJECT_STATUS.md
-- Size: 5.37 KB
-- Lines: 155
+- Size: 7.10 KB
+- Lines: 210
 - Modified: 8/4/2025
 
 #### quick-db-fix.js
