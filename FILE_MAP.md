@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 9:21:09 PM
+Generated: 8/4/2025, 9:22:53 PM
 
 ## Directory Structure
 
@@ -174,6 +174,7 @@ Generated: 8/4/2025, 9:21:09 PM
 ├── fix-sql-query.js
 ├── fix-syntax-error.js
 ├── implement-cmv.sh
+├── minimal-syntax-fix.js
 ├── monitor.js
 ├── nano fix-api-response.js
 ├── package-lock.json
@@ -1455,6 +1456,11 @@ Generated: 8/4/2025, 9:21:09 PM
 #### implement-cmv.sh
 - Size: 13.47 KB
 - Lines: 0
+- Modified: 8/4/2025
+
+#### minimal-syntax-fix.js
+- Size: 1.26 KB
+- Lines: 42
 - Modified: 8/4/2025
 
 #### monitor.js
