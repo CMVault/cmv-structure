@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 10:10:01 PM
+Generated: 8/4/2025, 10:14:09 PM
 
 ## Directory Structure
 
@@ -166,6 +166,7 @@ Generated: 8/4/2025, 10:10:01 PM
 ├── ecosystem.config.js
 ├── final-unified-camera-system.js
 ├── fix-all-database.js
+├── fix-all-database.js.save
 ├── fix-all-missing-functions.js
 ├── fix-api-response.js
 ├── fix-column-names.js
@@ -189,6 +190,7 @@ Generated: 8/4/2025, 10:10:01 PM
 │   ├── camera-blog.html
 │   ├── camera-detail.html
 │   ├── camera-finder.html
+│   ├── cameras-fixed.html.save
 │   ├── cameras.html
 │   ├── cameras.html.backup
 │   ├── css
@@ -1027,6 +1029,11 @@ Generated: 8/4/2025, 10:10:01 PM
 - Modified: 8/4/2025
 - Page Title: Camera Finder - Find Your Perfect Camera
 
+#### cameras-fixed.html.save
+- Size: 7.18 KB
+- Lines: 0
+- Modified: 8/4/2025
+
 #### cameras.html
 - Size: 7.18 KB
 - Lines: 212
@@ -1437,6 +1444,11 @@ Generated: 8/4/2025, 10:10:01 PM
 - Modified: 8/4/2025
 - Functions: finishUp
 
+#### fix-all-database.js.save
+- Size: 5.67 KB
+- Lines: 0
+- Modified: 8/4/2025
+
 #### fix-all-missing-functions.js
 - Size: 3.86 KB
 - Lines: 108
@@ -1594,12 +1606,13 @@ Generated: 8/4/2025, 10:10:01 PM
 - Modified: 8/4/2025
 
 #### unified-camera-system.broken.js
-- Size: 20.32 KB
-- Lines: 556
+- Size: 12.97 KB
+- Lines: 384
 - Modified: 8/4/2025
+- Functions: scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups, delay
 
 #### unified-camera-system.js
-- Size: 12.97 KB
+- Size: 13.02 KB
 - Lines: 384
 - Modified: 8/4/2025
 - Functions: scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups, delay
@@ -1610,7 +1623,7 @@ Generated: 8/4/2025, 10:10:01 PM
 - Modified: 8/4/2025
 
 #### unified-camera-system.js.backup-before-fix
-- Size: 12.93 KB
+- Size: 13.02 KB
 - Lines: 0
 - Modified: 8/4/2025
 
