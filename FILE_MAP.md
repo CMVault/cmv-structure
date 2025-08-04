@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 11:04:09 PM
+Generated: 8/4/2025, 11:20:47 PM
 
 ## Directory Structure
 
@@ -119,6 +119,7 @@ Generated: 8/4/2025, 11:04:09 PM
 │   ├── camera-vault.db
 │   └── unified-camera-system.js
 ├── camera-utils.js
+├── check-database-status.js
 ├── check-image-status.js
 ├── cleanup.js
 ├── cmv-automation.js.backup
@@ -183,6 +184,7 @@ Generated: 8/4/2025, 11:04:09 PM
 ├── fix-sql-query.js
 ├── fix-syntax-error.js
 ├── implement-cmv.sh
+├── migrate-to-comprehensive.js
 ├── minimal-syntax-fix.js
 ├── monitor.js
 ├── nano fix-api-response.js
@@ -1415,6 +1417,11 @@ Generated: 8/4/2025, 11:04:09 PM
 - Modified: 8/4/2025
 - Functions: createSafeFilename
 
+#### check-database-status.js
+- Size: 10.96 KB
+- Lines: 286
+- Modified: 8/4/2025
+
 #### check-image-status.js
 - Size: 3.53 KB
 - Lines: 112
@@ -1559,6 +1566,11 @@ Generated: 8/4/2025, 11:04:09 PM
 #### implement-cmv.sh
 - Size: 13.47 KB
 - Lines: 0
+- Modified: 8/4/2025
+
+#### migrate-to-comprehensive.js
+- Size: 20.56 KB
+- Lines: 558
 - Modified: 8/4/2025
 
 #### minimal-syntax-fix.js
