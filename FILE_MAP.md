@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 9:25:56 PM
+Generated: 8/4/2025, 9:32:34 PM
 
 ## Directory Structure
 
@@ -163,6 +163,7 @@ Generated: 8/4/2025, 9:25:56 PM
 ├── ecosystem.config.js
 ├── final-unified-camera-system.js
 ├── fix-all-database.js
+├── fix-all-missing-functions.js
 ├── fix-api-response.js
 ├── fix-column-names.js
 ├── fix-db-columns.js
@@ -261,6 +262,7 @@ Generated: 8/4/2025, 9:25:56 PM
 ├── unified-camera-system.backup-1754340358242.js
 ├── unified-camera-system.broken.js
 ├── unified-camera-system.js
+├── unified-camera-system.js.backup-1754342972273
 ├── unified-camera-system.js.backup-before-fix
 ├── unified-camera-system.js.syntax-backup
 ├── update-camera-images.js
@@ -1403,6 +1405,11 @@ Generated: 8/4/2025, 9:25:56 PM
 - Modified: 8/4/2025
 - Functions: finishUp
 
+#### fix-all-missing-functions.js
+- Size: 3.86 KB
+- Lines: 108
+- Modified: 8/4/2025
+
 #### fix-api-response.js
 - Size: 453.00 B
 - Lines: 19
@@ -1559,6 +1566,11 @@ Generated: 8/4/2025, 9:25:56 PM
 - Lines: 383
 - Modified: 8/4/2025
 - Functions: scheduleDiscovery
+
+#### unified-camera-system.js.backup-1754342972273
+- Size: 12.94 KB
+- Lines: 0
+- Modified: 8/4/2025
 
 #### unified-camera-system.js.backup-before-fix
 - Size: 12.93 KB
