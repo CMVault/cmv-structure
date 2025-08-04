@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/4/2025, 8:52:55 PM
+Generated: 8/4/2025, 8:55:44 PM
 
 ## Project Overview
 - **Total Files**: 255
-- **Total Lines**: 30,018
+- **Total Lines**: 29,846
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
