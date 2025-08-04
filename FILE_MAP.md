@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 9:48:35 PM
+Generated: 8/4/2025, 9:49:25 PM
 
 ## Directory Structure
 
@@ -161,6 +161,7 @@ Generated: 8/4/2025, 9:48:35 PM
 ├── debug-save.js
 ├── deep-diagnosis.sh
 ├── diagnose-db.js
+├── diagnosis-output.txt
 ├── disable-auto-automation.js
 ├── ecosystem.config.js
 ├── final-unified-camera-system.js
@@ -1395,6 +1396,11 @@ Generated: 8/4/2025, 9:48:35 PM
 #### diagnose-db.js
 - Size: 8.18 KB
 - Lines: 182
+- Modified: 8/4/2025
+
+#### diagnosis-output.txt
+- Size: 19.83 KB
+- Lines: 186
 - Modified: 8/4/2025
 
 #### disable-auto-automation.js
