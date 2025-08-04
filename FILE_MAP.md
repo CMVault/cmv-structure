@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 5:34:55 PM
+Generated: 8/4/2025, 5:50:27 PM
 
 ## Directory Structure
 
@@ -12,6 +12,7 @@ Generated: 8/4/2025, 5:34:55 PM
 ├── automation-scheduler.js
 ├── cleanup.js
 ├── cmv-automation-fixed.js
+├── cmv-automation-real-images.js
 ├── cmv-automation-with-images.js
 ├── cmv-automation.js
 ├── complete-db-fix.sh
@@ -127,6 +128,7 @@ Generated: 8/4/2025, 5:34:55 PM
 │   ├── search.html
 │   └── terms.html
 ├── quick-db-fix.js
+├── real-image-scraper.js
 ├── restore-generate-structure.sh
 ├── scripts
 │   └── generate-structure.js
@@ -678,6 +680,11 @@ Generated: 8/4/2025, 5:34:55 PM
 - Lines: 337
 - Modified: 8/4/2025
 
+#### cmv-automation-real-images.js
+- Size: 15.98 KB
+- Lines: 438
+- Modified: 8/4/2025
+
 #### cmv-automation-with-images.js
 - Size: 24.72 KB
 - Lines: 829
@@ -768,6 +775,11 @@ Generated: 8/4/2025, 5:34:55 PM
 #### README.md
 - Size: 58.00 B
 - Lines: 3
+- Modified: 8/4/2025
+
+#### real-image-scraper.js
+- Size: 14.38 KB
+- Lines: 416
 - Modified: 8/4/2025
 
 #### restore-generate-structure.sh
