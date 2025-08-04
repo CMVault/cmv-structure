@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 8:17:02 PM
+Generated: 8/4/2025, 8:25:36 PM
 
 ## Directory Structure
 
@@ -113,6 +113,9 @@ Generated: 8/4/2025, 8:17:02 PM
 │   ├── start-automation.js
 │   ├── ultimate-schema-fix.js
 │   └── update-camera-images.js
+├── backup-fix-1754338654307
+│   ├── camera-vault.db
+│   └── unified-camera-system.js
 ├── camera-utils.js
 ├── check-image-status.js
 ├── cleanup.js
@@ -162,7 +165,9 @@ Generated: 8/4/2025, 8:17:02 PM
 ├── fix-column-names.js
 ├── fix-everything-intelligently.js
 ├── fix-now.sh
+├── fix-report.json
 ├── fix-server-now.js
+├── fix-sql-query.js
 ├── implement-cmv.sh
 ├── monitor.js
 ├── nano fix-api-response.js
@@ -789,6 +794,18 @@ Generated: 8/4/2025, 8:17:02 PM
 - Lines: 0
 - Modified: 8/4/2025
 
+### /backup-fix-1754338654307
+
+#### camera-vault.db
+- Size: 148.00 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### unified-camera-system.js
+- Size: 20.08 KB
+- Lines: 547
+- Modified: 8/4/2025
+
 ### /config
 
 #### server.config.js
@@ -1386,9 +1403,19 @@ Generated: 8/4/2025, 8:17:02 PM
 - Lines: 0
 - Modified: 8/4/2025
 
+#### fix-report.json
+- Size: 307.00 B
+- Lines: 14
+- Modified: 8/4/2025
+
 #### fix-server-now.js
 - Size: 1.83 KB
 - Lines: 54
+- Modified: 8/4/2025
+
+#### fix-sql-query.js
+- Size: 3.19 KB
+- Lines: 82
 - Modified: 8/4/2025
 
 #### implement-cmv.sh
