@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 12:42:22 AM
+Generated: 8/4/2025, 12:43:45 AM
 
 ## Directory Structure
 
@@ -42,6 +42,7 @@ Generated: 8/4/2025, 12:42:22 AM
 │   ├── camera-vault.db.backup
 │   └── cameras.json
 ├── debug-save.js
+├── diagnose-db.js
 ├── fix-all-database.js
 ├── fix-column-names.js
 ├── package-lock.json
@@ -637,6 +638,11 @@ Generated: 8/4/2025, 12:42:22 AM
 #### debug-save.js
 - Size: 1.26 KB
 - Lines: 44
+- Modified: 8/4/2025
+
+#### diagnose-db.js
+- Size: 8.18 KB
+- Lines: 182
 - Modified: 8/4/2025
 
 #### fix-all-database.js
