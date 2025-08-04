@@ -261,7 +261,7 @@ sqlite3 data/camera-vault.db "SELECT COUNT(*) FROM cameras;"
 ## 🏗️ Architecture Status:
 - Total Files: 256
 - Total Directories: 16
-- Total Lines of Code: 29,918
+- Total Lines of Code: 29,920
 - Main File Types: .jpg (93), .js (60), .json (55), .ejs (15), .html (14)
 - API Routes: 23
 - Database Tables: 0
