@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 8:16:16 PM
+Generated: 8/4/2025, 8:17:02 PM
 
 ## Directory Structure
 
@@ -161,6 +161,7 @@ Generated: 8/4/2025, 8:16:16 PM
 ├── fix-api-response.js
 ├── fix-column-names.js
 ├── fix-everything-intelligently.js
+├── fix-now.sh
 ├── fix-server-now.js
 ├── implement-cmv.sh
 ├── monitor.js
@@ -1379,6 +1380,11 @@ Generated: 8/4/2025, 8:16:16 PM
 - Lines: 382
 - Modified: 8/4/2025
 - Functions: log, printHeader
+
+#### fix-now.sh
+- Size: 1.65 KB
+- Lines: 0
+- Modified: 8/4/2025
 
 #### fix-server-now.js
 - Size: 1.83 KB
