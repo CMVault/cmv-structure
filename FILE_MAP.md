@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 6:15:38 PM
+Generated: 8/4/2025, 6:22:34 PM
 
 ## Directory Structure
 
@@ -10,6 +10,7 @@ Generated: 8/4/2025, 6:15:38 PM
 ├── automation-adapter.js
 ├── automation-routes.js
 ├── automation-scheduler.js
+├── check-image-status.js
 ├── cleanup.js
 ├── cmv-automation-fixed.js
 ├── cmv-automation-real-images.js
@@ -44,7 +45,8 @@ Generated: 8/4/2025, 6:15:38 PM
 │   │   ├── sony-a7r-v.json
 │   │   ├── sony-a7s-iii.json
 │   │   ├── sony-fx3.json
-│   │   └── sony-fx6.json
+│   │   ├── sony-fx6.json
+│   │   └── update-report.json
 │   ├── automation-report.json
 │   ├── camera-vault-backup-1754268515576.db
 │   ├── camera-vault-backup-1754269121092.db
@@ -324,6 +326,11 @@ Generated: 8/4/2025, 6:15:38 PM
 #### sony-fx6.json
 - Size: 269.00 B
 - Lines: 9
+- Modified: 8/4/2025
+
+#### update-report.json
+- Size: 97.00 B
+- Lines: 6
 - Modified: 8/4/2025
 
 ### /public
@@ -689,6 +696,12 @@ Generated: 8/4/2025, 6:15:38 PM
 - Modified: 8/4/2025
 - Functions: log, runAutomation
 
+#### check-image-status.js
+- Size: 3.53 KB
+- Lines: 112
+- Modified: 8/4/2025
+- Functions: checkImageStatus
+
 #### cleanup.js
 - Size: 2.52 KB
 - Lines: 97
@@ -783,8 +796,8 @@ Generated: 8/4/2025, 6:15:38 PM
 - Modified: 8/4/2025
 
 #### PROJECT_STATUS.md
-- Size: 9.30 KB
-- Lines: 286
+- Size: 9.88 KB
+- Lines: 281
 - Modified: 8/4/2025
 
 #### quick-db-fix.js
