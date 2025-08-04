@@ -235,10 +235,10 @@ npx pm2 monit
 
 
 ## 🏗️ Architecture Status:
-- Total Files: 150
-- Total Directories: 11
-- Total Lines of Code: 23,503
-- Main File Types: .jpg (47), .js (30), .json (29), .ejs (15), .html (14)
+- Total Files: 243
+- Total Directories: 15
+- Total Lines of Code: 26,719
+- Main File Types: .jpg (93), .json (54), .js (51), .ejs (15), .html (14)
 - API Routes: 23
 - Database Tables: 0
 - CSS Classes: 47

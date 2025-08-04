@@ -1,27 +1,124 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 7:17:13 PM
+Generated: 8/4/2025, 7:17:53 PM
 
 ## Directory Structure
 
 ```
 ├── PROJECT_STATUS.md
 ├── README.md
-├── auto-scraper.js
 ├── auto-scraper.js.backup
-├── automation-adapter.js
 ├── automation-routes.js
-├── automation-scheduler.js
+├── backup-20250804-121715
+│   ├── attributions
+│   │   ├── arri-alexa-mini-lf.json
+│   │   ├── attribution-report.json
+│   │   ├── blackmagic-ursa-mini-pro-12k.json
+│   │   ├── canon-ae-1.json
+│   │   ├── canon-eos-5d-mark-iv.json
+│   │   ├── canon-eos-r5.json
+│   │   ├── canon-eos-r6.json
+│   │   ├── canon-eos-r7.json
+│   │   ├── fujifilm-gfx-100-ii.json
+│   │   ├── fujifilm-x-h2s.json
+│   │   ├── fujifilm-x-t5.json
+│   │   ├── hasselblad-500c-m.json
+│   │   ├── leica-m6.json
+│   │   ├── nikon-d780.json
+│   │   ├── nikon-d850.json
+│   │   ├── nikon-f3.json
+│   │   ├── nikon-z6-iii.json
+│   │   ├── nikon-z9.json
+│   │   ├── red-komodo.json
+│   │   ├── sony-a7-iv.json
+│   │   ├── sony-a7r-v.json
+│   │   ├── sony-a7s-iii.json
+│   │   ├── sony-fx3.json
+│   │   ├── sony-fx6.json
+│   │   └── update-report.json
+│   ├── auto-scraper.js
+│   ├── automation-adapter.js
+│   ├── automation-routes.js
+│   ├── automation-scheduler.js
+│   ├── camera-vault.db
+│   ├── cameras
+│   │   ├── arri-alexa-mini-lf.jpg
+│   │   ├── blackmagic-ursa-mini-pro-12k.jpg
+│   │   ├── canon-ae-1.jpg
+│   │   ├── canon-eos-5d-mark-iv.jpg
+│   │   ├── canon-eos-r5.jpg
+│   │   ├── canon-eos-r6.jpg
+│   │   ├── canon-eos-r7.jpg
+│   │   ├── fujifilm-gfx-100-ii.jpg
+│   │   ├── fujifilm-x-h2s.jpg
+│   │   ├── fujifilm-x-t5.jpg
+│   │   ├── hasselblad-500c-m.jpg
+│   │   ├── leica-m6.jpg
+│   │   ├── nikon-d780.jpg
+│   │   ├── nikon-d850.jpg
+│   │   ├── nikon-f3.jpg
+│   │   ├── nikon-z6-iii.jpg
+│   │   ├── nikon-z9.jpg
+│   │   ├── red-komodo.jpg
+│   │   ├── sony-a7-iv.jpg
+│   │   ├── sony-a7r-v.jpg
+│   │   ├── sony-a7s-iii.jpg
+│   │   ├── sony-fx3.jpg
+│   │   ├── sony-fx6.jpg
+│   │   └── thumbs
+│   │       ├── arri-alexa-mini-lf-thumb.jpg
+│   │       ├── blackmagic-ursa-mini-pro-12k-thumb.jpg
+│   │       ├── canon-ae-1-thumb.jpg
+│   │       ├── canon-eos-5d-mark-iv-thumb.jpg
+│   │       ├── canon-eos-r5-thumb.jpg
+│   │       ├── canon-eos-r6-thumb.jpg
+│   │       ├── canon-eos-r7-thumb.jpg
+│   │       ├── fujifilm-gfx-100-ii-thumb.jpg
+│   │       ├── fujifilm-x-h2s-thumb.jpg
+│   │       ├── fujifilm-x-t5-thumb.jpg
+│   │       ├── hasselblad-500c-m-thumb.jpg
+│   │       ├── leica-m6-thumb.jpg
+│   │       ├── nikon-d780-thumb.jpg
+│   │       ├── nikon-d850-thumb.jpg
+│   │       ├── nikon-f3-thumb.jpg
+│   │       ├── nikon-z6-iii-thumb.jpg
+│   │       ├── nikon-z9-thumb.jpg
+│   │       ├── red-komodo-thumb.jpg
+│   │       ├── sony-a7-iv-thumb.jpg
+│   │       ├── sony-a7r-v-thumb.jpg
+│   │       ├── sony-a7s-iii-thumb.jpg
+│   │       ├── sony-fx3-thumb.jpg
+│   │       └── sony-fx6-thumb.jpg
+│   ├── check-image-status.js
+│   ├── cleanup.js
+│   ├── cmv-automation-fixed.js
+│   ├── cmv-automation-real-images.js
+│   ├── cmv-automation-with-images.js
+│   ├── cmv-automation.js
+│   ├── continuous-auto-scraper.js
+│   ├── debug-save.js
+│   ├── diagnose-db.js
+│   ├── disable-auto-automation.js
+│   ├── ecosystem.config.js
+│   ├── fix-all-database.js
+│   ├── fix-api-response.js
+│   ├── fix-column-names.js
+│   ├── fix-server-now.js
+│   ├── nano fix-api-response.js
+│   ├── quick-db-fix.js
+│   ├── real-image-scraper-fixed.js
+│   ├── real-image-scraper.js
+│   ├── server-minimal.js
+│   ├── server.js
+│   ├── start-automation.js
+│   ├── ultimate-schema-fix.js
+│   └── update-camera-images.js
+├── camera-utils.js
 ├── check-image-status.js
 ├── cleanup.js
-├── cmv-automation-fixed.js
-├── cmv-automation-real-images.js
-├── cmv-automation-with-images.js
-├── cmv-automation.js
 ├── cmv-automation.js.backup
 ├── complete-db-fix.sh
 ├── config
 │   └── server.config.js
-├── continuous-auto-scraper.js
 ├── data
 │   ├── attributions
 │   │   ├── arri-alexa-mini-lf.json
@@ -64,6 +161,7 @@ Generated: 8/4/2025, 7:17:13 PM
 ├── fix-column-names.js
 ├── fix-server-now.js
 ├── implement-cmv.sh
+├── monitor.js
 ├── nano fix-api-response.js
 ├── package-lock.json
 ├── package.json
@@ -136,17 +234,16 @@ Generated: 8/4/2025, 7:17:13 PM
 │   ├── search.html
 │   └── terms.html
 ├── quick-db-fix.js
-├── real-image-scraper-fixed.js
-├── real-image-scraper.js
 ├── restore-generate-structure.sh
 ├── scripts
 │   └── generate-structure.js
 ├── server-minimal.js
 ├── server.js
 ├── server.js.backup
-├── start-automation.js
 ├── start-cmv.sh
 ├── ultimate-schema-fix.js
+├── unified-camera-system-temp.js
+├── unified-camera-system.js
 ├── update-camera-images.js
 └── views
     └── pages
@@ -169,6 +266,525 @@ Generated: 8/4/2025, 7:17:13 PM
 ```
 
 ## File Details
+
+### /backup-20250804-121715
+
+#### auto-scraper.js
+- Size: 10.31 KB
+- Lines: 287
+- Modified: 8/4/2025
+- Functions: createSafeFilename
+
+#### automation-adapter.js
+- Size: 7.91 KB
+- Lines: 202
+- Modified: 8/4/2025
+
+#### automation-routes.js
+- Size: 6.61 KB
+- Lines: 223
+- Modified: 8/4/2025
+- Functions: getLastBackupTime
+
+#### automation-scheduler.js
+- Size: 2.21 KB
+- Lines: 83
+- Modified: 8/4/2025
+- Functions: log, runAutomation
+
+#### camera-vault.db
+- Size: 128.00 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### check-image-status.js
+- Size: 3.53 KB
+- Lines: 112
+- Modified: 8/4/2025
+- Functions: checkImageStatus
+
+#### cleanup.js
+- Size: 2.52 KB
+- Lines: 97
+- Modified: 8/4/2025
+- Functions: log, cleanup
+
+#### cmv-automation-fixed.js
+- Size: 12.13 KB
+- Lines: 337
+- Modified: 8/4/2025
+
+#### cmv-automation-real-images.js
+- Size: 15.98 KB
+- Lines: 438
+- Modified: 8/4/2025
+
+#### cmv-automation-with-images.js
+- Size: 24.72 KB
+- Lines: 829
+- Modified: 8/4/2025
+
+#### cmv-automation.js
+- Size: 10.34 KB
+- Lines: 305
+- Modified: 8/4/2025
+
+#### continuous-auto-scraper.js
+- Size: 1.15 KB
+- Lines: 48
+- Modified: 8/4/2025
+- Functions: runScraper
+
+#### debug-save.js
+- Size: 1.26 KB
+- Lines: 44
+- Modified: 8/4/2025
+
+#### diagnose-db.js
+- Size: 8.18 KB
+- Lines: 182
+- Modified: 8/4/2025
+
+#### disable-auto-automation.js
+- Size: 2.53 KB
+- Lines: 72
+- Modified: 8/4/2025
+
+#### ecosystem.config.js
+- Size: 902.00 B
+- Lines: 36
+- Modified: 8/4/2025
+
+#### fix-all-database.js
+- Size: 5.67 KB
+- Lines: 176
+- Modified: 8/4/2025
+- Functions: finishUp
+
+#### fix-api-response.js
+- Size: 453.00 B
+- Lines: 19
+- Modified: 8/4/2025
+
+#### fix-column-names.js
+- Size: 4.19 KB
+- Lines: 133
+- Modified: 8/4/2025
+
+#### fix-server-now.js
+- Size: 1.83 KB
+- Lines: 54
+- Modified: 8/4/2025
+
+#### nano fix-api-response.js
+- Size: 488.00 B
+- Lines: 20
+- Modified: 8/4/2025
+
+#### quick-db-fix.js
+- Size: 1.43 KB
+- Lines: 64
+- Modified: 8/4/2025
+
+#### real-image-scraper-fixed.js
+- Size: 18.79 KB
+- Lines: 513
+- Modified: 8/4/2025
+
+#### real-image-scraper.js
+- Size: 14.38 KB
+- Lines: 416
+- Modified: 8/4/2025
+
+#### server-minimal.js
+- Size: 9.52 KB
+- Lines: 331
+- Modified: 8/4/2025
+- Functions: isPortAvailable, findAvailablePort, startServer, dbAll, dbGet
+
+#### server.js
+- Size: 19.50 KB
+- Lines: 611
+- Modified: 8/4/2025
+- Functions: dbAll, dbGet, dbRun, findAvailablePort, isPortAvailable...
+
+#### start-automation.js
+- Size: 4.08 KB
+- Lines: 89
+- Modified: 8/4/2025
+
+#### ultimate-schema-fix.js
+- Size: 20.75 KB
+- Lines: 459
+- Modified: 8/4/2025
+- Functions: finishSetup
+
+#### update-camera-images.js
+- Size: 6.82 KB
+- Lines: 182
+- Modified: 8/4/2025
+- Functions: updateCameraImages, createBrandedPlaceholder
+
+### /backup-20250804-121715/attributions
+
+#### arri-alexa-mini-lf.json
+- Size: 222.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### attribution-report.json
+- Size: 3.52 KB
+- Lines: 126
+- Modified: 8/4/2025
+
+#### blackmagic-ursa-mini-pro-12k.json
+- Size: 232.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### canon-ae-1.json
+- Size: 275.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### canon-eos-5d-mark-iv.json
+- Size: 295.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### canon-eos-r5.json
+- Size: 279.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### canon-eos-r6.json
+- Size: 279.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### canon-eos-r7.json
+- Size: 279.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### fujifilm-gfx-100-ii.json
+- Size: 223.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### fujifilm-x-h2s.json
+- Size: 218.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### fujifilm-x-t5.json
+- Size: 217.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### hasselblad-500c-m.json
+- Size: 243.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### leica-m6.json
+- Size: 212.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### nikon-d780.json
+- Size: 275.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### nikon-d850.json
+- Size: 275.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### nikon-f3.json
+- Size: 271.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### nikon-z6-iii.json
+- Size: 279.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### nikon-z9.json
+- Size: 271.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### red-komodo.json
+- Size: 214.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### sony-a7-iv.json
+- Size: 273.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### sony-a7r-v.json
+- Size: 273.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### sony-a7s-iii.json
+- Size: 277.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### sony-fx3.json
+- Size: 269.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### sony-fx6.json
+- Size: 269.00 B
+- Lines: 9
+- Modified: 8/4/2025
+
+#### update-report.json
+- Size: 97.00 B
+- Lines: 6
+- Modified: 8/4/2025
+
+### /backup-20250804-121715/cameras
+
+#### arri-alexa-mini-lf.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### blackmagic-ursa-mini-pro-12k.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-ae-1.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-eos-5d-mark-iv.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-eos-r5.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-eos-r6.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-eos-r7.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### fujifilm-gfx-100-ii.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### fujifilm-x-h2s.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### fujifilm-x-t5.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### hasselblad-500c-m.jpg
+- Size: 14.34 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### leica-m6.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-d780.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-d850.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-f3.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-z6-iii.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-z9.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### red-komodo.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-a7-iv.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-a7r-v.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-a7s-iii.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-fx3.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-fx6.jpg
+- Size: 68.50 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+### /backup-20250804-121715/cameras/thumbs
+
+#### arri-alexa-mini-lf-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### blackmagic-ursa-mini-pro-12k-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-ae-1-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-eos-5d-mark-iv-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-eos-r5-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-eos-r6-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### canon-eos-r7-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### fujifilm-gfx-100-ii-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### fujifilm-x-h2s-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### fujifilm-x-t5-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### hasselblad-500c-m-thumb.jpg
+- Size: 1.69 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### leica-m6-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-d780-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-d850-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-f3-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-z6-iii-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### nikon-z9-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### red-komodo-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-a7-iv-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-a7r-v-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-a7s-iii-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-fx3-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### sony-fx6-thumb.jpg
+- Size: 2.60 KB
+- Lines: 0
+- Modified: 8/4/2025
 
 ### /config
 
@@ -195,7 +811,7 @@ Generated: 8/4/2025, 7:17:13 PM
 - Modified: 8/4/2025
 
 #### camera-vault.db
-- Size: 128.00 KB
+- Size: 148.00 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -676,20 +1292,9 @@ Generated: 8/4/2025, 7:17:13 PM
 
 ### /
 
-#### auto-scraper.js
-- Size: 10.31 KB
-- Lines: 287
-- Modified: 8/4/2025
-- Functions: createSafeFilename
-
 #### auto-scraper.js.backup
 - Size: 10.14 KB
 - Lines: 0
-- Modified: 8/4/2025
-
-#### automation-adapter.js
-- Size: 7.91 KB
-- Lines: 202
 - Modified: 8/4/2025
 
 #### automation-routes.js
@@ -698,11 +1303,11 @@ Generated: 8/4/2025, 7:17:13 PM
 - Modified: 8/4/2025
 - Functions: getLastBackupTime
 
-#### automation-scheduler.js
-- Size: 2.21 KB
-- Lines: 83
+#### camera-utils.js
+- Size: 341.00 B
+- Lines: 12
 - Modified: 8/4/2025
-- Functions: log, runAutomation
+- Functions: createSafeFilename
 
 #### check-image-status.js
 - Size: 3.53 KB
@@ -716,26 +1321,6 @@ Generated: 8/4/2025, 7:17:13 PM
 - Modified: 8/4/2025
 - Functions: log, cleanup
 
-#### cmv-automation-fixed.js
-- Size: 12.13 KB
-- Lines: 337
-- Modified: 8/4/2025
-
-#### cmv-automation-real-images.js
-- Size: 15.98 KB
-- Lines: 438
-- Modified: 8/4/2025
-
-#### cmv-automation-with-images.js
-- Size: 24.72 KB
-- Lines: 829
-- Modified: 8/4/2025
-
-#### cmv-automation.js
-- Size: 10.34 KB
-- Lines: 305
-- Modified: 8/4/2025
-
 #### cmv-automation.js.backup
 - Size: 16.44 KB
 - Lines: 0
@@ -745,12 +1330,6 @@ Generated: 8/4/2025, 7:17:13 PM
 - Size: 438.00 B
 - Lines: 0
 - Modified: 8/4/2025
-
-#### continuous-auto-scraper.js
-- Size: 1.15 KB
-- Lines: 48
-- Modified: 8/4/2025
-- Functions: runScraper
 
 #### debug-save.js
 - Size: 1.26 KB
@@ -798,14 +1377,20 @@ Generated: 8/4/2025, 7:17:13 PM
 - Lines: 0
 - Modified: 8/4/2025
 
+#### monitor.js
+- Size: 1.03 KB
+- Lines: 32
+- Modified: 8/4/2025
+- Functions: monitor
+
 #### nano fix-api-response.js
 - Size: 488.00 B
 - Lines: 20
 - Modified: 8/4/2025
 
 #### package-lock.json
-- Size: 304.66 KB
-- Lines: 8081
+- Size: 304.69 KB
+- Lines: 8082
 - Modified: 8/4/2025
 
 #### package.json
@@ -826,16 +1411,6 @@ Generated: 8/4/2025, 7:17:13 PM
 #### README.md
 - Size: 58.00 B
 - Lines: 3
-- Modified: 8/4/2025
-
-#### real-image-scraper-fixed.js
-- Size: 18.79 KB
-- Lines: 513
-- Modified: 8/4/2025
-
-#### real-image-scraper.js
-- Size: 14.38 KB
-- Lines: 416
 - Modified: 8/4/2025
 
 #### restore-generate-structure.sh
@@ -860,11 +1435,6 @@ Generated: 8/4/2025, 7:17:13 PM
 - Lines: 0
 - Modified: 8/4/2025
 
-#### start-automation.js
-- Size: 4.08 KB
-- Lines: 89
-- Modified: 8/4/2025
-
 #### start-cmv.sh
 - Size: 1.94 KB
 - Lines: 0
@@ -875,6 +1445,16 @@ Generated: 8/4/2025, 7:17:13 PM
 - Lines: 459
 - Modified: 8/4/2025
 - Functions: finishSetup
+
+#### unified-camera-system-temp.js
+- Size: 14.00 B
+- Lines: 1
+- Modified: 8/4/2025
+
+#### unified-camera-system.js
+- Size: 587.00 B
+- Lines: 16
+- Modified: 8/4/2025
 
 #### update-camera-images.js
 - Size: 6.82 KB

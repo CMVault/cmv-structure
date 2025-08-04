@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/4/2025, 7:17:13 PM
+Generated: 8/4/2025, 7:17:53 PM
 
 ## Project Overview
-- **Total Files**: 150
-- **Total Lines**: 23,503
+- **Total Files**: 243
+- **Total Lines**: 26,719
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -75,25 +75,25 @@ node scripts/generate-structure.js ../cmv-structure
 ```
 
 ## File Type Distribution
-- .jpg: 47 files
-- .js: 30 files
-- .json: 29 files
+- .jpg: 93 files
+- .json: 54 files
+- .js: 51 files
 - .ejs: 15 files
 - .html: 14 files
 - .backup: 5 files
+- .db: 4 files
 - .sh: 4 files
-- .db: 3 files
 - .md: 2 files
 - .css: 1 files
 
 ## Largest Files
-- package-lock.json: 304.66 KB
-- data/camera-vault.db: 128.00 KB
+- package-lock.json: 304.69 KB
+- data/camera-vault.db: 148.00 KB
+- backup-20250804-121715/camera-vault.db: 128.00 KB
 - data/camera-vault-backup-1754269121092.db: 112.00 KB
 - public/cameras.html.backup: 68.91 KB
-- public/images/camera-placeholder.jpg: 68.50 KB
-- public/images/cameras/arri-alexa-mini-lf.jpg: 68.50 KB
-- public/images/cameras/blackmagic-ursa-mini-pro-12k.jpg: 68.50 KB
-- public/images/cameras/canon-ae-1.jpg: 68.50 KB
-- public/images/cameras/canon-eos-5d-mark-iv.jpg: 68.50 KB
-- public/images/cameras/canon-eos-r5.jpg: 68.50 KB
+- backup-20250804-121715/cameras/arri-alexa-mini-lf.jpg: 68.50 KB
+- backup-20250804-121715/cameras/blackmagic-ursa-mini-pro-12k.jpg: 68.50 KB
+- backup-20250804-121715/cameras/canon-ae-1.jpg: 68.50 KB
+- backup-20250804-121715/cameras/canon-eos-5d-mark-iv.jpg: 68.50 KB
+- backup-20250804-121715/cameras/canon-eos-r5.jpg: 68.50 KB
