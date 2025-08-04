@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 5:50:27 PM
+Generated: 8/4/2025, 6:10:16 PM
 
 ## Directory Structure
 
@@ -128,6 +128,7 @@ Generated: 8/4/2025, 5:50:27 PM
 │   ├── search.html
 │   └── terms.html
 ├── quick-db-fix.js
+├── real-image-scraper-fixed.js
 ├── real-image-scraper.js
 ├── restore-generate-structure.sh
 ├── scripts
@@ -753,12 +754,12 @@ Generated: 8/4/2025, 5:50:27 PM
 - Modified: 8/4/2025
 
 #### package-lock.json
-- Size: 304.64 KB
-- Lines: 8080
+- Size: 304.66 KB
+- Lines: 8081
 - Modified: 8/4/2025
 
 #### package.json
-- Size: 836.00 B
+- Size: 837.00 B
 - Lines: 38
 - Modified: 8/4/2025
 
@@ -775,6 +776,11 @@ Generated: 8/4/2025, 5:50:27 PM
 #### README.md
 - Size: 58.00 B
 - Lines: 3
+- Modified: 8/4/2025
+
+#### real-image-scraper-fixed.js
+- Size: 18.79 KB
+- Lines: 513
 - Modified: 8/4/2025
 
 #### real-image-scraper.js
