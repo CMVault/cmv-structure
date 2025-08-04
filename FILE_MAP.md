@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 11:32:34 PM
+Generated: 8/4/2025, 11:36:14 PM
 
 ## Directory Structure
 
@@ -125,6 +125,7 @@ Generated: 8/4/2025, 11:32:34 PM
 ├── camera-utils.js
 ├── check-database-status.js
 ├── check-image-status.js
+├── cleanup-and-migrate.js
 ├── cleanup.js
 ├── cmv-automation.js.backup
 ├── complete-db-fix.sh
@@ -1451,6 +1452,11 @@ Generated: 8/4/2025, 11:32:34 PM
 - Lines: 112
 - Modified: 8/4/2025
 - Functions: checkImageStatus
+
+#### cleanup-and-migrate.js
+- Size: 26.32 KB
+- Lines: 691
+- Modified: 8/4/2025
 
 #### cleanup.js
 - Size: 2.52 KB
