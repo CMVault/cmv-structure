@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 11:25:33 PM
+Generated: 8/4/2025, 11:31:40 PM
 
 ## Directory Structure
 
@@ -118,6 +118,9 @@ Generated: 8/4/2025, 11:25:33 PM
 ├── backup-fix-1754338654307
 │   ├── camera-vault.db
 │   └── unified-camera-system.js
+├── backups
+│   ├── pre-fix-2025-08-04T23-25-29-439Z.db
+│   └── pre-migration-2025-08-04T23-26-22-873Z.db
 ├── camera-utils.js
 ├── check-database-status.js
 ├── check-image-status.js
@@ -837,6 +840,18 @@ Generated: 8/4/2025, 11:25:33 PM
 #### unified-camera-system.js
 - Size: 20.08 KB
 - Lines: 547
+- Modified: 8/4/2025
+
+### /backups
+
+#### pre-fix-2025-08-04T23-25-29-439Z.db
+- Size: 148.00 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### pre-migration-2025-08-04T23-26-22-873Z.db
+- Size: 148.00 KB
+- Lines: 0
 - Modified: 8/4/2025
 
 ### /config

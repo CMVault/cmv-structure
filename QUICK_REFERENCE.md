@@ -1,8 +1,8 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/4/2025, 11:25:33 PM
+Generated: 8/4/2025, 11:31:41 PM
 
 ## Project Overview
-- **Total Files**: 283
+- **Total Files**: 285
 - **Total Lines**: 31,936
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
@@ -81,19 +81,19 @@ node scripts/generate-structure.js ../cmv-structure
 - .ejs: 15 files
 - .html: 14 files
 - .sh: 8 files
+- .db: 7 files
 - .backup: 5 files
-- .db: 5 files
 - .md: 2 files
 - .backup-before-fix: 2 files
 
 ## Largest Files
 - package-lock.json: 304.69 KB
 - backup-fix-1754338654307/camera-vault.db: 148.00 KB
+- backups/pre-fix-2025-08-04T23-25-29-439Z.db: 148.00 KB
+- backups/pre-migration-2025-08-04T23-26-22-873Z.db: 148.00 KB
 - data/camera-vault.db: 148.00 KB
 - data/camera-vault.db.backup-before-fix: 148.00 KB
 - backup-20250804-121715/camera-vault.db: 128.00 KB
 - data/camera-vault-backup-1754269121092.db: 112.00 KB
 - public/cameras.html.backup: 68.91 KB
 - backup-20250804-121715/cameras/arri-alexa-mini-lf.jpg: 68.50 KB
-- backup-20250804-121715/cameras/blackmagic-ursa-mini-pro-12k.jpg: 68.50 KB
-- backup-20250804-121715/cameras/canon-ae-1.jpg: 68.50 KB
