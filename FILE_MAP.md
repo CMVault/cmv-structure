@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 9:32:34 PM
+Generated: 8/4/2025, 9:35:59 PM
 
 ## Directory Structure
 
@@ -8,6 +8,7 @@ Generated: 8/4/2025, 9:32:34 PM
 ├── README.md
 ├── activate-discovery.sh
 ├── auto-scraper.js.backup
+├── automated-cmv-fix.js
 ├── automation-routes.js
 ├── backup-20250804-121715
 │   ├── attributions
@@ -1339,6 +1340,12 @@ Generated: 8/4/2025, 9:32:34 PM
 - Size: 10.14 KB
 - Lines: 0
 - Modified: 8/4/2025
+
+#### automated-cmv-fix.js
+- Size: 4.66 KB
+- Lines: 133
+- Modified: 8/4/2025
+- Functions: scheduleDiscovery, scheduleBackup, cleanOldBackups
 
 #### automation-routes.js
 - Size: 6.61 KB
