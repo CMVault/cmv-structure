@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/4/2025, 6:24:06 PM
+Generated: 8/4/2025, 6:30:51 PM
 
 ## Project Overview
 - **Total Files**: 147
-- **Total Lines**: 23,837
+- **Total Lines**: 23,839
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -92,8 +92,8 @@ node scripts/generate-structure.js ../cmv-structure
 - data/camera-vault-backup-1754269121092.db: 112.00 KB
 - public/cameras.html.backup: 68.91 KB
 - public/images/camera-placeholder.jpg: 68.50 KB
-- public/images/cameras/hasselblad-500c-m.jpg: 68.50 KB
 - data/camera-vault-backup-1754268515576.db: 68.00 KB
 - public/search.html: 32.26 KB
 - public/camera-detail.html: 31.09 KB
 - public/productions.html: 25.91 KB
+- cmv-automation-with-images.js: 24.72 KB

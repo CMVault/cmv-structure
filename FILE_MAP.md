@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 6:24:06 PM
+Generated: 8/4/2025, 6:30:51 PM
 
 ## Directory Structure
 
@@ -264,8 +264,8 @@ Generated: 8/4/2025, 6:24:06 PM
 - Modified: 8/4/2025
 
 #### hasselblad-500c-m.json
-- Size: 199.00 B
-- Lines: 7
+- Size: 243.00 B
+- Lines: 9
 - Modified: 8/4/2025
 
 #### leica-m6.json
@@ -490,7 +490,7 @@ Generated: 8/4/2025, 6:24:06 PM
 - Modified: 8/4/2025
 
 #### hasselblad-500c-m.jpg
-- Size: 68.50 KB
+- Size: 14.34 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -607,7 +607,7 @@ Generated: 8/4/2025, 6:24:06 PM
 - Modified: 8/4/2025
 
 #### hasselblad-500c-m-thumb.jpg
-- Size: 2.36 KB
+- Size: 1.69 KB
 - Lines: 0
 - Modified: 8/4/2025
 
