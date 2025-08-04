@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 8:45:55 PM
+Generated: 8/4/2025, 8:51:13 PM
 
 ## Directory Structure
 
@@ -253,6 +253,8 @@ Generated: 8/4/2025, 8:45:55 PM
 ├── start-cmv.sh
 ├── ultimate-schema-fix.js
 ├── unified-camera-system-temp.js
+├── unified-camera-system.backup-1754340358242.js
+├── unified-camera-system.broken.js
 ├── unified-camera-system.js
 ├── update-camera-images.js
 └── views
@@ -1508,6 +1510,16 @@ Generated: 8/4/2025, 8:45:55 PM
 #### unified-camera-system-temp.js
 - Size: 14.00 B
 - Lines: 1
+- Modified: 8/4/2025
+
+#### unified-camera-system.backup-1754340358242.js
+- Size: 20.32 KB
+- Lines: 556
+- Modified: 8/4/2025
+
+#### unified-camera-system.broken.js
+- Size: 20.32 KB
+- Lines: 556
 - Modified: 8/4/2025
 
 #### unified-camera-system.js
