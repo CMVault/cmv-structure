@@ -295,7 +295,7 @@ Until this is fixed, the system will continue finding 0 cameras forever.
 ```
 
 ## 🏗️ Architecture Status:
-- Total Files: 286
+- Total Files: 287
 - Total Directories: 17
 - Total Lines of Code: 32,582
 - Main File Types: .jpg (99), .js (73), .json (55), .ejs (15), .html (14)

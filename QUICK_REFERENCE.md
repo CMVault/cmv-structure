@@ -1,8 +1,8 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/4/2025, 11:32:09 PM
+Generated: 8/4/2025, 11:32:34 PM
 
 ## Project Overview
-- **Total Files**: 286
+- **Total Files**: 287
 - **Total Lines**: 32,582
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
@@ -81,7 +81,7 @@ node scripts/generate-structure.js ../cmv-structure
 - .ejs: 15 files
 - .html: 14 files
 - .sh: 8 files
-- .db: 7 files
+- .db: 8 files
 - .backup: 5 files
 - .md: 2 files
 - .backup-before-fix: 2 files
@@ -91,9 +91,9 @@ node scripts/generate-structure.js ../cmv-structure
 - backup-fix-1754338654307/camera-vault.db: 148.00 KB
 - backups/pre-fix-2025-08-04T23-25-29-439Z.db: 148.00 KB
 - backups/pre-migration-2025-08-04T23-26-22-873Z.db: 148.00 KB
+- backups/pre-migration-2025-08-04T23-32-06-176Z.db: 148.00 KB
 - data/camera-vault.db: 148.00 KB
 - data/camera-vault.db.backup-before-fix: 148.00 KB
 - backup-20250804-121715/camera-vault.db: 128.00 KB
 - data/camera-vault-backup-1754269121092.db: 112.00 KB
 - public/cameras.html.backup: 68.91 KB
-- backup-20250804-121715/cameras/arri-alexa-mini-lf.jpg: 68.50 KB
