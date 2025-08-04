@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 3:29:29 PM
+Generated: 8/4/2025, 3:37:12 PM
 
 ## Directory Structure
 
@@ -9,6 +9,7 @@ Generated: 8/4/2025, 3:29:29 PM
 ├── auto-scraper.js
 ├── automation-adapter.js
 ├── automation-routes.js
+├── automation-scheduler.js
 ├── cleanup.js
 ├── cmv-automation-fixed.js
 ├── cmv-automation-with-images.js
@@ -49,6 +50,7 @@ Generated: 8/4/2025, 3:29:29 PM
 ├── debug-save.js
 ├── diagnose-db.js
 ├── disable-auto-automation.js
+├── ecosystem.config.js
 ├── fix-all-database.js
 ├── fix-column-names.js
 ├── fix-server-now.js
@@ -125,9 +127,11 @@ Generated: 8/4/2025, 3:29:29 PM
 ├── restore-generate-structure.sh
 ├── scripts
 │   └── generate-structure.js
+├── server-minimal.js
 ├── server.js
 ├── server.js.backup
 ├── start-automation.js
+├── start-cmv.sh
 ├── ultimate-schema-fix.js
 └── views
     └── pages
@@ -649,6 +653,12 @@ Generated: 8/4/2025, 3:29:29 PM
 - Modified: 8/4/2025
 - Functions: getLastBackupTime
 
+#### automation-scheduler.js
+- Size: 2.21 KB
+- Lines: 83
+- Modified: 8/4/2025
+- Functions: log, runAutomation
+
 #### cleanup.js
 - Size: 2.52 KB
 - Lines: 97
@@ -694,6 +704,11 @@ Generated: 8/4/2025, 3:29:29 PM
 #### disable-auto-automation.js
 - Size: 2.53 KB
 - Lines: 72
+- Modified: 8/4/2025
+
+#### ecosystem.config.js
+- Size: 902.00 B
+- Lines: 36
 - Modified: 8/4/2025
 
 #### fix-all-database.js
@@ -742,6 +757,12 @@ Generated: 8/4/2025, 3:29:29 PM
 - Lines: 0
 - Modified: 8/4/2025
 
+#### server-minimal.js
+- Size: 9.52 KB
+- Lines: 331
+- Modified: 8/4/2025
+- Functions: isPortAvailable, findAvailablePort, startServer, dbAll, dbGet
+
 #### server.js
 - Size: 19.50 KB
 - Lines: 611
@@ -756,6 +777,11 @@ Generated: 8/4/2025, 3:29:29 PM
 #### start-automation.js
 - Size: 4.08 KB
 - Lines: 89
+- Modified: 8/4/2025
+
+#### start-cmv.sh
+- Size: 1.94 KB
+- Lines: 0
 - Modified: 8/4/2025
 
 #### ultimate-schema-fix.js
