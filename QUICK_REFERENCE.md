@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/4/2025, 12:43:45 AM
+Generated: 8/4/2025, 12:50:08 AM
 
 ## Project Overview
-- **Total Files**: 120
-- **Total Lines**: 19,830
+- **Total Files**: 123
+- **Total Lines**: 20,491
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -77,17 +77,18 @@ node scripts/generate-structure.js ../cmv-structure
 ## File Type Distribution
 - .jpg: 45 files
 - .json: 25 files
-- .js: 15 files
+- .js: 17 files
 - .ejs: 15 files
 - .html: 14 files
 - .md: 2 files
-- .db: 1 files
+- .db: 2 files
 - .backup: 1 files
 - .css: 1 files
 - .sh: 1 files
 
 ## Largest Files
 - package-lock.json: 219.03 KB
+- data/camera-vault.db: 112.00 KB
 - public/cameras.html: 68.91 KB
 - public/images/camera-placeholder.jpg: 68.50 KB
 - public/images/cameras/arri-alexa-mini-lf.jpg: 68.50 KB
@@ -96,4 +97,3 @@ node scripts/generate-structure.js ../cmv-structure
 - public/images/cameras/canon-eos-5d-mark-iv.jpg: 68.50 KB
 - public/images/cameras/canon-eos-r6.jpg: 68.50 KB
 - public/images/cameras/canon-eos-r7.jpg: 68.50 KB
-- public/images/cameras/fujifilm-gfx-100-ii.jpg: 68.50 KB

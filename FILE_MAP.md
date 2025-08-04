@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/4/2025, 12:43:45 AM
+Generated: 8/4/2025, 12:50:08 AM
 
 ## Directory Structure
 
@@ -7,6 +7,7 @@ Generated: 8/4/2025, 12:43:45 AM
 ├── PROJECT_STATUS.md
 ├── README.md
 ├── auto-scraper.js
+├── automation-adapter.js
 ├── automation-routes.js
 ├── cleanup.js
 ├── cmv-automation-with-images.js
@@ -38,6 +39,7 @@ Generated: 8/4/2025, 12:43:45 AM
 │   │   ├── sony-fx3.json
 │   │   └── sony-fx6.json
 │   ├── automation-report.json
+│   ├── camera-vault-backup-1754268515576.db
 │   ├── camera-vault.db
 │   ├── camera-vault.db.backup
 │   └── cameras.json
@@ -118,6 +120,7 @@ Generated: 8/4/2025, 12:43:45 AM
 │   └── generate-structure.js
 ├── server.js
 ├── start-automation.js
+├── ultimate-schema-fix.js
 └── views
     └── pages
         ├── 404.ejs
@@ -154,8 +157,13 @@ Generated: 8/4/2025, 12:43:45 AM
 - Lines: 117
 - Modified: 8/4/2025
 
-#### camera-vault.db
+#### camera-vault-backup-1754268515576.db
 - Size: 68.00 KB
+- Lines: 0
+- Modified: 8/4/2025
+
+#### camera-vault.db
+- Size: 112.00 KB
 - Lines: 0
 - Modified: 8/4/2025
 
@@ -607,6 +615,11 @@ Generated: 8/4/2025, 12:43:45 AM
 - Modified: 8/4/2025
 - Functions: main
 
+#### automation-adapter.js
+- Size: 7.91 KB
+- Lines: 202
+- Modified: 8/4/2025
+
 #### automation-routes.js
 - Size: 6.61 KB
 - Lines: 223
@@ -696,6 +709,12 @@ Generated: 8/4/2025, 12:43:45 AM
 - Size: 4.08 KB
 - Lines: 89
 - Modified: 8/4/2025
+
+#### ultimate-schema-fix.js
+- Size: 20.75 KB
+- Lines: 459
+- Modified: 8/4/2025
+- Functions: finishSetup
 
 ### /scripts
 
