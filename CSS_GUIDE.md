@@ -1,11 +1,11 @@
 # CSS GUIDE - Camera Manual Vault
-Generated: 8/10/2025, 9:40:47 PM
+Generated: 8/10/2025, 9:42:03 PM
 
 ## Main CSS File Analysis
 
 ### Statistics
 - Total Variables: 28
-- Total Classes: 47
+- Total Classes: 31
 - Total IDs: 0
 
 ### CSS Variables
@@ -31,25 +31,11 @@ Generated: 8/10/2025, 9:40:47 PM
 - --spacing-xl: 2rem
 
 ### Section Map
-- **VARIABLES**: Lines 8-55
-- **BASE STYLES**: Lines 57-76
-- **TYPOGRAPHY**: Lines 78-110
-- **LAYOUT**: Lines 112-136
-- **HEADER**: Lines 138-193
-- **BUTTONS**: Lines 195-233
-- **CARDS**: Lines 235-270
-- **FORMS**: Lines 272-303
-- **FOOTER**: Lines 305-344
-- **UTILITIES**: Lines 346-391
-- **RESPONSIVE**: Lines 393-418
+No sections found
 
 ### Common Classes
 - .container
 - .page-content
-- .grid
-- .grid-2
-- .grid-3
-- .grid-4
 - .site-header
 - .header-content
 - .logo
@@ -58,22 +44,26 @@ Generated: 8/10/2025, 9:40:47 PM
 - .active
 - .btn
 - .btn-primary
-- .btn-secondary
 - .card
-- .card-image
-- .card-title
-- .card-meta
-- .form-group
-- .form-label
-- .form-textarea
 - .site-footer
 - .footer-content
 - .text-center
-- .text-right
 - .text-muted
-- .text-small
-- .text-large
-- .mt-0
+- .mt-1
+- .mt-2
+- .mt-3
+- .mt-4
+- .mt-5
+- .loading
+- .error
+- .success
+- .form-textarea
+- .grid
+- .grid-2
+- .grid-3
+- .grid-4
+- .header-content
+- .main-nav
 
 ## Quick Style Reference
 

@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/10/2025, 9:40:47 PM
+Generated: 8/10/2025, 9:42:03 PM
 
 ## Project Overview
 - **Total Files**: 333
-- **Total Lines**: 34,703
+- **Total Lines**: 34,531
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -31,7 +31,7 @@ Generated: 8/10/2025, 9:40:47 PM
 - **Package Config**: /package.json
 
 ### Styling
-- **Main CSS**: /public/css/main.css (429 lines)
+- **Main CSS**: /public/css/main.css (257 lines)
 - **CSS Variables**: 28 defined
 
 ### API Endpoints Summary

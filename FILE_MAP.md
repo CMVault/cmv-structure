@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 9:40:47 PM
+Generated: 8/10/2025, 9:42:03 PM
 
 ## Directory Structure
 
@@ -1629,8 +1629,8 @@ Generated: 8/10/2025, 9:40:47 PM
 ### /public/css
 
 #### main.css
-- Size: 10.20 KB
-- Lines: 429
+- Size: 5.55 KB
+- Lines: 257
 - Modified: 8/10/2025
 
 ### /public/images
