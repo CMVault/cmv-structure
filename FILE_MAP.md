@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 8:24:17 PM
+Generated: 8/10/2025, 8:26:39 PM
 
 ## Directory Structure
 
@@ -204,10 +204,14 @@ Generated: 8/10/2025, 8:24:17 PM
 │   ├── automation-report.json
 │   ├── camera-vault-backup-1754268515576.db
 │   ├── camera-vault-backup-1754269121092.db
+│   ├── camera-vault-old.db
 │   ├── camera-vault.db
 │   ├── camera-vault.db.backup
 │   ├── camera-vault.db.backup-before-fix
-│   └── cameras.json
+│   ├── cameras-export-20250810.json
+│   ├── cameras.json
+│   └── db-backups
+│       └── camera-vault-20250810-132604.db
 ├── ecosystem.config.js
 ├── fixed-migrate-to-comprehensive.js
 ├── full-backup-before-cleanup
@@ -1180,8 +1184,13 @@ Generated: 8/10/2025, 8:24:17 PM
 - Lines: 0
 - Modified: 8/10/2025
 
-#### camera-vault.db
+#### camera-vault-old.db
 - Size: 148.00 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### camera-vault.db
+- Size: 36.00 KB
 - Lines: 0
 - Modified: 8/10/2025
 
@@ -1193,6 +1202,11 @@ Generated: 8/10/2025, 8:24:17 PM
 #### camera-vault.db.backup-before-fix
 - Size: 148.00 KB
 - Lines: 0
+- Modified: 8/10/2025
+
+#### cameras-export-20250810.json
+- Size: 3.06 KB
+- Lines: 7
 - Modified: 8/10/2025
 
 #### cameras.json
@@ -1325,6 +1339,13 @@ Generated: 8/10/2025, 8:24:17 PM
 #### update-report.json
 - Size: 97.00 B
 - Lines: 6
+- Modified: 8/10/2025
+
+### /data/db-backups
+
+#### camera-vault-20250810-132604.db
+- Size: 148.00 KB
+- Lines: 0
 - Modified: 8/10/2025
 
 ### /full-backup-before-cleanup/data
