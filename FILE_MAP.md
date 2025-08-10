@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 8:21:14 PM
+Generated: 8/10/2025, 8:22:15 PM
 
 ## Directory Structure
 
@@ -284,6 +284,7 @@ Generated: 8/10/2025, 8:21:14 PM
 ├── simple-migrate.js
 ├── smart-fix-unified-system.js
 ├── start-cmv.sh
+├── start-fresh-cmv.sh
 ├── ultimate-schema-fix.js
 ├── undo-and-fix.sh
 ├── unified-camera-system-temp.js
@@ -1703,6 +1704,11 @@ Generated: 8/10/2025, 8:21:14 PM
 
 #### start-cmv.sh
 - Size: 1.94 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### start-fresh-cmv.sh
+- Size: 5.95 KB
 - Lines: 0
 - Modified: 8/10/2025
 
