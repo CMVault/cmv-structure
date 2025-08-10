@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 8:26:39 PM
+Generated: 8/10/2025, 8:32:31 PM
 
 ## Directory Structure
 
@@ -213,6 +213,7 @@ Generated: 8/10/2025, 8:26:39 PM
 │   └── db-backups
 │       └── camera-vault-20250810-132604.db
 ├── ecosystem.config.js
+├── fix-schema-mismatch.js
 ├── fixed-migrate-to-comprehensive.js
 ├── full-backup-before-cleanup
 │   └── data
@@ -1914,6 +1915,12 @@ Generated: 8/10/2025, 8:26:39 PM
 - Size: 902.00 B
 - Lines: 36
 - Modified: 8/10/2025
+
+#### fix-schema-mismatch.js
+- Size: 6.17 KB
+- Lines: 159
+- Modified: 8/10/2025
+- Functions: testQueries, fixServerFile
 
 #### fixed-migrate-to-comprehensive.js
 - Size: 24.62 KB
