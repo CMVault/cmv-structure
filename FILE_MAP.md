@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 9:40:13 PM
+Generated: 8/10/2025, 9:40:47 PM
 
 ## Directory Structure
 
@@ -212,9 +212,11 @@ Generated: 8/10/2025, 9:40:13 PM
 │   ├── cameras-export-20250810.json
 │   ├── cameras.json
 │   └── db-backups
-│       └── camera-vault-20250810-132604.db
+│       ├── camera-vault-20250810-132604.db
+│       └── camera-vault-20250810-144023.db
 ├── direct-fix.sh
 ├── ecosystem.config.js
+├── errors.txt
 ├── fix-cmv-system.sh
 ├── fix-schema-mismatch.js
 ├── fixed-migrate-to-comprehensive.js
@@ -1355,6 +1357,11 @@ Generated: 8/10/2025, 9:40:13 PM
 - Lines: 0
 - Modified: 8/10/2025
 
+#### camera-vault-20250810-144023.db
+- Size: 36.00 KB
+- Lines: 0
+- Modified: 8/10/2025
+
 ### /full-backup-before-cleanup/data
 
 #### automation-report.json
@@ -1936,6 +1943,11 @@ Generated: 8/10/2025, 9:40:13 PM
 #### ecosystem.config.js
 - Size: 902.00 B
 - Lines: 36
+- Modified: 8/10/2025
+
+#### errors.txt
+- Size: 118.00 B
+- Lines: 2
 - Modified: 8/10/2025
 
 #### fix-cmv-system.sh
