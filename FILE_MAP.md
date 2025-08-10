@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 9:12:57 PM
+Generated: 8/10/2025, 9:40:13 PM
 
 ## Directory Structure
 
@@ -215,6 +215,7 @@ Generated: 8/10/2025, 9:12:57 PM
 │       └── camera-vault-20250810-132604.db
 ├── direct-fix.sh
 ├── ecosystem.config.js
+├── fix-cmv-system.sh
 ├── fix-schema-mismatch.js
 ├── fixed-migrate-to-comprehensive.js
 ├── full-backup-before-cleanup
@@ -1555,8 +1556,8 @@ Generated: 8/10/2025, 9:12:57 PM
 - Modified: 8/10/2025
 
 #### cameras.html
-- Size: 7.18 KB
-- Lines: 212
+- Size: 28.08 KB
+- Lines: 784
 - Modified: 8/10/2025
 - Page Title: Camera Database - Camera Manual Vault
 
@@ -1935,6 +1936,11 @@ Generated: 8/10/2025, 9:12:57 PM
 #### ecosystem.config.js
 - Size: 902.00 B
 - Lines: 36
+- Modified: 8/10/2025
+
+#### fix-cmv-system.sh
+- Size: 2.36 KB
+- Lines: 0
 - Modified: 8/10/2025
 
 #### fix-schema-mismatch.js
