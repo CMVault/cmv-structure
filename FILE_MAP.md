@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 8:35:22 PM
+Generated: 8/10/2025, 8:35:45 PM
 
 ## Directory Structure
 
@@ -1966,7 +1966,7 @@ Generated: 8/10/2025, 8:35:22 PM
 - Functions: isPortAvailable, findAvailablePort, startServer, dbAll, dbGet
 
 #### server.js
-- Size: 19.50 KB
+- Size: 19.48 KB
 - Lines: 611
 - Modified: 8/10/2025
 - Functions: dbAll, dbGet, dbRun, findAvailablePort, isPortAvailable...
