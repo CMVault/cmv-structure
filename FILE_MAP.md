@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 9:43:24 PM
+Generated: 8/10/2025, 9:44:21 PM
 
 ## Directory Structure
 
@@ -259,6 +259,7 @@ Generated: 8/10/2025, 9:43:24 PM
 ├── package-lock.json
 ├── package.json
 ├── public
+│   ├── 404.html
 │   ├── attribution.html
 │   ├── automation-monitor.html
 │   ├── camera-blog.html
@@ -1528,6 +1529,12 @@ Generated: 8/10/2025, 9:43:24 PM
 - Modified: 8/10/2025
 
 ### /public
+
+#### 404.html
+- Size: 1.02 KB
+- Lines: 34
+- Modified: 8/10/2025
+- Page Title: 404 - Page Not Found
 
 #### attribution.html
 - Size: 13.22 KB

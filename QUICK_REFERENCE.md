@@ -1,15 +1,16 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/10/2025, 9:43:24 PM
+Generated: 8/10/2025, 9:44:22 PM
 
 ## Project Overview
-- **Total Files**: 334
-- **Total Lines**: 34,053
+- **Total Files**: 335
+- **Total Lines**: 34,087
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
 ## Key Files & Locations
 
 ### Frontend Pages
+- **404.html**: /public/404.html
 - **attribution.html**: /public/attribution.html
 - **automation-monitor.html**: /public/automation-monitor.html
 - **camera-blog.html**: /public/camera-blog.html
@@ -61,9 +62,9 @@ node scripts/generate-structure.js ../cmv-structure
 - .jpg: 99 files
 - .json: 82 files
 - .js: 77 files
+- .html: 15 files
 - .ejs: 15 files
 - .db: 14 files
-- .html: 14 files
 - .sh: 12 files
 - .backup: 6 files
 - .backup-before-fix: 3 files
