@@ -1,135 +1,177 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 8:23:19 PM
+Generated: 8/10/2025, 8:24:17 PM
 
 ## Directory Structure
 
 ```
 ├── PROJECT_STATUS.md
 ├── README.md
-├── activate-discovery.sh
-├── add-all-missing-functions.js
-├── auto-scraper.js.backup
-├── automated-cmv-fix.js
+├── archive
+│   ├── old-backups
+│   │   ├── auto-scraper.js.backup
+│   │   ├── backup-20250804-121715
+│   │   │   ├── attributions
+│   │   │   │   ├── arri-alexa-mini-lf.json
+│   │   │   │   ├── attribution-report.json
+│   │   │   │   ├── blackmagic-ursa-mini-pro-12k.json
+│   │   │   │   ├── canon-ae-1.json
+│   │   │   │   ├── canon-eos-5d-mark-iv.json
+│   │   │   │   ├── canon-eos-r5.json
+│   │   │   │   ├── canon-eos-r6.json
+│   │   │   │   ├── canon-eos-r7.json
+│   │   │   │   ├── fujifilm-gfx-100-ii.json
+│   │   │   │   ├── fujifilm-x-h2s.json
+│   │   │   │   ├── fujifilm-x-t5.json
+│   │   │   │   ├── hasselblad-500c-m.json
+│   │   │   │   ├── leica-m6.json
+│   │   │   │   ├── nikon-d780.json
+│   │   │   │   ├── nikon-d850.json
+│   │   │   │   ├── nikon-f3.json
+│   │   │   │   ├── nikon-z6-iii.json
+│   │   │   │   ├── nikon-z9.json
+│   │   │   │   ├── red-komodo.json
+│   │   │   │   ├── sony-a7-iv.json
+│   │   │   │   ├── sony-a7r-v.json
+│   │   │   │   ├── sony-a7s-iii.json
+│   │   │   │   ├── sony-fx3.json
+│   │   │   │   ├── sony-fx6.json
+│   │   │   │   └── update-report.json
+│   │   │   ├── auto-scraper.js
+│   │   │   ├── automation-adapter.js
+│   │   │   ├── automation-routes.js
+│   │   │   ├── automation-scheduler.js
+│   │   │   ├── camera-vault.db
+│   │   │   ├── cameras
+│   │   │   │   ├── arri-alexa-mini-lf.jpg
+│   │   │   │   ├── blackmagic-ursa-mini-pro-12k.jpg
+│   │   │   │   ├── canon-ae-1.jpg
+│   │   │   │   ├── canon-eos-5d-mark-iv.jpg
+│   │   │   │   ├── canon-eos-r5.jpg
+│   │   │   │   ├── canon-eos-r6.jpg
+│   │   │   │   ├── canon-eos-r7.jpg
+│   │   │   │   ├── fujifilm-gfx-100-ii.jpg
+│   │   │   │   ├── fujifilm-x-h2s.jpg
+│   │   │   │   ├── fujifilm-x-t5.jpg
+│   │   │   │   ├── hasselblad-500c-m.jpg
+│   │   │   │   ├── leica-m6.jpg
+│   │   │   │   ├── nikon-d780.jpg
+│   │   │   │   ├── nikon-d850.jpg
+│   │   │   │   ├── nikon-f3.jpg
+│   │   │   │   ├── nikon-z6-iii.jpg
+│   │   │   │   ├── nikon-z9.jpg
+│   │   │   │   ├── red-komodo.jpg
+│   │   │   │   ├── sony-a7-iv.jpg
+│   │   │   │   ├── sony-a7r-v.jpg
+│   │   │   │   ├── sony-a7s-iii.jpg
+│   │   │   │   ├── sony-fx3.jpg
+│   │   │   │   ├── sony-fx6.jpg
+│   │   │   │   └── thumbs
+│   │   │   │       ├── arri-alexa-mini-lf-thumb.jpg
+│   │   │   │       ├── blackmagic-ursa-mini-pro-12k-thumb.jpg
+│   │   │   │       ├── canon-ae-1-thumb.jpg
+│   │   │   │       ├── canon-eos-5d-mark-iv-thumb.jpg
+│   │   │   │       ├── canon-eos-r5-thumb.jpg
+│   │   │   │       ├── canon-eos-r6-thumb.jpg
+│   │   │   │       ├── canon-eos-r7-thumb.jpg
+│   │   │   │       ├── fujifilm-gfx-100-ii-thumb.jpg
+│   │   │   │       ├── fujifilm-x-h2s-thumb.jpg
+│   │   │   │       ├── fujifilm-x-t5-thumb.jpg
+│   │   │   │       ├── hasselblad-500c-m-thumb.jpg
+│   │   │   │       ├── leica-m6-thumb.jpg
+│   │   │   │       ├── nikon-d780-thumb.jpg
+│   │   │   │       ├── nikon-d850-thumb.jpg
+│   │   │   │       ├── nikon-f3-thumb.jpg
+│   │   │   │       ├── nikon-z6-iii-thumb.jpg
+│   │   │   │       ├── nikon-z9-thumb.jpg
+│   │   │   │       ├── red-komodo-thumb.jpg
+│   │   │   │       ├── sony-a7-iv-thumb.jpg
+│   │   │   │       ├── sony-a7r-v-thumb.jpg
+│   │   │   │       ├── sony-a7s-iii-thumb.jpg
+│   │   │   │       ├── sony-fx3-thumb.jpg
+│   │   │   │       └── sony-fx6-thumb.jpg
+│   │   │   ├── check-image-status.js
+│   │   │   ├── cleanup.js
+│   │   │   ├── cmv-automation-fixed.js
+│   │   │   ├── cmv-automation-real-images.js
+│   │   │   ├── cmv-automation-with-images.js
+│   │   │   ├── cmv-automation.js
+│   │   │   ├── continuous-auto-scraper.js
+│   │   │   ├── debug-save.js
+│   │   │   ├── diagnose-db.js
+│   │   │   ├── disable-auto-automation.js
+│   │   │   ├── ecosystem.config.js
+│   │   │   ├── fix-all-database.js
+│   │   │   ├── fix-api-response.js
+│   │   │   ├── fix-column-names.js
+│   │   │   ├── fix-server-now.js
+│   │   │   ├── nano fix-api-response.js
+│   │   │   ├── quick-db-fix.js
+│   │   │   ├── real-image-scraper-fixed.js
+│   │   │   ├── real-image-scraper.js
+│   │   │   ├── server-minimal.js
+│   │   │   ├── server.js
+│   │   │   ├── start-automation.js
+│   │   │   ├── ultimate-schema-fix.js
+│   │   │   └── update-camera-images.js
+│   │   ├── backup-fix-1754338654307
+│   │   │   ├── camera-vault.db
+│   │   │   └── unified-camera-system.js
+│   │   ├── backups
+│   │   │   ├── pre-fix-2025-08-04T23-25-29-439Z.db
+│   │   │   ├── pre-migration-2025-08-04T23-26-22-873Z.db
+│   │   │   └── pre-migration-2025-08-04T23-32-06-176Z.db
+│   │   ├── cmv-automation.js.backup
+│   │   ├── fix-all-database.js.save
+│   │   ├── nano fix-api-response.js
+│   │   ├── server.js.backup
+│   │   ├── unified-camera-system-temp.js
+│   │   ├── unified-camera-system.backup-1754340358242.js
+│   │   ├── unified-camera-system.broken.js
+│   │   ├── unified-camera-system.js.backup-1754342972273
+│   │   ├── unified-camera-system.js.backup-before-fix
+│   │   └── unified-camera-system.js.syntax-backup
+│   └── old-fixes-20250810
+│       ├── activate-discovery.sh
+│       ├── add-all-missing-functions.js
+│       ├── automated-cmv-fix.js
+│       ├── check-database-status.js
+│       ├── cleanup-and-migrate.js
+│       ├── cleanup.js
+│       ├── complete-db-fix.sh
+│       ├── debug-save.js
+│       ├── deep-diagnosis.sh
+│       ├── diagnose-db.js
+│       ├── disable-auto-automation.js
+│       ├── final-unified-camera-system.js
+│       ├── fix-all-database.js
+│       ├── fix-all-missing-functions.js
+│       ├── fix-all-this-references.js
+│       ├── fix-api-response.js
+│       ├── fix-column-names.js
+│       ├── fix-db-columns.js
+│       ├── fix-delay-issue.js
+│       ├── fix-everything-intelligently.js
+│       ├── fix-extra-braces.js
+│       ├── fix-function-order.js
+│       ├── fix-now.sh
+│       ├── fix-server-now.js
+│       ├── fix-sql-query.js
+│       ├── fix-syntax-error.js
+│       ├── migrate-to-comprehensive.js
+│       ├── minimal-syntax-fix.js
+│       ├── quick-db-fix.js
+│       ├── restore-generate-structure.sh
+│       ├── safe-check-database-status.js
+│       ├── safe-database-fix.js
+│       ├── simple-migrate.js
+│       ├── smart-fix-unified-system.js
+│       ├── ultimate-schema-fix.js
+│       ├── undo-and-fix.sh
+│       └── view-cameras.js
 ├── automation-routes.js
-├── backup-20250804-121715
-│   ├── attributions
-│   │   ├── arri-alexa-mini-lf.json
-│   │   ├── attribution-report.json
-│   │   ├── blackmagic-ursa-mini-pro-12k.json
-│   │   ├── canon-ae-1.json
-│   │   ├── canon-eos-5d-mark-iv.json
-│   │   ├── canon-eos-r5.json
-│   │   ├── canon-eos-r6.json
-│   │   ├── canon-eos-r7.json
-│   │   ├── fujifilm-gfx-100-ii.json
-│   │   ├── fujifilm-x-h2s.json
-│   │   ├── fujifilm-x-t5.json
-│   │   ├── hasselblad-500c-m.json
-│   │   ├── leica-m6.json
-│   │   ├── nikon-d780.json
-│   │   ├── nikon-d850.json
-│   │   ├── nikon-f3.json
-│   │   ├── nikon-z6-iii.json
-│   │   ├── nikon-z9.json
-│   │   ├── red-komodo.json
-│   │   ├── sony-a7-iv.json
-│   │   ├── sony-a7r-v.json
-│   │   ├── sony-a7s-iii.json
-│   │   ├── sony-fx3.json
-│   │   ├── sony-fx6.json
-│   │   └── update-report.json
-│   ├── auto-scraper.js
-│   ├── automation-adapter.js
-│   ├── automation-routes.js
-│   ├── automation-scheduler.js
-│   ├── camera-vault.db
-│   ├── cameras
-│   │   ├── arri-alexa-mini-lf.jpg
-│   │   ├── blackmagic-ursa-mini-pro-12k.jpg
-│   │   ├── canon-ae-1.jpg
-│   │   ├── canon-eos-5d-mark-iv.jpg
-│   │   ├── canon-eos-r5.jpg
-│   │   ├── canon-eos-r6.jpg
-│   │   ├── canon-eos-r7.jpg
-│   │   ├── fujifilm-gfx-100-ii.jpg
-│   │   ├── fujifilm-x-h2s.jpg
-│   │   ├── fujifilm-x-t5.jpg
-│   │   ├── hasselblad-500c-m.jpg
-│   │   ├── leica-m6.jpg
-│   │   ├── nikon-d780.jpg
-│   │   ├── nikon-d850.jpg
-│   │   ├── nikon-f3.jpg
-│   │   ├── nikon-z6-iii.jpg
-│   │   ├── nikon-z9.jpg
-│   │   ├── red-komodo.jpg
-│   │   ├── sony-a7-iv.jpg
-│   │   ├── sony-a7r-v.jpg
-│   │   ├── sony-a7s-iii.jpg
-│   │   ├── sony-fx3.jpg
-│   │   ├── sony-fx6.jpg
-│   │   └── thumbs
-│   │       ├── arri-alexa-mini-lf-thumb.jpg
-│   │       ├── blackmagic-ursa-mini-pro-12k-thumb.jpg
-│   │       ├── canon-ae-1-thumb.jpg
-│   │       ├── canon-eos-5d-mark-iv-thumb.jpg
-│   │       ├── canon-eos-r5-thumb.jpg
-│   │       ├── canon-eos-r6-thumb.jpg
-│   │       ├── canon-eos-r7-thumb.jpg
-│   │       ├── fujifilm-gfx-100-ii-thumb.jpg
-│   │       ├── fujifilm-x-h2s-thumb.jpg
-│   │       ├── fujifilm-x-t5-thumb.jpg
-│   │       ├── hasselblad-500c-m-thumb.jpg
-│   │       ├── leica-m6-thumb.jpg
-│   │       ├── nikon-d780-thumb.jpg
-│   │       ├── nikon-d850-thumb.jpg
-│   │       ├── nikon-f3-thumb.jpg
-│   │       ├── nikon-z6-iii-thumb.jpg
-│   │       ├── nikon-z9-thumb.jpg
-│   │       ├── red-komodo-thumb.jpg
-│   │       ├── sony-a7-iv-thumb.jpg
-│   │       ├── sony-a7r-v-thumb.jpg
-│   │       ├── sony-a7s-iii-thumb.jpg
-│   │       ├── sony-fx3-thumb.jpg
-│   │       └── sony-fx6-thumb.jpg
-│   ├── check-image-status.js
-│   ├── cleanup.js
-│   ├── cmv-automation-fixed.js
-│   ├── cmv-automation-real-images.js
-│   ├── cmv-automation-with-images.js
-│   ├── cmv-automation.js
-│   ├── continuous-auto-scraper.js
-│   ├── debug-save.js
-│   ├── diagnose-db.js
-│   ├── disable-auto-automation.js
-│   ├── ecosystem.config.js
-│   ├── fix-all-database.js
-│   ├── fix-api-response.js
-│   ├── fix-column-names.js
-│   ├── fix-server-now.js
-│   ├── nano fix-api-response.js
-│   ├── quick-db-fix.js
-│   ├── real-image-scraper-fixed.js
-│   ├── real-image-scraper.js
-│   ├── server-minimal.js
-│   ├── server.js
-│   ├── start-automation.js
-│   ├── ultimate-schema-fix.js
-│   └── update-camera-images.js
-├── backup-fix-1754338654307
-│   ├── camera-vault.db
-│   └── unified-camera-system.js
-├── backups
-│   ├── pre-fix-2025-08-04T23-25-29-439Z.db
-│   ├── pre-migration-2025-08-04T23-26-22-873Z.db
-│   └── pre-migration-2025-08-04T23-32-06-176Z.db
 ├── camera-utils.js
-├── check-database-status.js
 ├── check-image-status.js
-├── cleanup-and-migrate.js
 ├── cleanup-cmv.sh
-├── cleanup.js
-├── cmv-automation.js.backup
-├── complete-db-fix.sh
 ├── config
 │   └── server.config.js
 ├── data
@@ -166,29 +208,7 @@ Generated: 8/10/2025, 8:23:19 PM
 │   ├── camera-vault.db.backup
 │   ├── camera-vault.db.backup-before-fix
 │   └── cameras.json
-├── debug-save.js
-├── deep-diagnosis.sh
-├── diagnose-db.js
-├── diagnosis-output.txt
-├── disable-auto-automation.js
 ├── ecosystem.config.js
-├── final-unified-camera-system.js
-├── fix-all-database.js
-├── fix-all-database.js.save
-├── fix-all-missing-functions.js
-├── fix-all-this-references.js
-├── fix-api-response.js
-├── fix-column-names.js
-├── fix-db-columns.js
-├── fix-delay-issue.js
-├── fix-everything-intelligently.js
-├── fix-extra-braces.js
-├── fix-function-order.js
-├── fix-now.sh
-├── fix-report.json
-├── fix-server-now.js
-├── fix-sql-query.js
-├── fix-syntax-error.js
 ├── fixed-migrate-to-comprehensive.js
 ├── full-backup-before-cleanup
 │   └── data
@@ -226,10 +246,6 @@ Generated: 8/10/2025, 8:23:19 PM
 │       ├── camera-vault.db.backup-before-fix
 │       └── cameras.json
 ├── implement-cmv.sh
-├── migrate-to-comprehensive.js
-├── minimal-syntax-fix.js
-├── monitor.js
-├── nano fix-api-response.js
 ├── package-lock.json
 ├── package.json
 ├── public
@@ -307,30 +323,14 @@ Generated: 8/10/2025, 8:23:19 PM
 │   ├── productions.html
 │   ├── search.html
 │   └── terms.html
-├── quick-db-fix.js
-├── restore-generate-structure.sh
-├── safe-check-database-status.js
-├── safe-database-fix.js
 ├── scripts
 │   └── generate-structure.js
 ├── server-minimal.js
 ├── server.js
-├── server.js.backup
-├── simple-migrate.js
-├── smart-fix-unified-system.js
 ├── start-cmv.sh
 ├── start-fresh-cmv.sh
-├── ultimate-schema-fix.js
-├── undo-and-fix.sh
-├── unified-camera-system-temp.js
-├── unified-camera-system.backup-1754340358242.js
-├── unified-camera-system.broken.js
 ├── unified-camera-system.js
-├── unified-camera-system.js.backup-1754342972273
-├── unified-camera-system.js.backup-before-fix
-├── unified-camera-system.js.syntax-backup
 ├── update-camera-images.js
-├── view-cameras.js
 └── views
     └── pages
         ├── 404.ejs
@@ -353,7 +353,65 @@ Generated: 8/10/2025, 8:23:19 PM
 
 ## File Details
 
-### /backup-20250804-121715
+### /archive/old-backups
+
+#### auto-scraper.js.backup
+- Size: 10.14 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### cmv-automation.js.backup
+- Size: 16.44 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### fix-all-database.js.save
+- Size: 5.67 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### nano fix-api-response.js
+- Size: 488.00 B
+- Lines: 20
+- Modified: 8/10/2025
+
+#### server.js.backup
+- Size: 19.50 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### unified-camera-system-temp.js
+- Size: 14.00 B
+- Lines: 1
+- Modified: 8/10/2025
+
+#### unified-camera-system.backup-1754340358242.js
+- Size: 20.32 KB
+- Lines: 556
+- Modified: 8/10/2025
+
+#### unified-camera-system.broken.js
+- Size: 12.97 KB
+- Lines: 384
+- Modified: 8/10/2025
+- Functions: scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups, delay
+
+#### unified-camera-system.js.backup-1754342972273
+- Size: 12.94 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### unified-camera-system.js.backup-before-fix
+- Size: 13.02 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### unified-camera-system.js.syntax-backup
+- Size: 12.93 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+### /archive/old-backups/backup-20250804-121715
 
 #### auto-scraper.js
 - Size: 10.31 KB
@@ -511,7 +569,7 @@ Generated: 8/10/2025, 8:23:19 PM
 - Modified: 8/10/2025
 - Functions: updateCameraImages, createBrandedPlaceholder
 
-### /backup-20250804-121715/attributions
+### /archive/old-backups/backup-20250804-121715/attributions
 
 #### arri-alexa-mini-lf.json
 - Size: 222.00 B
@@ -638,7 +696,7 @@ Generated: 8/10/2025, 8:23:19 PM
 - Lines: 6
 - Modified: 8/10/2025
 
-### /backup-20250804-121715/cameras
+### /archive/old-backups/backup-20250804-121715/cameras
 
 #### arri-alexa-mini-lf.jpg
 - Size: 68.50 KB
@@ -755,7 +813,7 @@ Generated: 8/10/2025, 8:23:19 PM
 - Lines: 0
 - Modified: 8/10/2025
 
-### /backup-20250804-121715/cameras/thumbs
+### /archive/old-backups/backup-20250804-121715/cameras/thumbs
 
 #### arri-alexa-mini-lf-thumb.jpg
 - Size: 2.60 KB
@@ -872,7 +930,7 @@ Generated: 8/10/2025, 8:23:19 PM
 - Lines: 0
 - Modified: 8/10/2025
 
-### /backup-fix-1754338654307
+### /archive/old-backups/backup-fix-1754338654307
 
 #### camera-vault.db
 - Size: 148.00 KB
@@ -884,7 +942,7 @@ Generated: 8/10/2025, 8:23:19 PM
 - Lines: 547
 - Modified: 8/10/2025
 
-### /backups
+### /archive/old-backups/backups
 
 #### pre-fix-2025-08-04T23-25-29-439Z.db
 - Size: 148.00 KB
@@ -899,6 +957,203 @@ Generated: 8/10/2025, 8:23:19 PM
 #### pre-migration-2025-08-04T23-32-06-176Z.db
 - Size: 148.00 KB
 - Lines: 0
+- Modified: 8/10/2025
+
+### /archive/old-fixes-20250810
+
+#### activate-discovery.sh
+- Size: 20.91 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### add-all-missing-functions.js
+- Size: 1.29 KB
+- Lines: 45
+- Modified: 8/10/2025
+- Functions: scheduleBackup, scheduleDiscovery
+
+#### automated-cmv-fix.js
+- Size: 4.66 KB
+- Lines: 133
+- Modified: 8/10/2025
+- Functions: scheduleDiscovery, scheduleBackup, cleanOldBackups
+
+#### check-database-status.js
+- Size: 10.96 KB
+- Lines: 286
+- Modified: 8/10/2025
+
+#### cleanup-and-migrate.js
+- Size: 26.32 KB
+- Lines: 691
+- Modified: 8/10/2025
+
+#### cleanup.js
+- Size: 2.52 KB
+- Lines: 97
+- Modified: 8/10/2025
+- Functions: log, cleanup
+
+#### complete-db-fix.sh
+- Size: 438.00 B
+- Lines: 0
+- Modified: 8/10/2025
+
+#### debug-save.js
+- Size: 1.26 KB
+- Lines: 44
+- Modified: 8/10/2025
+
+#### deep-diagnosis.sh
+- Size: 1.57 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### diagnose-db.js
+- Size: 8.18 KB
+- Lines: 182
+- Modified: 8/10/2025
+
+#### disable-auto-automation.js
+- Size: 2.53 KB
+- Lines: 72
+- Modified: 8/10/2025
+
+#### final-unified-camera-system.js
+- Size: 12.88 KB
+- Lines: 384
+- Modified: 8/10/2025
+
+#### fix-all-database.js
+- Size: 5.67 KB
+- Lines: 176
+- Modified: 8/10/2025
+- Functions: finishUp
+
+#### fix-all-missing-functions.js
+- Size: 3.86 KB
+- Lines: 108
+- Modified: 8/10/2025
+
+#### fix-all-this-references.js
+- Size: 493.00 B
+- Lines: 14
+- Modified: 8/10/2025
+
+#### fix-api-response.js
+- Size: 453.00 B
+- Lines: 19
+- Modified: 8/10/2025
+
+#### fix-column-names.js
+- Size: 4.19 KB
+- Lines: 133
+- Modified: 8/10/2025
+
+#### fix-db-columns.js
+- Size: 2.71 KB
+- Lines: 72
+- Modified: 8/10/2025
+
+#### fix-delay-issue.js
+- Size: 1.09 KB
+- Lines: 36
+- Modified: 8/10/2025
+- Functions: delay, scheduleDiscovery
+
+#### fix-everything-intelligently.js
+- Size: 14.02 KB
+- Lines: 382
+- Modified: 8/10/2025
+- Functions: log, printHeader
+
+#### fix-extra-braces.js
+- Size: 2.63 KB
+- Lines: 81
+- Modified: 8/10/2025
+
+#### fix-function-order.js
+- Size: 1.87 KB
+- Lines: 62
+- Modified: 8/10/2025
+- Functions: delay, scheduleDiscovery
+
+#### fix-now.sh
+- Size: 1.65 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### fix-server-now.js
+- Size: 1.83 KB
+- Lines: 54
+- Modified: 8/10/2025
+
+#### fix-sql-query.js
+- Size: 3.19 KB
+- Lines: 82
+- Modified: 8/10/2025
+
+#### fix-syntax-error.js
+- Size: 2.60 KB
+- Lines: 69
+- Modified: 8/10/2025
+
+#### migrate-to-comprehensive.js
+- Size: 20.56 KB
+- Lines: 558
+- Modified: 8/10/2025
+
+#### minimal-syntax-fix.js
+- Size: 1.26 KB
+- Lines: 42
+- Modified: 8/10/2025
+
+#### quick-db-fix.js
+- Size: 1.43 KB
+- Lines: 64
+- Modified: 8/10/2025
+
+#### restore-generate-structure.sh
+- Size: 2.46 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### safe-check-database-status.js
+- Size: 15.11 KB
+- Lines: 377
+- Modified: 8/10/2025
+
+#### safe-database-fix.js
+- Size: 10.37 KB
+- Lines: 300
+- Modified: 8/10/2025
+
+#### simple-migrate.js
+- Size: 14.69 KB
+- Lines: 383
+- Modified: 8/10/2025
+- Functions: runSQL, getOne, getAll, createSlug, migrate
+
+#### smart-fix-unified-system.js
+- Size: 5.04 KB
+- Lines: 127
+- Modified: 8/10/2025
+- Functions: smartFix
+
+#### ultimate-schema-fix.js
+- Size: 20.75 KB
+- Lines: 459
+- Modified: 8/10/2025
+- Functions: finishSetup
+
+#### undo-and-fix.sh
+- Size: 3.24 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### view-cameras.js
+- Size: 2.87 KB
+- Lines: 71
 - Modified: 8/10/2025
 
 ### /config
@@ -1611,28 +1866,6 @@ Generated: 8/10/2025, 8:23:19 PM
 
 ### /
 
-#### activate-discovery.sh
-- Size: 20.91 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### add-all-missing-functions.js
-- Size: 1.29 KB
-- Lines: 45
-- Modified: 8/10/2025
-- Functions: scheduleBackup, scheduleDiscovery
-
-#### auto-scraper.js.backup
-- Size: 10.14 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### automated-cmv-fix.js
-- Size: 4.66 KB
-- Lines: 133
-- Modified: 8/10/2025
-- Functions: scheduleDiscovery, scheduleBackup, cleanOldBackups
-
 #### automation-routes.js
 - Size: 6.61 KB
 - Lines: 223
@@ -1645,160 +1878,20 @@ Generated: 8/10/2025, 8:23:19 PM
 - Modified: 8/10/2025
 - Functions: createSafeFilename
 
-#### check-database-status.js
-- Size: 10.96 KB
-- Lines: 286
-- Modified: 8/10/2025
-
 #### check-image-status.js
 - Size: 3.53 KB
 - Lines: 112
 - Modified: 8/10/2025
 - Functions: checkImageStatus
 
-#### cleanup-and-migrate.js
-- Size: 26.32 KB
-- Lines: 691
-- Modified: 8/10/2025
-
 #### cleanup-cmv.sh
 - Size: 4.57 KB
 - Lines: 0
 - Modified: 8/10/2025
 
-#### cleanup.js
-- Size: 2.52 KB
-- Lines: 97
-- Modified: 8/10/2025
-- Functions: log, cleanup
-
-#### cmv-automation.js.backup
-- Size: 16.44 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### complete-db-fix.sh
-- Size: 438.00 B
-- Lines: 0
-- Modified: 8/10/2025
-
-#### debug-save.js
-- Size: 1.26 KB
-- Lines: 44
-- Modified: 8/10/2025
-
-#### deep-diagnosis.sh
-- Size: 1.57 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### diagnose-db.js
-- Size: 8.18 KB
-- Lines: 182
-- Modified: 8/10/2025
-
-#### diagnosis-output.txt
-- Size: 19.83 KB
-- Lines: 186
-- Modified: 8/10/2025
-
-#### disable-auto-automation.js
-- Size: 2.53 KB
-- Lines: 72
-- Modified: 8/10/2025
-
 #### ecosystem.config.js
 - Size: 902.00 B
 - Lines: 36
-- Modified: 8/10/2025
-
-#### final-unified-camera-system.js
-- Size: 12.88 KB
-- Lines: 384
-- Modified: 8/10/2025
-
-#### fix-all-database.js
-- Size: 5.67 KB
-- Lines: 176
-- Modified: 8/10/2025
-- Functions: finishUp
-
-#### fix-all-database.js.save
-- Size: 5.67 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### fix-all-missing-functions.js
-- Size: 3.86 KB
-- Lines: 108
-- Modified: 8/10/2025
-
-#### fix-all-this-references.js
-- Size: 493.00 B
-- Lines: 14
-- Modified: 8/10/2025
-
-#### fix-api-response.js
-- Size: 453.00 B
-- Lines: 19
-- Modified: 8/10/2025
-
-#### fix-column-names.js
-- Size: 4.19 KB
-- Lines: 133
-- Modified: 8/10/2025
-
-#### fix-db-columns.js
-- Size: 2.71 KB
-- Lines: 72
-- Modified: 8/10/2025
-
-#### fix-delay-issue.js
-- Size: 1.09 KB
-- Lines: 36
-- Modified: 8/10/2025
-- Functions: delay, scheduleDiscovery
-
-#### fix-everything-intelligently.js
-- Size: 14.02 KB
-- Lines: 382
-- Modified: 8/10/2025
-- Functions: log, printHeader
-
-#### fix-extra-braces.js
-- Size: 2.63 KB
-- Lines: 81
-- Modified: 8/10/2025
-
-#### fix-function-order.js
-- Size: 1.87 KB
-- Lines: 62
-- Modified: 8/10/2025
-- Functions: delay, scheduleDiscovery
-
-#### fix-now.sh
-- Size: 1.65 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### fix-report.json
-- Size: 307.00 B
-- Lines: 14
-- Modified: 8/10/2025
-
-#### fix-server-now.js
-- Size: 1.83 KB
-- Lines: 54
-- Modified: 8/10/2025
-
-#### fix-sql-query.js
-- Size: 3.19 KB
-- Lines: 82
-- Modified: 8/10/2025
-
-#### fix-syntax-error.js
-- Size: 2.60 KB
-- Lines: 69
 - Modified: 8/10/2025
 
 #### fixed-migrate-to-comprehensive.js
@@ -1809,27 +1902,6 @@ Generated: 8/10/2025, 8:23:19 PM
 #### implement-cmv.sh
 - Size: 13.47 KB
 - Lines: 0
-- Modified: 8/10/2025
-
-#### migrate-to-comprehensive.js
-- Size: 20.56 KB
-- Lines: 558
-- Modified: 8/10/2025
-
-#### minimal-syntax-fix.js
-- Size: 1.26 KB
-- Lines: 42
-- Modified: 8/10/2025
-
-#### monitor.js
-- Size: 1.03 KB
-- Lines: 32
-- Modified: 8/10/2025
-- Functions: monitor
-
-#### nano fix-api-response.js
-- Size: 488.00 B
-- Lines: 20
 - Modified: 8/10/2025
 
 #### package-lock.json
@@ -1847,29 +1919,9 @@ Generated: 8/10/2025, 8:23:19 PM
 - Lines: 150
 - Modified: 8/10/2025
 
-#### quick-db-fix.js
-- Size: 1.43 KB
-- Lines: 64
-- Modified: 8/10/2025
-
 #### README.md
 - Size: 58.00 B
 - Lines: 3
-- Modified: 8/10/2025
-
-#### restore-generate-structure.sh
-- Size: 2.46 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### safe-check-database-status.js
-- Size: 15.11 KB
-- Lines: 377
-- Modified: 8/10/2025
-
-#### safe-database-fix.js
-- Size: 10.37 KB
-- Lines: 300
 - Modified: 8/10/2025
 
 #### server-minimal.js
@@ -1884,23 +1936,6 @@ Generated: 8/10/2025, 8:23:19 PM
 - Modified: 8/10/2025
 - Functions: dbAll, dbGet, dbRun, findAvailablePort, isPortAvailable...
 
-#### server.js.backup
-- Size: 19.50 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### simple-migrate.js
-- Size: 14.69 KB
-- Lines: 383
-- Modified: 8/10/2025
-- Functions: runSQL, getOne, getAll, createSlug, migrate
-
-#### smart-fix-unified-system.js
-- Size: 5.04 KB
-- Lines: 127
-- Modified: 8/10/2025
-- Functions: smartFix
-
 #### start-cmv.sh
 - Size: 1.94 KB
 - Lines: 0
@@ -1911,64 +1946,17 @@ Generated: 8/10/2025, 8:23:19 PM
 - Lines: 0
 - Modified: 8/10/2025
 
-#### ultimate-schema-fix.js
-- Size: 20.75 KB
-- Lines: 459
-- Modified: 8/10/2025
-- Functions: finishSetup
-
-#### undo-and-fix.sh
-- Size: 3.24 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### unified-camera-system-temp.js
-- Size: 14.00 B
-- Lines: 1
-- Modified: 8/10/2025
-
-#### unified-camera-system.backup-1754340358242.js
-- Size: 20.32 KB
-- Lines: 556
-- Modified: 8/10/2025
-
-#### unified-camera-system.broken.js
-- Size: 12.97 KB
-- Lines: 384
-- Modified: 8/10/2025
-- Functions: scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups, delay
-
 #### unified-camera-system.js
 - Size: 13.11 KB
 - Lines: 393
 - Modified: 8/10/2025
 - Functions: delay, scheduleDiscovery, scheduleBackup, createBackup, cleanOldBackups
 
-#### unified-camera-system.js.backup-1754342972273
-- Size: 12.94 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### unified-camera-system.js.backup-before-fix
-- Size: 13.02 KB
-- Lines: 0
-- Modified: 8/10/2025
-
-#### unified-camera-system.js.syntax-backup
-- Size: 12.93 KB
-- Lines: 0
-- Modified: 8/10/2025
-
 #### update-camera-images.js
 - Size: 6.82 KB
 - Lines: 182
 - Modified: 8/10/2025
 - Functions: updateCameraImages, createBrandedPlaceholder
-
-#### view-cameras.js
-- Size: 2.87 KB
-- Lines: 71
-- Modified: 8/10/2025
 
 ### /scripts
 

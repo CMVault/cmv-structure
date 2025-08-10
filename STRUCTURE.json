@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-08-10T20:23:19.182Z",
+  "timestamp": "2025-08-10T20:24:16.624Z",
   "files": {
     "PROJECT_STATUS.md": {
       "name": "PROJECT_STATUS.md",
       "path": "PROJECT_STATUS.md",
       "size": 5491,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".md",
       "lines": 150
     },
@@ -13,281 +13,223 @@
       "name": "README.md",
       "path": "README.md",
       "size": 58,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".md",
       "lines": 3
     },
-    "activate-discovery.sh": {
-      "name": "activate-discovery.sh",
-      "path": "activate-discovery.sh",
-      "size": 21415,
-      "modified": "2025-08-10T20:23:17.873Z",
-      "extension": ".sh",
-      "lines": 0
-    },
-    "add-all-missing-functions.js": {
-      "name": "add-all-missing-functions.js",
-      "path": "add-all-missing-functions.js",
-      "size": 1324,
-      "modified": "2025-08-10T20:23:17.873Z",
-      "extension": ".js",
-      "lines": 45,
-      "functions": [
-        "scheduleBackup",
-        "scheduleDiscovery"
-      ],
-      "imports": [
-        "fs"
-      ]
-    },
-    "auto-scraper.js.backup": {
+    "archive/old-backups/auto-scraper.js.backup": {
       "name": "auto-scraper.js.backup",
-      "path": "auto-scraper.js.backup",
+      "path": "archive/old-backups/auto-scraper.js.backup",
       "size": 10386,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".backup",
       "lines": 0
     },
-    "automated-cmv-fix.js": {
-      "name": "automated-cmv-fix.js",
-      "path": "automated-cmv-fix.js",
-      "size": 4768,
-      "modified": "2025-08-10T20:23:17.873Z",
-      "extension": ".js",
-      "lines": 133,
-      "functions": [
-        "scheduleDiscovery",
-        "scheduleBackup",
-        "cleanOldBackups"
-      ],
-      "imports": [
-        "fs",
-        "child_process"
-      ]
-    },
-    "automation-routes.js": {
-      "name": "automation-routes.js",
-      "path": "automation-routes.js",
-      "size": 6765,
-      "modified": "2025-08-10T20:23:17.873Z",
-      "extension": ".js",
-      "lines": 223,
-      "functions": [
-        "getLastBackupTime"
-      ],
-      "imports": [
-        "express",
-        "fs",
-        "path",
-        "./cmv-automation",
-        "./automation-routes"
-      ]
-    },
-    "backup-20250804-121715/attributions/arri-alexa-mini-lf.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/arri-alexa-mini-lf.json": {
       "name": "arri-alexa-mini-lf.json",
-      "path": "backup-20250804-121715/attributions/arri-alexa-mini-lf.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/arri-alexa-mini-lf.json",
       "size": 222,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/attribution-report.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/attribution-report.json": {
       "name": "attribution-report.json",
-      "path": "backup-20250804-121715/attributions/attribution-report.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/attribution-report.json",
       "size": 3601,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 126
     },
-    "backup-20250804-121715/attributions/blackmagic-ursa-mini-pro-12k.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/blackmagic-ursa-mini-pro-12k.json": {
       "name": "blackmagic-ursa-mini-pro-12k.json",
-      "path": "backup-20250804-121715/attributions/blackmagic-ursa-mini-pro-12k.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/blackmagic-ursa-mini-pro-12k.json",
       "size": 232,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/canon-ae-1.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/canon-ae-1.json": {
       "name": "canon-ae-1.json",
-      "path": "backup-20250804-121715/attributions/canon-ae-1.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/canon-ae-1.json",
       "size": 275,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/canon-eos-5d-mark-iv.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/canon-eos-5d-mark-iv.json": {
       "name": "canon-eos-5d-mark-iv.json",
-      "path": "backup-20250804-121715/attributions/canon-eos-5d-mark-iv.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/canon-eos-5d-mark-iv.json",
       "size": 295,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/canon-eos-r5.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/canon-eos-r5.json": {
       "name": "canon-eos-r5.json",
-      "path": "backup-20250804-121715/attributions/canon-eos-r5.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/canon-eos-r5.json",
       "size": 279,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/canon-eos-r6.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/canon-eos-r6.json": {
       "name": "canon-eos-r6.json",
-      "path": "backup-20250804-121715/attributions/canon-eos-r6.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/canon-eos-r6.json",
       "size": 279,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/canon-eos-r7.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/canon-eos-r7.json": {
       "name": "canon-eos-r7.json",
-      "path": "backup-20250804-121715/attributions/canon-eos-r7.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/canon-eos-r7.json",
       "size": 279,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/fujifilm-gfx-100-ii.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/fujifilm-gfx-100-ii.json": {
       "name": "fujifilm-gfx-100-ii.json",
-      "path": "backup-20250804-121715/attributions/fujifilm-gfx-100-ii.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/fujifilm-gfx-100-ii.json",
       "size": 223,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/fujifilm-x-h2s.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/fujifilm-x-h2s.json": {
       "name": "fujifilm-x-h2s.json",
-      "path": "backup-20250804-121715/attributions/fujifilm-x-h2s.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/fujifilm-x-h2s.json",
       "size": 218,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/fujifilm-x-t5.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/fujifilm-x-t5.json": {
       "name": "fujifilm-x-t5.json",
-      "path": "backup-20250804-121715/attributions/fujifilm-x-t5.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/fujifilm-x-t5.json",
       "size": 217,
-      "modified": "2025-08-10T20:23:17.873Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/hasselblad-500c-m.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/hasselblad-500c-m.json": {
       "name": "hasselblad-500c-m.json",
-      "path": "backup-20250804-121715/attributions/hasselblad-500c-m.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/hasselblad-500c-m.json",
       "size": 243,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/leica-m6.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/leica-m6.json": {
       "name": "leica-m6.json",
-      "path": "backup-20250804-121715/attributions/leica-m6.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/leica-m6.json",
       "size": 212,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/nikon-d780.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/nikon-d780.json": {
       "name": "nikon-d780.json",
-      "path": "backup-20250804-121715/attributions/nikon-d780.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/nikon-d780.json",
       "size": 275,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/nikon-d850.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/nikon-d850.json": {
       "name": "nikon-d850.json",
-      "path": "backup-20250804-121715/attributions/nikon-d850.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/nikon-d850.json",
       "size": 275,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/nikon-f3.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/nikon-f3.json": {
       "name": "nikon-f3.json",
-      "path": "backup-20250804-121715/attributions/nikon-f3.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/nikon-f3.json",
       "size": 271,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/nikon-z6-iii.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/nikon-z6-iii.json": {
       "name": "nikon-z6-iii.json",
-      "path": "backup-20250804-121715/attributions/nikon-z6-iii.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/nikon-z6-iii.json",
       "size": 279,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/nikon-z9.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/nikon-z9.json": {
       "name": "nikon-z9.json",
-      "path": "backup-20250804-121715/attributions/nikon-z9.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/nikon-z9.json",
       "size": 271,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/red-komodo.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/red-komodo.json": {
       "name": "red-komodo.json",
-      "path": "backup-20250804-121715/attributions/red-komodo.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/red-komodo.json",
       "size": 214,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/sony-a7-iv.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/sony-a7-iv.json": {
       "name": "sony-a7-iv.json",
-      "path": "backup-20250804-121715/attributions/sony-a7-iv.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/sony-a7-iv.json",
       "size": 273,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/sony-a7r-v.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/sony-a7r-v.json": {
       "name": "sony-a7r-v.json",
-      "path": "backup-20250804-121715/attributions/sony-a7r-v.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/sony-a7r-v.json",
       "size": 273,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/sony-a7s-iii.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/sony-a7s-iii.json": {
       "name": "sony-a7s-iii.json",
-      "path": "backup-20250804-121715/attributions/sony-a7s-iii.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/sony-a7s-iii.json",
       "size": 277,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.126Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/sony-fx3.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/sony-fx3.json": {
       "name": "sony-fx3.json",
-      "path": "backup-20250804-121715/attributions/sony-fx3.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/sony-fx3.json",
       "size": 269,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.127Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/sony-fx6.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/sony-fx6.json": {
       "name": "sony-fx6.json",
-      "path": "backup-20250804-121715/attributions/sony-fx6.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/sony-fx6.json",
       "size": 269,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.127Z",
       "extension": ".json",
       "lines": 9
     },
-    "backup-20250804-121715/attributions/update-report.json": {
+    "archive/old-backups/backup-20250804-121715/attributions/update-report.json": {
       "name": "update-report.json",
-      "path": "backup-20250804-121715/attributions/update-report.json",
+      "path": "archive/old-backups/backup-20250804-121715/attributions/update-report.json",
       "size": 97,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.127Z",
       "extension": ".json",
       "lines": 6
     },
-    "backup-20250804-121715/auto-scraper.js": {
+    "archive/old-backups/backup-20250804-121715/auto-scraper.js": {
       "name": "auto-scraper.js",
-      "path": "backup-20250804-121715/auto-scraper.js",
+      "path": "archive/old-backups/backup-20250804-121715/auto-scraper.js",
       "size": 10553,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.127Z",
       "extension": ".js",
       "lines": 287,
       "functions": [
@@ -303,11 +245,11 @@
         "crypto"
       ]
     },
-    "backup-20250804-121715/automation-adapter.js": {
+    "archive/old-backups/backup-20250804-121715/automation-adapter.js": {
       "name": "automation-adapter.js",
-      "path": "backup-20250804-121715/automation-adapter.js",
+      "path": "archive/old-backups/backup-20250804-121715/automation-adapter.js",
       "size": 8103,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.127Z",
       "extension": ".js",
       "lines": 202,
       "functions": [],
@@ -316,11 +258,11 @@
         "path"
       ]
     },
-    "backup-20250804-121715/automation-routes.js": {
+    "archive/old-backups/backup-20250804-121715/automation-routes.js": {
       "name": "automation-routes.js",
-      "path": "backup-20250804-121715/automation-routes.js",
+      "path": "archive/old-backups/backup-20250804-121715/automation-routes.js",
       "size": 6765,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.127Z",
       "extension": ".js",
       "lines": 223,
       "functions": [
@@ -334,11 +276,11 @@
         "./automation-routes"
       ]
     },
-    "backup-20250804-121715/automation-scheduler.js": {
+    "archive/old-backups/backup-20250804-121715/automation-scheduler.js": {
       "name": "automation-scheduler.js",
-      "path": "backup-20250804-121715/automation-scheduler.js",
+      "path": "archive/old-backups/backup-20250804-121715/automation-scheduler.js",
       "size": 2265,
-      "modified": "2025-08-10T20:23:17.874Z",
+      "modified": "2025-08-10T20:24:12.127Z",
       "extension": ".js",
       "lines": 83,
       "functions": [
@@ -352,387 +294,387 @@
         "fs"
       ]
     },
-    "backup-20250804-121715/camera-vault.db": {
+    "archive/old-backups/backup-20250804-121715/camera-vault.db": {
       "name": "camera-vault.db",
-      "path": "backup-20250804-121715/camera-vault.db",
+      "path": "archive/old-backups/backup-20250804-121715/camera-vault.db",
       "size": 131072,
-      "modified": "2025-08-10T20:23:17.875Z",
+      "modified": "2025-08-10T20:24:12.127Z",
       "extension": ".db",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/arri-alexa-mini-lf.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/arri-alexa-mini-lf.jpg": {
       "name": "arri-alexa-mini-lf.jpg",
-      "path": "backup-20250804-121715/cameras/arri-alexa-mini-lf.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/arri-alexa-mini-lf.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.875Z",
+      "modified": "2025-08-10T20:24:12.128Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/blackmagic-ursa-mini-pro-12k.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/blackmagic-ursa-mini-pro-12k.jpg": {
       "name": "blackmagic-ursa-mini-pro-12k.jpg",
-      "path": "backup-20250804-121715/cameras/blackmagic-ursa-mini-pro-12k.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/blackmagic-ursa-mini-pro-12k.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.875Z",
+      "modified": "2025-08-10T20:24:12.128Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/canon-ae-1.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/canon-ae-1.jpg": {
       "name": "canon-ae-1.jpg",
-      "path": "backup-20250804-121715/cameras/canon-ae-1.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/canon-ae-1.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.876Z",
+      "modified": "2025-08-10T20:24:12.128Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/canon-eos-5d-mark-iv.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/canon-eos-5d-mark-iv.jpg": {
       "name": "canon-eos-5d-mark-iv.jpg",
-      "path": "backup-20250804-121715/cameras/canon-eos-5d-mark-iv.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/canon-eos-5d-mark-iv.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.876Z",
+      "modified": "2025-08-10T20:24:12.129Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/canon-eos-r5.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/canon-eos-r5.jpg": {
       "name": "canon-eos-r5.jpg",
-      "path": "backup-20250804-121715/cameras/canon-eos-r5.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/canon-eos-r5.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.876Z",
+      "modified": "2025-08-10T20:24:12.129Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/canon-eos-r6.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/canon-eos-r6.jpg": {
       "name": "canon-eos-r6.jpg",
-      "path": "backup-20250804-121715/cameras/canon-eos-r6.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/canon-eos-r6.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.877Z",
+      "modified": "2025-08-10T20:24:12.129Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/canon-eos-r7.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/canon-eos-r7.jpg": {
       "name": "canon-eos-r7.jpg",
-      "path": "backup-20250804-121715/cameras/canon-eos-r7.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/canon-eos-r7.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.877Z",
+      "modified": "2025-08-10T20:24:12.130Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/fujifilm-gfx-100-ii.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/fujifilm-gfx-100-ii.jpg": {
       "name": "fujifilm-gfx-100-ii.jpg",
-      "path": "backup-20250804-121715/cameras/fujifilm-gfx-100-ii.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/fujifilm-gfx-100-ii.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.877Z",
+      "modified": "2025-08-10T20:24:12.130Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/fujifilm-x-h2s.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/fujifilm-x-h2s.jpg": {
       "name": "fujifilm-x-h2s.jpg",
-      "path": "backup-20250804-121715/cameras/fujifilm-x-h2s.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/fujifilm-x-h2s.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.878Z",
+      "modified": "2025-08-10T20:24:12.130Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/fujifilm-x-t5.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/fujifilm-x-t5.jpg": {
       "name": "fujifilm-x-t5.jpg",
-      "path": "backup-20250804-121715/cameras/fujifilm-x-t5.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/fujifilm-x-t5.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.878Z",
+      "modified": "2025-08-10T20:24:12.130Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/hasselblad-500c-m.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/hasselblad-500c-m.jpg": {
       "name": "hasselblad-500c-m.jpg",
-      "path": "backup-20250804-121715/cameras/hasselblad-500c-m.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/hasselblad-500c-m.jpg",
       "size": 14682,
-      "modified": "2025-08-10T20:23:17.878Z",
+      "modified": "2025-08-10T20:24:12.131Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/leica-m6.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/leica-m6.jpg": {
       "name": "leica-m6.jpg",
-      "path": "backup-20250804-121715/cameras/leica-m6.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/leica-m6.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.878Z",
+      "modified": "2025-08-10T20:24:12.131Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/nikon-d780.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/nikon-d780.jpg": {
       "name": "nikon-d780.jpg",
-      "path": "backup-20250804-121715/cameras/nikon-d780.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/nikon-d780.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.879Z",
+      "modified": "2025-08-10T20:24:12.131Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/nikon-d850.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/nikon-d850.jpg": {
       "name": "nikon-d850.jpg",
-      "path": "backup-20250804-121715/cameras/nikon-d850.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/nikon-d850.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.879Z",
+      "modified": "2025-08-10T20:24:12.131Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/nikon-f3.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/nikon-f3.jpg": {
       "name": "nikon-f3.jpg",
-      "path": "backup-20250804-121715/cameras/nikon-f3.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/nikon-f3.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.879Z",
+      "modified": "2025-08-10T20:24:12.132Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/nikon-z6-iii.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/nikon-z6-iii.jpg": {
       "name": "nikon-z6-iii.jpg",
-      "path": "backup-20250804-121715/cameras/nikon-z6-iii.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/nikon-z6-iii.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.880Z",
+      "modified": "2025-08-10T20:24:12.132Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/nikon-z9.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/nikon-z9.jpg": {
       "name": "nikon-z9.jpg",
-      "path": "backup-20250804-121715/cameras/nikon-z9.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/nikon-z9.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.880Z",
+      "modified": "2025-08-10T20:24:12.132Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/red-komodo.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/red-komodo.jpg": {
       "name": "red-komodo.jpg",
-      "path": "backup-20250804-121715/cameras/red-komodo.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/red-komodo.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.880Z",
+      "modified": "2025-08-10T20:24:12.133Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/sony-a7-iv.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/sony-a7-iv.jpg": {
       "name": "sony-a7-iv.jpg",
-      "path": "backup-20250804-121715/cameras/sony-a7-iv.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/sony-a7-iv.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.880Z",
+      "modified": "2025-08-10T20:24:12.133Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/sony-a7r-v.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/sony-a7r-v.jpg": {
       "name": "sony-a7r-v.jpg",
-      "path": "backup-20250804-121715/cameras/sony-a7r-v.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/sony-a7r-v.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.881Z",
+      "modified": "2025-08-10T20:24:12.133Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/sony-a7s-iii.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/sony-a7s-iii.jpg": {
       "name": "sony-a7s-iii.jpg",
-      "path": "backup-20250804-121715/cameras/sony-a7s-iii.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/sony-a7s-iii.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.881Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/sony-fx3.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/sony-fx3.jpg": {
       "name": "sony-fx3.jpg",
-      "path": "backup-20250804-121715/cameras/sony-fx3.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/sony-fx3.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.881Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/sony-fx6.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/sony-fx6.jpg": {
       "name": "sony-fx6.jpg",
-      "path": "backup-20250804-121715/cameras/sony-fx6.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/sony-fx6.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/arri-alexa-mini-lf-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/arri-alexa-mini-lf-thumb.jpg": {
       "name": "arri-alexa-mini-lf-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/arri-alexa-mini-lf-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/arri-alexa-mini-lf-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/blackmagic-ursa-mini-pro-12k-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/blackmagic-ursa-mini-pro-12k-thumb.jpg": {
       "name": "blackmagic-ursa-mini-pro-12k-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/blackmagic-ursa-mini-pro-12k-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/blackmagic-ursa-mini-pro-12k-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/canon-ae-1-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-ae-1-thumb.jpg": {
       "name": "canon-ae-1-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/canon-ae-1-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-ae-1-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/canon-eos-5d-mark-iv-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-eos-5d-mark-iv-thumb.jpg": {
       "name": "canon-eos-5d-mark-iv-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/canon-eos-5d-mark-iv-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-eos-5d-mark-iv-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/canon-eos-r5-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-eos-r5-thumb.jpg": {
       "name": "canon-eos-r5-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/canon-eos-r5-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-eos-r5-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/canon-eos-r6-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-eos-r6-thumb.jpg": {
       "name": "canon-eos-r6-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/canon-eos-r6-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-eos-r6-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/canon-eos-r7-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-eos-r7-thumb.jpg": {
       "name": "canon-eos-r7-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/canon-eos-r7-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/canon-eos-r7-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.134Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/fujifilm-gfx-100-ii-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/fujifilm-gfx-100-ii-thumb.jpg": {
       "name": "fujifilm-gfx-100-ii-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/fujifilm-gfx-100-ii-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/fujifilm-gfx-100-ii-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/fujifilm-x-h2s-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/fujifilm-x-h2s-thumb.jpg": {
       "name": "fujifilm-x-h2s-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/fujifilm-x-h2s-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/fujifilm-x-h2s-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/fujifilm-x-t5-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/fujifilm-x-t5-thumb.jpg": {
       "name": "fujifilm-x-t5-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/fujifilm-x-t5-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/fujifilm-x-t5-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/hasselblad-500c-m-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/hasselblad-500c-m-thumb.jpg": {
       "name": "hasselblad-500c-m-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/hasselblad-500c-m-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/hasselblad-500c-m-thumb.jpg",
       "size": 1727,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/leica-m6-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/leica-m6-thumb.jpg": {
       "name": "leica-m6-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/leica-m6-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/leica-m6-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/nikon-d780-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-d780-thumb.jpg": {
       "name": "nikon-d780-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/nikon-d780-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-d780-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/nikon-d850-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-d850-thumb.jpg": {
       "name": "nikon-d850-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/nikon-d850-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-d850-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/nikon-f3-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-f3-thumb.jpg": {
       "name": "nikon-f3-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/nikon-f3-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-f3-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/nikon-z6-iii-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-z6-iii-thumb.jpg": {
       "name": "nikon-z6-iii-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/nikon-z6-iii-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-z6-iii-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/nikon-z9-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-z9-thumb.jpg": {
       "name": "nikon-z9-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/nikon-z9-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/nikon-z9-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/red-komodo-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/red-komodo-thumb.jpg": {
       "name": "red-komodo-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/red-komodo-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/red-komodo-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/sony-a7-iv-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-a7-iv-thumb.jpg": {
       "name": "sony-a7-iv-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/sony-a7-iv-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-a7-iv-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/sony-a7r-v-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-a7r-v-thumb.jpg": {
       "name": "sony-a7r-v-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/sony-a7r-v-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-a7r-v-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/sony-a7s-iii-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-a7s-iii-thumb.jpg": {
       "name": "sony-a7s-iii-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/sony-a7s-iii-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-a7s-iii-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.882Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/sony-fx3-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-fx3-thumb.jpg": {
       "name": "sony-fx3-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/sony-fx3-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-fx3-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/cameras/thumbs/sony-fx6-thumb.jpg": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-fx6-thumb.jpg": {
       "name": "sony-fx6-thumb.jpg",
-      "path": "backup-20250804-121715/cameras/thumbs/sony-fx6-thumb.jpg",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs/sony-fx6-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".jpg",
       "lines": 0
     },
-    "backup-20250804-121715/check-image-status.js": {
+    "archive/old-backups/backup-20250804-121715/check-image-status.js": {
       "name": "check-image-status.js",
-      "path": "backup-20250804-121715/check-image-status.js",
+      "path": "archive/old-backups/backup-20250804-121715/check-image-status.js",
       "size": 3614,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".js",
       "lines": 112,
       "functions": [
@@ -744,11 +686,11 @@
         "path"
       ]
     },
-    "backup-20250804-121715/cleanup.js": {
+    "archive/old-backups/backup-20250804-121715/cleanup.js": {
       "name": "cleanup.js",
-      "path": "backup-20250804-121715/cleanup.js",
+      "path": "archive/old-backups/backup-20250804-121715/cleanup.js",
       "size": 2580,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".js",
       "lines": 97,
       "functions": [
@@ -760,11 +702,11 @@
         "path"
       ]
     },
-    "backup-20250804-121715/cmv-automation-fixed.js": {
+    "archive/old-backups/backup-20250804-121715/cmv-automation-fixed.js": {
       "name": "cmv-automation-fixed.js",
-      "path": "backup-20250804-121715/cmv-automation-fixed.js",
+      "path": "archive/old-backups/backup-20250804-121715/cmv-automation-fixed.js",
       "size": 12417,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".js",
       "lines": 337,
       "functions": [],
@@ -779,11 +721,11 @@
         "./automation-adapter"
       ]
     },
-    "backup-20250804-121715/cmv-automation-real-images.js": {
+    "archive/old-backups/backup-20250804-121715/cmv-automation-real-images.js": {
       "name": "cmv-automation-real-images.js",
-      "path": "backup-20250804-121715/cmv-automation-real-images.js",
+      "path": "archive/old-backups/backup-20250804-121715/cmv-automation-real-images.js",
       "size": 16365,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".js",
       "lines": 438,
       "functions": [],
@@ -798,11 +740,11 @@
         "./automation-adapter"
       ]
     },
-    "backup-20250804-121715/cmv-automation-with-images.js": {
+    "archive/old-backups/backup-20250804-121715/cmv-automation-with-images.js": {
       "name": "cmv-automation-with-images.js",
-      "path": "backup-20250804-121715/cmv-automation-with-images.js",
+      "path": "archive/old-backups/backup-20250804-121715/cmv-automation-with-images.js",
       "size": 25313,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.135Z",
       "extension": ".js",
       "lines": 829,
       "functions": [],
@@ -818,11 +760,11 @@
         "./automation-adapter"
       ]
     },
-    "backup-20250804-121715/cmv-automation.js": {
+    "archive/old-backups/backup-20250804-121715/cmv-automation.js": {
       "name": "cmv-automation.js",
-      "path": "backup-20250804-121715/cmv-automation.js",
+      "path": "archive/old-backups/backup-20250804-121715/cmv-automation.js",
       "size": 10591,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 305,
       "functions": [],
@@ -838,11 +780,11 @@
         "./auto-scraper"
       ]
     },
-    "backup-20250804-121715/continuous-auto-scraper.js": {
+    "archive/old-backups/backup-20250804-121715/continuous-auto-scraper.js": {
       "name": "continuous-auto-scraper.js",
-      "path": "backup-20250804-121715/continuous-auto-scraper.js",
+      "path": "archive/old-backups/backup-20250804-121715/continuous-auto-scraper.js",
       "size": 1173,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 48,
       "functions": [
@@ -853,11 +795,11 @@
         "./auto-scraper"
       ]
     },
-    "backup-20250804-121715/debug-save.js": {
+    "archive/old-backups/backup-20250804-121715/debug-save.js": {
       "name": "debug-save.js",
-      "path": "backup-20250804-121715/debug-save.js",
+      "path": "archive/old-backups/backup-20250804-121715/debug-save.js",
       "size": 1288,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 44,
       "functions": [],
@@ -865,11 +807,11 @@
         "sqlite3"
       ]
     },
-    "backup-20250804-121715/diagnose-db.js": {
+    "archive/old-backups/backup-20250804-121715/diagnose-db.js": {
       "name": "diagnose-db.js",
-      "path": "backup-20250804-121715/diagnose-db.js",
+      "path": "archive/old-backups/backup-20250804-121715/diagnose-db.js",
       "size": 8378,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 182,
       "functions": [],
@@ -879,11 +821,11 @@
         "fs"
       ]
     },
-    "backup-20250804-121715/disable-auto-automation.js": {
+    "archive/old-backups/backup-20250804-121715/disable-auto-automation.js": {
       "name": "disable-auto-automation.js",
-      "path": "backup-20250804-121715/disable-auto-automation.js",
+      "path": "archive/old-backups/backup-20250804-121715/disable-auto-automation.js",
       "size": 2586,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 72,
       "functions": [],
@@ -892,21 +834,21 @@
         "path"
       ]
     },
-    "backup-20250804-121715/ecosystem.config.js": {
+    "archive/old-backups/backup-20250804-121715/ecosystem.config.js": {
       "name": "ecosystem.config.js",
-      "path": "backup-20250804-121715/ecosystem.config.js",
+      "path": "archive/old-backups/backup-20250804-121715/ecosystem.config.js",
       "size": 902,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 36,
       "functions": [],
       "imports": []
     },
-    "backup-20250804-121715/fix-all-database.js": {
+    "archive/old-backups/backup-20250804-121715/fix-all-database.js": {
       "name": "fix-all-database.js",
-      "path": "backup-20250804-121715/fix-all-database.js",
+      "path": "archive/old-backups/backup-20250804-121715/fix-all-database.js",
       "size": 5802,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 176,
       "functions": [
@@ -917,11 +859,11 @@
         "fs"
       ]
     },
-    "backup-20250804-121715/fix-api-response.js": {
+    "archive/old-backups/backup-20250804-121715/fix-api-response.js": {
       "name": "fix-api-response.js",
-      "path": "backup-20250804-121715/fix-api-response.js",
+      "path": "archive/old-backups/backup-20250804-121715/fix-api-response.js",
       "size": 453,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 19,
       "functions": [],
@@ -929,11 +871,11 @@
         "sqlite3"
       ]
     },
-    "backup-20250804-121715/fix-column-names.js": {
+    "archive/old-backups/backup-20250804-121715/fix-column-names.js": {
       "name": "fix-column-names.js",
-      "path": "backup-20250804-121715/fix-column-names.js",
+      "path": "archive/old-backups/backup-20250804-121715/fix-column-names.js",
       "size": 4293,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 133,
       "functions": [],
@@ -942,11 +884,11 @@
         "path"
       ]
     },
-    "backup-20250804-121715/fix-server-now.js": {
+    "archive/old-backups/backup-20250804-121715/fix-server-now.js": {
       "name": "fix-server-now.js",
-      "path": "backup-20250804-121715/fix-server-now.js",
+      "path": "archive/old-backups/backup-20250804-121715/fix-server-now.js",
       "size": 1873,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 54,
       "functions": [],
@@ -954,11 +896,11 @@
         "fs"
       ]
     },
-    "backup-20250804-121715/nano fix-api-response.js": {
+    "archive/old-backups/backup-20250804-121715/nano fix-api-response.js": {
       "name": "nano fix-api-response.js",
-      "path": "backup-20250804-121715/nano fix-api-response.js",
+      "path": "archive/old-backups/backup-20250804-121715/nano fix-api-response.js",
       "size": 488,
-      "modified": "2025-08-10T20:23:17.883Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 20,
       "functions": [],
@@ -966,11 +908,11 @@
         "sqlite3"
       ]
     },
-    "backup-20250804-121715/quick-db-fix.js": {
+    "archive/old-backups/backup-20250804-121715/quick-db-fix.js": {
       "name": "quick-db-fix.js",
-      "path": "backup-20250804-121715/quick-db-fix.js",
+      "path": "archive/old-backups/backup-20250804-121715/quick-db-fix.js",
       "size": 1464,
-      "modified": "2025-08-10T20:23:17.884Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 64,
       "functions": [],
@@ -979,11 +921,11 @@
         "fs"
       ]
     },
-    "backup-20250804-121715/real-image-scraper-fixed.js": {
+    "archive/old-backups/backup-20250804-121715/real-image-scraper-fixed.js": {
       "name": "real-image-scraper-fixed.js",
-      "path": "backup-20250804-121715/real-image-scraper-fixed.js",
+      "path": "archive/old-backups/backup-20250804-121715/real-image-scraper-fixed.js",
       "size": 19245,
-      "modified": "2025-08-10T20:23:17.884Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 513,
       "functions": [],
@@ -997,11 +939,11 @@
         "sqlite3"
       ]
     },
-    "backup-20250804-121715/real-image-scraper.js": {
+    "archive/old-backups/backup-20250804-121715/real-image-scraper.js": {
       "name": "real-image-scraper.js",
-      "path": "backup-20250804-121715/real-image-scraper.js",
+      "path": "archive/old-backups/backup-20250804-121715/real-image-scraper.js",
       "size": 14729,
-      "modified": "2025-08-10T20:23:17.884Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 416,
       "functions": [],
@@ -1015,11 +957,11 @@
         "sqlite3"
       ]
     },
-    "backup-20250804-121715/server-minimal.js": {
+    "archive/old-backups/backup-20250804-121715/server-minimal.js": {
       "name": "server-minimal.js",
-      "path": "backup-20250804-121715/server-minimal.js",
+      "path": "archive/old-backups/backup-20250804-121715/server-minimal.js",
       "size": 9753,
-      "modified": "2025-08-10T20:23:17.884Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 331,
       "functions": [
@@ -1043,11 +985,11 @@
         "net"
       ]
     },
-    "backup-20250804-121715/server.js": {
+    "archive/old-backups/backup-20250804-121715/server.js": {
       "name": "server.js",
-      "path": "backup-20250804-121715/server.js",
+      "path": "archive/old-backups/backup-20250804-121715/server.js",
       "size": 19967,
-      "modified": "2025-08-10T20:23:17.884Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 611,
       "functions": [
@@ -1076,11 +1018,11 @@
         "net"
       ]
     },
-    "backup-20250804-121715/start-automation.js": {
+    "archive/old-backups/backup-20250804-121715/start-automation.js": {
       "name": "start-automation.js",
-      "path": "backup-20250804-121715/start-automation.js",
+      "path": "archive/old-backups/backup-20250804-121715/start-automation.js",
       "size": 4180,
-      "modified": "2025-08-10T20:23:17.884Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 89,
       "functions": [],
@@ -1090,11 +1032,11 @@
         "sqlite3"
       ]
     },
-    "backup-20250804-121715/ultimate-schema-fix.js": {
+    "archive/old-backups/backup-20250804-121715/ultimate-schema-fix.js": {
       "name": "ultimate-schema-fix.js",
-      "path": "backup-20250804-121715/ultimate-schema-fix.js",
+      "path": "archive/old-backups/backup-20250804-121715/ultimate-schema-fix.js",
       "size": 21244,
-      "modified": "2025-08-10T20:23:17.884Z",
+      "modified": "2025-08-10T20:24:12.136Z",
       "extension": ".js",
       "lines": 459,
       "functions": [
@@ -1106,11 +1048,11 @@
         "fs"
       ]
     },
-    "backup-20250804-121715/update-camera-images.js": {
+    "archive/old-backups/backup-20250804-121715/update-camera-images.js": {
       "name": "update-camera-images.js",
-      "path": "backup-20250804-121715/update-camera-images.js",
+      "path": "archive/old-backups/backup-20250804-121715/update-camera-images.js",
       "size": 6983,
-      "modified": "2025-08-10T20:23:17.884Z",
+      "modified": "2025-08-10T20:24:12.137Z",
       "extension": ".js",
       "lines": 182,
       "functions": [
@@ -1125,19 +1067,19 @@
         "path"
       ]
     },
-    "backup-fix-1754338654307/camera-vault.db": {
+    "archive/old-backups/backup-fix-1754338654307/camera-vault.db": {
       "name": "camera-vault.db",
-      "path": "backup-fix-1754338654307/camera-vault.db",
+      "path": "archive/old-backups/backup-fix-1754338654307/camera-vault.db",
       "size": 151552,
-      "modified": "2025-08-10T20:23:17.884Z",
+      "modified": "2025-08-10T20:24:12.137Z",
       "extension": ".db",
       "lines": 0
     },
-    "backup-fix-1754338654307/unified-camera-system.js": {
+    "archive/old-backups/backup-fix-1754338654307/unified-camera-system.js": {
       "name": "unified-camera-system.js",
-      "path": "backup-fix-1754338654307/unified-camera-system.js",
+      "path": "archive/old-backups/backup-fix-1754338654307/unified-camera-system.js",
       "size": 20563,
-      "modified": "2025-08-10T20:23:17.885Z",
+      "modified": "2025-08-10T20:24:12.137Z",
       "extension": ".js",
       "lines": 547,
       "functions": [],
@@ -1153,47 +1095,191 @@
         "./camera-utils"
       ]
     },
-    "backups/pre-fix-2025-08-04T23-25-29-439Z.db": {
+    "archive/old-backups/backups/pre-fix-2025-08-04T23-25-29-439Z.db": {
       "name": "pre-fix-2025-08-04T23-25-29-439Z.db",
-      "path": "backups/pre-fix-2025-08-04T23-25-29-439Z.db",
+      "path": "archive/old-backups/backups/pre-fix-2025-08-04T23-25-29-439Z.db",
       "size": 151552,
-      "modified": "2025-08-10T20:23:17.885Z",
+      "modified": "2025-08-10T20:24:12.137Z",
       "extension": ".db",
       "lines": 0
     },
-    "backups/pre-migration-2025-08-04T23-26-22-873Z.db": {
+    "archive/old-backups/backups/pre-migration-2025-08-04T23-26-22-873Z.db": {
       "name": "pre-migration-2025-08-04T23-26-22-873Z.db",
-      "path": "backups/pre-migration-2025-08-04T23-26-22-873Z.db",
+      "path": "archive/old-backups/backups/pre-migration-2025-08-04T23-26-22-873Z.db",
       "size": 151552,
-      "modified": "2025-08-10T20:23:17.885Z",
+      "modified": "2025-08-10T20:24:12.138Z",
       "extension": ".db",
       "lines": 0
     },
-    "backups/pre-migration-2025-08-04T23-32-06-176Z.db": {
+    "archive/old-backups/backups/pre-migration-2025-08-04T23-32-06-176Z.db": {
       "name": "pre-migration-2025-08-04T23-32-06-176Z.db",
-      "path": "backups/pre-migration-2025-08-04T23-32-06-176Z.db",
+      "path": "archive/old-backups/backups/pre-migration-2025-08-04T23-32-06-176Z.db",
       "size": 151552,
-      "modified": "2025-08-10T20:23:17.885Z",
+      "modified": "2025-08-10T20:24:12.138Z",
       "extension": ".db",
       "lines": 0
     },
-    "camera-utils.js": {
-      "name": "camera-utils.js",
-      "path": "camera-utils.js",
-      "size": 302,
-      "modified": "2025-08-10T20:23:17.885Z",
+    "archive/old-backups/cmv-automation.js.backup": {
+      "name": "cmv-automation.js.backup",
+      "path": "archive/old-backups/cmv-automation.js.backup",
+      "size": 16834,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".backup",
+      "lines": 0
+    },
+    "archive/old-backups/fix-all-database.js.save": {
+      "name": "fix-all-database.js.save",
+      "path": "archive/old-backups/fix-all-database.js.save",
+      "size": 5803,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".save",
+      "lines": 0
+    },
+    "archive/old-backups/nano fix-api-response.js": {
+      "name": "nano fix-api-response.js",
+      "path": "archive/old-backups/nano fix-api-response.js",
+      "size": 488,
+      "modified": "2025-08-10T20:24:12.138Z",
       "extension": ".js",
-      "lines": 11,
-      "functions": [
-        "createSafeFilename"
-      ],
+      "lines": 20,
+      "functions": [],
+      "imports": [
+        "sqlite3"
+      ]
+    },
+    "archive/old-backups/server.js.backup": {
+      "name": "server.js.backup",
+      "path": "archive/old-backups/server.js.backup",
+      "size": 19967,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".backup",
+      "lines": 0
+    },
+    "archive/old-backups/unified-camera-system-temp.js": {
+      "name": "unified-camera-system-temp.js",
+      "path": "archive/old-backups/unified-camera-system-temp.js",
+      "size": 14,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".js",
+      "lines": 1,
+      "functions": [],
       "imports": []
     },
-    "check-database-status.js": {
+    "archive/old-backups/unified-camera-system.backup-1754340358242.js": {
+      "name": "unified-camera-system.backup-1754340358242.js",
+      "path": "archive/old-backups/unified-camera-system.backup-1754340358242.js",
+      "size": 20804,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".js",
+      "lines": 556,
+      "functions": [],
+      "imports": [
+        "axios",
+        "cheerio",
+        "sqlite3",
+        "fs",
+        "path",
+        "sharp",
+        "crypto",
+        "node-cron",
+        "./camera-utils"
+      ]
+    },
+    "archive/old-backups/unified-camera-system.broken.js": {
+      "name": "unified-camera-system.broken.js",
+      "path": "archive/old-backups/unified-camera-system.broken.js",
+      "size": 13286,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".js",
+      "lines": 384,
+      "functions": [
+        "scheduleDiscovery",
+        "scheduleBackup",
+        "createBackup",
+        "cleanOldBackups",
+        "delay"
+      ],
+      "imports": [
+        "axios",
+        "cheerio",
+        "sqlite3",
+        "fs",
+        "path",
+        "sharp",
+        "crypto",
+        "node-cron",
+        "./camera-utils"
+      ]
+    },
+    "archive/old-backups/unified-camera-system.js.backup-1754342972273": {
+      "name": "unified-camera-system.js.backup-1754342972273",
+      "path": "archive/old-backups/unified-camera-system.js.backup-1754342972273",
+      "size": 13248,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".backup-1754342972273",
+      "lines": 0
+    },
+    "archive/old-backups/unified-camera-system.js.backup-before-fix": {
+      "name": "unified-camera-system.js.backup-before-fix",
+      "path": "archive/old-backups/unified-camera-system.js.backup-before-fix",
+      "size": 13331,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".backup-before-fix",
+      "lines": 0
+    },
+    "archive/old-backups/unified-camera-system.js.syntax-backup": {
+      "name": "unified-camera-system.js.syntax-backup",
+      "path": "archive/old-backups/unified-camera-system.js.syntax-backup",
+      "size": 13239,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".syntax-backup",
+      "lines": 0
+    },
+    "archive/old-fixes-20250810/activate-discovery.sh": {
+      "name": "activate-discovery.sh",
+      "path": "archive/old-fixes-20250810/activate-discovery.sh",
+      "size": 21415,
+      "modified": "2025-08-10T20:24:12.138Z",
+      "extension": ".sh",
+      "lines": 0
+    },
+    "archive/old-fixes-20250810/add-all-missing-functions.js": {
+      "name": "add-all-missing-functions.js",
+      "path": "archive/old-fixes-20250810/add-all-missing-functions.js",
+      "size": 1324,
+      "modified": "2025-08-10T20:24:12.139Z",
+      "extension": ".js",
+      "lines": 45,
+      "functions": [
+        "scheduleBackup",
+        "scheduleDiscovery"
+      ],
+      "imports": [
+        "fs"
+      ]
+    },
+    "archive/old-fixes-20250810/automated-cmv-fix.js": {
+      "name": "automated-cmv-fix.js",
+      "path": "archive/old-fixes-20250810/automated-cmv-fix.js",
+      "size": 4768,
+      "modified": "2025-08-10T20:24:12.139Z",
+      "extension": ".js",
+      "lines": 133,
+      "functions": [
+        "scheduleDiscovery",
+        "scheduleBackup",
+        "cleanOldBackups"
+      ],
+      "imports": [
+        "fs",
+        "child_process"
+      ]
+    },
+    "archive/old-fixes-20250810/check-database-status.js": {
       "name": "check-database-status.js",
-      "path": "check-database-status.js",
+      "path": "archive/old-fixes-20250810/check-database-status.js",
       "size": 11219,
-      "modified": "2025-08-10T20:23:17.886Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 286,
       "functions": [],
@@ -1202,27 +1288,11 @@
         "path"
       ]
     },
-    "check-image-status.js": {
-      "name": "check-image-status.js",
-      "path": "check-image-status.js",
-      "size": 3614,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".js",
-      "lines": 112,
-      "functions": [
-        "checkImageStatus"
-      ],
-      "imports": [
-        "sqlite3",
-        "fs",
-        "path"
-      ]
-    },
-    "cleanup-and-migrate.js": {
+    "archive/old-fixes-20250810/cleanup-and-migrate.js": {
       "name": "cleanup-and-migrate.js",
-      "path": "cleanup-and-migrate.js",
+      "path": "archive/old-fixes-20250810/cleanup-and-migrate.js",
       "size": 26951,
-      "modified": "2025-08-10T20:23:17.886Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 691,
       "functions": [],
@@ -1232,19 +1302,11 @@
         "fs"
       ]
     },
-    "cleanup-cmv.sh": {
-      "name": "cleanup-cmv.sh",
-      "path": "cleanup-cmv.sh",
-      "size": 4675,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".sh",
-      "lines": 0
-    },
-    "cleanup.js": {
+    "archive/old-fixes-20250810/cleanup.js": {
       "name": "cleanup.js",
-      "path": "cleanup.js",
+      "path": "archive/old-fixes-20250810/cleanup.js",
       "size": 2580,
-      "modified": "2025-08-10T20:23:17.886Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 97,
       "functions": [
@@ -1256,295 +1318,19 @@
         "path"
       ]
     },
-    "cmv-automation.js.backup": {
-      "name": "cmv-automation.js.backup",
-      "path": "cmv-automation.js.backup",
-      "size": 16834,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".backup",
-      "lines": 0
-    },
-    "complete-db-fix.sh": {
+    "archive/old-fixes-20250810/complete-db-fix.sh": {
       "name": "complete-db-fix.sh",
-      "path": "complete-db-fix.sh",
+      "path": "archive/old-fixes-20250810/complete-db-fix.sh",
       "size": 438,
-      "modified": "2025-08-10T20:23:17.886Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".sh",
       "lines": 0
     },
-    "config/server.config.js": {
-      "name": "server.config.js",
-      "path": "config/server.config.js",
-      "size": 562,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".js",
-      "lines": 22,
-      "functions": [],
-      "imports": [
-        "path"
-      ]
-    },
-    "data/attributions/arri-alexa-mini-lf.json": {
-      "name": "arri-alexa-mini-lf.json",
-      "path": "data/attributions/arri-alexa-mini-lf.json",
-      "size": 222,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/attribution-report.json": {
-      "name": "attribution-report.json",
-      "path": "data/attributions/attribution-report.json",
-      "size": 3601,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 126
-    },
-    "data/attributions/blackmagic-ursa-mini-pro-12k.json": {
-      "name": "blackmagic-ursa-mini-pro-12k.json",
-      "path": "data/attributions/blackmagic-ursa-mini-pro-12k.json",
-      "size": 232,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/canon-ae-1.json": {
-      "name": "canon-ae-1.json",
-      "path": "data/attributions/canon-ae-1.json",
-      "size": 275,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/canon-eos-5d-mark-iv.json": {
-      "name": "canon-eos-5d-mark-iv.json",
-      "path": "data/attributions/canon-eos-5d-mark-iv.json",
-      "size": 295,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/canon-eos-r5.json": {
-      "name": "canon-eos-r5.json",
-      "path": "data/attributions/canon-eos-r5.json",
-      "size": 279,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/canon-eos-r6.json": {
-      "name": "canon-eos-r6.json",
-      "path": "data/attributions/canon-eos-r6.json",
-      "size": 279,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/canon-eos-r7.json": {
-      "name": "canon-eos-r7.json",
-      "path": "data/attributions/canon-eos-r7.json",
-      "size": 279,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/fujifilm-gfx-100-ii.json": {
-      "name": "fujifilm-gfx-100-ii.json",
-      "path": "data/attributions/fujifilm-gfx-100-ii.json",
-      "size": 223,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/fujifilm-x-h2s.json": {
-      "name": "fujifilm-x-h2s.json",
-      "path": "data/attributions/fujifilm-x-h2s.json",
-      "size": 218,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/fujifilm-x-t5.json": {
-      "name": "fujifilm-x-t5.json",
-      "path": "data/attributions/fujifilm-x-t5.json",
-      "size": 217,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/hasselblad-500c-m.json": {
-      "name": "hasselblad-500c-m.json",
-      "path": "data/attributions/hasselblad-500c-m.json",
-      "size": 243,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/leica-m6.json": {
-      "name": "leica-m6.json",
-      "path": "data/attributions/leica-m6.json",
-      "size": 212,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/nikon-d780.json": {
-      "name": "nikon-d780.json",
-      "path": "data/attributions/nikon-d780.json",
-      "size": 275,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/nikon-d850.json": {
-      "name": "nikon-d850.json",
-      "path": "data/attributions/nikon-d850.json",
-      "size": 275,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/nikon-f3.json": {
-      "name": "nikon-f3.json",
-      "path": "data/attributions/nikon-f3.json",
-      "size": 271,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/nikon-z6-iii.json": {
-      "name": "nikon-z6-iii.json",
-      "path": "data/attributions/nikon-z6-iii.json",
-      "size": 279,
-      "modified": "2025-08-10T20:23:17.886Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/nikon-z9.json": {
-      "name": "nikon-z9.json",
-      "path": "data/attributions/nikon-z9.json",
-      "size": 271,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/red-komodo.json": {
-      "name": "red-komodo.json",
-      "path": "data/attributions/red-komodo.json",
-      "size": 214,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/sony-a7-iv.json": {
-      "name": "sony-a7-iv.json",
-      "path": "data/attributions/sony-a7-iv.json",
-      "size": 273,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/sony-a7r-v.json": {
-      "name": "sony-a7r-v.json",
-      "path": "data/attributions/sony-a7r-v.json",
-      "size": 273,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/sony-a7s-iii.json": {
-      "name": "sony-a7s-iii.json",
-      "path": "data/attributions/sony-a7s-iii.json",
-      "size": 277,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/sony-fx3.json": {
-      "name": "sony-fx3.json",
-      "path": "data/attributions/sony-fx3.json",
-      "size": 269,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/sony-fx6.json": {
-      "name": "sony-fx6.json",
-      "path": "data/attributions/sony-fx6.json",
-      "size": 269,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/attributions/update-report.json": {
-      "name": "update-report.json",
-      "path": "data/attributions/update-report.json",
-      "size": 97,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 6
-    },
-    "data/automation-report.json": {
-      "name": "automation-report.json",
-      "path": "data/automation-report.json",
-      "size": 178,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 9
-    },
-    "data/camera-vault-backup-1754268515576.db": {
-      "name": "camera-vault-backup-1754268515576.db",
-      "path": "data/camera-vault-backup-1754268515576.db",
-      "size": 69632,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".db",
-      "lines": 0
-    },
-    "data/camera-vault-backup-1754269121092.db": {
-      "name": "camera-vault-backup-1754269121092.db",
-      "path": "data/camera-vault-backup-1754269121092.db",
-      "size": 114688,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".db",
-      "lines": 0
-    },
-    "data/camera-vault.db": {
-      "name": "camera-vault.db",
-      "path": "data/camera-vault.db",
-      "size": 151552,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".db",
-      "lines": 0
-    },
-    "data/camera-vault.db.backup": {
-      "name": "camera-vault.db.backup",
-      "path": "data/camera-vault.db.backup",
-      "size": 12288,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".backup",
-      "lines": 0
-    },
-    "data/camera-vault.db.backup-before-fix": {
-      "name": "camera-vault.db.backup-before-fix",
-      "path": "data/camera-vault.db.backup-before-fix",
-      "size": 151552,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".backup-before-fix",
-      "lines": 0
-    },
-    "data/cameras.json": {
-      "name": "cameras.json",
-      "path": "data/cameras.json",
-      "size": 267,
-      "modified": "2025-08-10T20:23:17.887Z",
-      "extension": ".json",
-      "lines": 15
-    },
-    "debug-save.js": {
+    "archive/old-fixes-20250810/debug-save.js": {
       "name": "debug-save.js",
-      "path": "debug-save.js",
+      "path": "archive/old-fixes-20250810/debug-save.js",
       "size": 1288,
-      "modified": "2025-08-10T20:23:17.887Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 44,
       "functions": [],
@@ -1552,19 +1338,19 @@
         "sqlite3"
       ]
     },
-    "deep-diagnosis.sh": {
+    "archive/old-fixes-20250810/deep-diagnosis.sh": {
       "name": "deep-diagnosis.sh",
-      "path": "deep-diagnosis.sh",
+      "path": "archive/old-fixes-20250810/deep-diagnosis.sh",
       "size": 1610,
-      "modified": "2025-08-10T20:23:17.887Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".sh",
       "lines": 0
     },
-    "diagnose-db.js": {
+    "archive/old-fixes-20250810/diagnose-db.js": {
       "name": "diagnose-db.js",
-      "path": "diagnose-db.js",
+      "path": "archive/old-fixes-20250810/diagnose-db.js",
       "size": 8378,
-      "modified": "2025-08-10T20:23:17.887Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 182,
       "functions": [],
@@ -1574,19 +1360,11 @@
         "fs"
       ]
     },
-    "diagnosis-output.txt": {
-      "name": "diagnosis-output.txt",
-      "path": "diagnosis-output.txt",
-      "size": 20309,
-      "modified": "2025-08-10T20:23:17.888Z",
-      "extension": ".txt",
-      "lines": 186
-    },
-    "disable-auto-automation.js": {
+    "archive/old-fixes-20250810/disable-auto-automation.js": {
       "name": "disable-auto-automation.js",
-      "path": "disable-auto-automation.js",
+      "path": "archive/old-fixes-20250810/disable-auto-automation.js",
       "size": 2586,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 72,
       "functions": [],
@@ -1595,21 +1373,11 @@
         "path"
       ]
     },
-    "ecosystem.config.js": {
-      "name": "ecosystem.config.js",
-      "path": "ecosystem.config.js",
-      "size": 902,
-      "modified": "2025-08-10T20:23:17.888Z",
-      "extension": ".js",
-      "lines": 36,
-      "functions": [],
-      "imports": []
-    },
-    "final-unified-camera-system.js": {
+    "archive/old-fixes-20250810/final-unified-camera-system.js": {
       "name": "final-unified-camera-system.js",
-      "path": "final-unified-camera-system.js",
+      "path": "archive/old-fixes-20250810/final-unified-camera-system.js",
       "size": 13187,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 384,
       "functions": [],
@@ -1625,11 +1393,11 @@
         "./camera-utils"
       ]
     },
-    "fix-all-database.js": {
+    "archive/old-fixes-20250810/fix-all-database.js": {
       "name": "fix-all-database.js",
-      "path": "fix-all-database.js",
+      "path": "archive/old-fixes-20250810/fix-all-database.js",
       "size": 5802,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 176,
       "functions": [
@@ -1640,19 +1408,11 @@
         "fs"
       ]
     },
-    "fix-all-database.js.save": {
-      "name": "fix-all-database.js.save",
-      "path": "fix-all-database.js.save",
-      "size": 5803,
-      "modified": "2025-08-10T20:23:17.888Z",
-      "extension": ".save",
-      "lines": 0
-    },
-    "fix-all-missing-functions.js": {
+    "archive/old-fixes-20250810/fix-all-missing-functions.js": {
       "name": "fix-all-missing-functions.js",
-      "path": "fix-all-missing-functions.js",
+      "path": "archive/old-fixes-20250810/fix-all-missing-functions.js",
       "size": 3954,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 108,
       "functions": [],
@@ -1661,11 +1421,11 @@
         "child_process"
       ]
     },
-    "fix-all-this-references.js": {
+    "archive/old-fixes-20250810/fix-all-this-references.js": {
       "name": "fix-all-this-references.js",
-      "path": "fix-all-this-references.js",
+      "path": "archive/old-fixes-20250810/fix-all-this-references.js",
       "size": 493,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 14,
       "functions": [],
@@ -1673,11 +1433,11 @@
         "fs"
       ]
     },
-    "fix-api-response.js": {
+    "archive/old-fixes-20250810/fix-api-response.js": {
       "name": "fix-api-response.js",
-      "path": "fix-api-response.js",
+      "path": "archive/old-fixes-20250810/fix-api-response.js",
       "size": 453,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 19,
       "functions": [],
@@ -1685,11 +1445,11 @@
         "sqlite3"
       ]
     },
-    "fix-column-names.js": {
+    "archive/old-fixes-20250810/fix-column-names.js": {
       "name": "fix-column-names.js",
-      "path": "fix-column-names.js",
+      "path": "archive/old-fixes-20250810/fix-column-names.js",
       "size": 4293,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 133,
       "functions": [],
@@ -1698,11 +1458,11 @@
         "path"
       ]
     },
-    "fix-db-columns.js": {
+    "archive/old-fixes-20250810/fix-db-columns.js": {
       "name": "fix-db-columns.js",
-      "path": "fix-db-columns.js",
+      "path": "archive/old-fixes-20250810/fix-db-columns.js",
       "size": 2775,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 72,
       "functions": [],
@@ -1710,11 +1470,11 @@
         "fs"
       ]
     },
-    "fix-delay-issue.js": {
+    "archive/old-fixes-20250810/fix-delay-issue.js": {
       "name": "fix-delay-issue.js",
-      "path": "fix-delay-issue.js",
+      "path": "archive/old-fixes-20250810/fix-delay-issue.js",
       "size": 1120,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 36,
       "functions": [
@@ -1725,11 +1485,11 @@
         "fs"
       ]
     },
-    "fix-everything-intelligently.js": {
+    "archive/old-fixes-20250810/fix-everything-intelligently.js": {
       "name": "fix-everything-intelligently.js",
-      "path": "fix-everything-intelligently.js",
+      "path": "archive/old-fixes-20250810/fix-everything-intelligently.js",
       "size": 14359,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 382,
       "functions": [
@@ -1746,11 +1506,11 @@
         "crypto"
       ]
     },
-    "fix-extra-braces.js": {
+    "archive/old-fixes-20250810/fix-extra-braces.js": {
       "name": "fix-extra-braces.js",
-      "path": "fix-extra-braces.js",
+      "path": "archive/old-fixes-20250810/fix-extra-braces.js",
       "size": 2689,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 81,
       "functions": [],
@@ -1758,11 +1518,11 @@
         "fs"
       ]
     },
-    "fix-function-order.js": {
+    "archive/old-fixes-20250810/fix-function-order.js": {
       "name": "fix-function-order.js",
-      "path": "fix-function-order.js",
+      "path": "archive/old-fixes-20250810/fix-function-order.js",
       "size": 1912,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".js",
       "lines": 62,
       "functions": [
@@ -1773,27 +1533,19 @@
         "fs"
       ]
     },
-    "fix-now.sh": {
+    "archive/old-fixes-20250810/fix-now.sh": {
       "name": "fix-now.sh",
-      "path": "fix-now.sh",
+      "path": "archive/old-fixes-20250810/fix-now.sh",
       "size": 1691,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.139Z",
       "extension": ".sh",
       "lines": 0
     },
-    "fix-report.json": {
-      "name": "fix-report.json",
-      "path": "fix-report.json",
-      "size": 307,
-      "modified": "2025-08-10T20:23:17.888Z",
-      "extension": ".json",
-      "lines": 14
-    },
-    "fix-server-now.js": {
+    "archive/old-fixes-20250810/fix-server-now.js": {
       "name": "fix-server-now.js",
-      "path": "fix-server-now.js",
+      "path": "archive/old-fixes-20250810/fix-server-now.js",
       "size": 1873,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.140Z",
       "extension": ".js",
       "lines": 54,
       "functions": [],
@@ -1801,11 +1553,11 @@
         "fs"
       ]
     },
-    "fix-sql-query.js": {
+    "archive/old-fixes-20250810/fix-sql-query.js": {
       "name": "fix-sql-query.js",
-      "path": "fix-sql-query.js",
+      "path": "archive/old-fixes-20250810/fix-sql-query.js",
       "size": 3271,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.140Z",
       "extension": ".js",
       "lines": 82,
       "functions": [],
@@ -1814,11 +1566,11 @@
         "path"
       ]
     },
-    "fix-syntax-error.js": {
+    "archive/old-fixes-20250810/fix-syntax-error.js": {
       "name": "fix-syntax-error.js",
-      "path": "fix-syntax-error.js",
+      "path": "archive/old-fixes-20250810/fix-syntax-error.js",
       "size": 2665,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.140Z",
       "extension": ".js",
       "lines": 69,
       "functions": [],
@@ -1826,11 +1578,492 @@
         "fs"
       ]
     },
+    "archive/old-fixes-20250810/migrate-to-comprehensive.js": {
+      "name": "migrate-to-comprehensive.js",
+      "path": "archive/old-fixes-20250810/migrate-to-comprehensive.js",
+      "size": 21054,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 558,
+      "functions": [],
+      "imports": [
+        "sqlite3",
+        "path",
+        "fs"
+      ]
+    },
+    "archive/old-fixes-20250810/minimal-syntax-fix.js": {
+      "name": "minimal-syntax-fix.js",
+      "path": "archive/old-fixes-20250810/minimal-syntax-fix.js",
+      "size": 1287,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 42,
+      "functions": [],
+      "imports": [
+        "fs"
+      ]
+    },
+    "archive/old-fixes-20250810/quick-db-fix.js": {
+      "name": "quick-db-fix.js",
+      "path": "archive/old-fixes-20250810/quick-db-fix.js",
+      "size": 1464,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 64,
+      "functions": [],
+      "imports": [
+        "sqlite3",
+        "fs"
+      ]
+    },
+    "archive/old-fixes-20250810/restore-generate-structure.sh": {
+      "name": "restore-generate-structure.sh",
+      "path": "archive/old-fixes-20250810/restore-generate-structure.sh",
+      "size": 2524,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".sh",
+      "lines": 0
+    },
+    "archive/old-fixes-20250810/safe-check-database-status.js": {
+      "name": "safe-check-database-status.js",
+      "path": "archive/old-fixes-20250810/safe-check-database-status.js",
+      "size": 15470,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 377,
+      "functions": [],
+      "imports": [
+        "sqlite3",
+        "path"
+      ]
+    },
+    "archive/old-fixes-20250810/safe-database-fix.js": {
+      "name": "safe-database-fix.js",
+      "path": "archive/old-fixes-20250810/safe-database-fix.js",
+      "size": 10622,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 300,
+      "functions": [],
+      "imports": [
+        "sqlite3",
+        "path",
+        "fs"
+      ]
+    },
+    "archive/old-fixes-20250810/simple-migrate.js": {
+      "name": "simple-migrate.js",
+      "path": "archive/old-fixes-20250810/simple-migrate.js",
+      "size": 15038,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 383,
+      "functions": [
+        "runSQL",
+        "getOne",
+        "getAll",
+        "createSlug",
+        "migrate"
+      ],
+      "imports": [
+        "sqlite3",
+        "path",
+        "fs"
+      ]
+    },
+    "archive/old-fixes-20250810/smart-fix-unified-system.js": {
+      "name": "smart-fix-unified-system.js",
+      "path": "archive/old-fixes-20250810/smart-fix-unified-system.js",
+      "size": 5163,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 127,
+      "functions": [
+        "smartFix"
+      ],
+      "imports": [
+        "fs",
+        "path",
+        "child_process",
+        "util",
+        "./camera-utils"
+      ]
+    },
+    "archive/old-fixes-20250810/ultimate-schema-fix.js": {
+      "name": "ultimate-schema-fix.js",
+      "path": "archive/old-fixes-20250810/ultimate-schema-fix.js",
+      "size": 21244,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 459,
+      "functions": [
+        "finishSetup"
+      ],
+      "imports": [
+        "sqlite3",
+        "path",
+        "fs"
+      ]
+    },
+    "archive/old-fixes-20250810/undo-and-fix.sh": {
+      "name": "undo-and-fix.sh",
+      "path": "archive/old-fixes-20250810/undo-and-fix.sh",
+      "size": 3313,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".sh",
+      "lines": 0
+    },
+    "archive/old-fixes-20250810/view-cameras.js": {
+      "name": "view-cameras.js",
+      "path": "archive/old-fixes-20250810/view-cameras.js",
+      "size": 2940,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 71,
+      "functions": [],
+      "imports": [
+        "sqlite3",
+        "path"
+      ]
+    },
+    "automation-routes.js": {
+      "name": "automation-routes.js",
+      "path": "automation-routes.js",
+      "size": 6765,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 223,
+      "functions": [
+        "getLastBackupTime"
+      ],
+      "imports": [
+        "express",
+        "fs",
+        "path",
+        "./cmv-automation",
+        "./automation-routes"
+      ]
+    },
+    "camera-utils.js": {
+      "name": "camera-utils.js",
+      "path": "camera-utils.js",
+      "size": 302,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 11,
+      "functions": [
+        "createSafeFilename"
+      ],
+      "imports": []
+    },
+    "check-image-status.js": {
+      "name": "check-image-status.js",
+      "path": "check-image-status.js",
+      "size": 3614,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 112,
+      "functions": [
+        "checkImageStatus"
+      ],
+      "imports": [
+        "sqlite3",
+        "fs",
+        "path"
+      ]
+    },
+    "cleanup-cmv.sh": {
+      "name": "cleanup-cmv.sh",
+      "path": "cleanup-cmv.sh",
+      "size": 4675,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".sh",
+      "lines": 0
+    },
+    "config/server.config.js": {
+      "name": "server.config.js",
+      "path": "config/server.config.js",
+      "size": 562,
+      "modified": "2025-08-10T20:24:12.140Z",
+      "extension": ".js",
+      "lines": 22,
+      "functions": [],
+      "imports": [
+        "path"
+      ]
+    },
+    "data/attributions/arri-alexa-mini-lf.json": {
+      "name": "arri-alexa-mini-lf.json",
+      "path": "data/attributions/arri-alexa-mini-lf.json",
+      "size": 222,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/attribution-report.json": {
+      "name": "attribution-report.json",
+      "path": "data/attributions/attribution-report.json",
+      "size": 3601,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 126
+    },
+    "data/attributions/blackmagic-ursa-mini-pro-12k.json": {
+      "name": "blackmagic-ursa-mini-pro-12k.json",
+      "path": "data/attributions/blackmagic-ursa-mini-pro-12k.json",
+      "size": 232,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/canon-ae-1.json": {
+      "name": "canon-ae-1.json",
+      "path": "data/attributions/canon-ae-1.json",
+      "size": 275,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/canon-eos-5d-mark-iv.json": {
+      "name": "canon-eos-5d-mark-iv.json",
+      "path": "data/attributions/canon-eos-5d-mark-iv.json",
+      "size": 295,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/canon-eos-r5.json": {
+      "name": "canon-eos-r5.json",
+      "path": "data/attributions/canon-eos-r5.json",
+      "size": 279,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/canon-eos-r6.json": {
+      "name": "canon-eos-r6.json",
+      "path": "data/attributions/canon-eos-r6.json",
+      "size": 279,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/canon-eos-r7.json": {
+      "name": "canon-eos-r7.json",
+      "path": "data/attributions/canon-eos-r7.json",
+      "size": 279,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/fujifilm-gfx-100-ii.json": {
+      "name": "fujifilm-gfx-100-ii.json",
+      "path": "data/attributions/fujifilm-gfx-100-ii.json",
+      "size": 223,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/fujifilm-x-h2s.json": {
+      "name": "fujifilm-x-h2s.json",
+      "path": "data/attributions/fujifilm-x-h2s.json",
+      "size": 218,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/fujifilm-x-t5.json": {
+      "name": "fujifilm-x-t5.json",
+      "path": "data/attributions/fujifilm-x-t5.json",
+      "size": 217,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/hasselblad-500c-m.json": {
+      "name": "hasselblad-500c-m.json",
+      "path": "data/attributions/hasselblad-500c-m.json",
+      "size": 243,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/leica-m6.json": {
+      "name": "leica-m6.json",
+      "path": "data/attributions/leica-m6.json",
+      "size": 212,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/nikon-d780.json": {
+      "name": "nikon-d780.json",
+      "path": "data/attributions/nikon-d780.json",
+      "size": 275,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/nikon-d850.json": {
+      "name": "nikon-d850.json",
+      "path": "data/attributions/nikon-d850.json",
+      "size": 275,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/nikon-f3.json": {
+      "name": "nikon-f3.json",
+      "path": "data/attributions/nikon-f3.json",
+      "size": 271,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/nikon-z6-iii.json": {
+      "name": "nikon-z6-iii.json",
+      "path": "data/attributions/nikon-z6-iii.json",
+      "size": 279,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/nikon-z9.json": {
+      "name": "nikon-z9.json",
+      "path": "data/attributions/nikon-z9.json",
+      "size": 271,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/red-komodo.json": {
+      "name": "red-komodo.json",
+      "path": "data/attributions/red-komodo.json",
+      "size": 214,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/sony-a7-iv.json": {
+      "name": "sony-a7-iv.json",
+      "path": "data/attributions/sony-a7-iv.json",
+      "size": 273,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/sony-a7r-v.json": {
+      "name": "sony-a7r-v.json",
+      "path": "data/attributions/sony-a7r-v.json",
+      "size": 273,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/sony-a7s-iii.json": {
+      "name": "sony-a7s-iii.json",
+      "path": "data/attributions/sony-a7s-iii.json",
+      "size": 277,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/sony-fx3.json": {
+      "name": "sony-fx3.json",
+      "path": "data/attributions/sony-fx3.json",
+      "size": 269,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/sony-fx6.json": {
+      "name": "sony-fx6.json",
+      "path": "data/attributions/sony-fx6.json",
+      "size": 269,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/attributions/update-report.json": {
+      "name": "update-report.json",
+      "path": "data/attributions/update-report.json",
+      "size": 97,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 6
+    },
+    "data/automation-report.json": {
+      "name": "automation-report.json",
+      "path": "data/automation-report.json",
+      "size": 178,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".json",
+      "lines": 9
+    },
+    "data/camera-vault-backup-1754268515576.db": {
+      "name": "camera-vault-backup-1754268515576.db",
+      "path": "data/camera-vault-backup-1754268515576.db",
+      "size": 69632,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".db",
+      "lines": 0
+    },
+    "data/camera-vault-backup-1754269121092.db": {
+      "name": "camera-vault-backup-1754269121092.db",
+      "path": "data/camera-vault-backup-1754269121092.db",
+      "size": 114688,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".db",
+      "lines": 0
+    },
+    "data/camera-vault.db": {
+      "name": "camera-vault.db",
+      "path": "data/camera-vault.db",
+      "size": 151552,
+      "modified": "2025-08-10T20:24:12.141Z",
+      "extension": ".db",
+      "lines": 0
+    },
+    "data/camera-vault.db.backup": {
+      "name": "camera-vault.db.backup",
+      "path": "data/camera-vault.db.backup",
+      "size": 12288,
+      "modified": "2025-08-10T20:24:12.142Z",
+      "extension": ".backup",
+      "lines": 0
+    },
+    "data/camera-vault.db.backup-before-fix": {
+      "name": "camera-vault.db.backup-before-fix",
+      "path": "data/camera-vault.db.backup-before-fix",
+      "size": 151552,
+      "modified": "2025-08-10T20:24:12.142Z",
+      "extension": ".backup-before-fix",
+      "lines": 0
+    },
+    "data/cameras.json": {
+      "name": "cameras.json",
+      "path": "data/cameras.json",
+      "size": 267,
+      "modified": "2025-08-10T20:24:12.142Z",
+      "extension": ".json",
+      "lines": 15
+    },
+    "ecosystem.config.js": {
+      "name": "ecosystem.config.js",
+      "path": "ecosystem.config.js",
+      "size": 902,
+      "modified": "2025-08-10T20:24:12.142Z",
+      "extension": ".js",
+      "lines": 36,
+      "functions": [],
+      "imports": []
+    },
     "fixed-migrate-to-comprehensive.js": {
       "name": "fixed-migrate-to-comprehensive.js",
       "path": "fixed-migrate-to-comprehensive.js",
       "size": 25210,
-      "modified": "2025-08-10T20:23:17.888Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".js",
       "lines": 646,
       "functions": [],
@@ -1844,7 +2077,7 @@
       "name": "arri-alexa-mini-lf.json",
       "path": "full-backup-before-cleanup/data/attributions/arri-alexa-mini-lf.json",
       "size": 222,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1852,7 +2085,7 @@
       "name": "attribution-report.json",
       "path": "full-backup-before-cleanup/data/attributions/attribution-report.json",
       "size": 3601,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 126
     },
@@ -1860,7 +2093,7 @@
       "name": "blackmagic-ursa-mini-pro-12k.json",
       "path": "full-backup-before-cleanup/data/attributions/blackmagic-ursa-mini-pro-12k.json",
       "size": 232,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1868,7 +2101,7 @@
       "name": "canon-ae-1.json",
       "path": "full-backup-before-cleanup/data/attributions/canon-ae-1.json",
       "size": 275,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1876,7 +2109,7 @@
       "name": "canon-eos-5d-mark-iv.json",
       "path": "full-backup-before-cleanup/data/attributions/canon-eos-5d-mark-iv.json",
       "size": 295,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1884,7 +2117,7 @@
       "name": "canon-eos-r5.json",
       "path": "full-backup-before-cleanup/data/attributions/canon-eos-r5.json",
       "size": 279,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1892,7 +2125,7 @@
       "name": "canon-eos-r6.json",
       "path": "full-backup-before-cleanup/data/attributions/canon-eos-r6.json",
       "size": 279,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1900,7 +2133,7 @@
       "name": "canon-eos-r7.json",
       "path": "full-backup-before-cleanup/data/attributions/canon-eos-r7.json",
       "size": 279,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1908,7 +2141,7 @@
       "name": "fujifilm-gfx-100-ii.json",
       "path": "full-backup-before-cleanup/data/attributions/fujifilm-gfx-100-ii.json",
       "size": 223,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1916,7 +2149,7 @@
       "name": "fujifilm-x-h2s.json",
       "path": "full-backup-before-cleanup/data/attributions/fujifilm-x-h2s.json",
       "size": 218,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1924,7 +2157,7 @@
       "name": "fujifilm-x-t5.json",
       "path": "full-backup-before-cleanup/data/attributions/fujifilm-x-t5.json",
       "size": 217,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1932,7 +2165,7 @@
       "name": "hasselblad-500c-m.json",
       "path": "full-backup-before-cleanup/data/attributions/hasselblad-500c-m.json",
       "size": 243,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1940,7 +2173,7 @@
       "name": "leica-m6.json",
       "path": "full-backup-before-cleanup/data/attributions/leica-m6.json",
       "size": 212,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1948,7 +2181,7 @@
       "name": "nikon-d780.json",
       "path": "full-backup-before-cleanup/data/attributions/nikon-d780.json",
       "size": 275,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1956,7 +2189,7 @@
       "name": "nikon-d850.json",
       "path": "full-backup-before-cleanup/data/attributions/nikon-d850.json",
       "size": 275,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1964,7 +2197,7 @@
       "name": "nikon-f3.json",
       "path": "full-backup-before-cleanup/data/attributions/nikon-f3.json",
       "size": 271,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1972,7 +2205,7 @@
       "name": "nikon-z6-iii.json",
       "path": "full-backup-before-cleanup/data/attributions/nikon-z6-iii.json",
       "size": 279,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1980,7 +2213,7 @@
       "name": "nikon-z9.json",
       "path": "full-backup-before-cleanup/data/attributions/nikon-z9.json",
       "size": 271,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.142Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1988,7 +2221,7 @@
       "name": "red-komodo.json",
       "path": "full-backup-before-cleanup/data/attributions/red-komodo.json",
       "size": 214,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".json",
       "lines": 9
     },
@@ -1996,7 +2229,7 @@
       "name": "sony-a7-iv.json",
       "path": "full-backup-before-cleanup/data/attributions/sony-a7-iv.json",
       "size": 273,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".json",
       "lines": 9
     },
@@ -2004,7 +2237,7 @@
       "name": "sony-a7r-v.json",
       "path": "full-backup-before-cleanup/data/attributions/sony-a7r-v.json",
       "size": 273,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".json",
       "lines": 9
     },
@@ -2012,7 +2245,7 @@
       "name": "sony-a7s-iii.json",
       "path": "full-backup-before-cleanup/data/attributions/sony-a7s-iii.json",
       "size": 277,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".json",
       "lines": 9
     },
@@ -2020,7 +2253,7 @@
       "name": "sony-fx3.json",
       "path": "full-backup-before-cleanup/data/attributions/sony-fx3.json",
       "size": 269,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".json",
       "lines": 9
     },
@@ -2028,7 +2261,7 @@
       "name": "sony-fx6.json",
       "path": "full-backup-before-cleanup/data/attributions/sony-fx6.json",
       "size": 269,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".json",
       "lines": 9
     },
@@ -2036,7 +2269,7 @@
       "name": "update-report.json",
       "path": "full-backup-before-cleanup/data/attributions/update-report.json",
       "size": 97,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".json",
       "lines": 6
     },
@@ -2044,7 +2277,7 @@
       "name": "automation-report.json",
       "path": "full-backup-before-cleanup/data/automation-report.json",
       "size": 178,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".json",
       "lines": 9
     },
@@ -2052,7 +2285,7 @@
       "name": "camera-vault-backup-1754268515576.db",
       "path": "full-backup-before-cleanup/data/camera-vault-backup-1754268515576.db",
       "size": 69632,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".db",
       "lines": 0
     },
@@ -2060,7 +2293,7 @@
       "name": "camera-vault-backup-1754269121092.db",
       "path": "full-backup-before-cleanup/data/camera-vault-backup-1754269121092.db",
       "size": 114688,
-      "modified": "2025-08-10T20:23:17.889Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".db",
       "lines": 0
     },
@@ -2068,7 +2301,7 @@
       "name": "camera-vault.db",
       "path": "full-backup-before-cleanup/data/camera-vault.db",
       "size": 151552,
-      "modified": "2025-08-10T20:23:17.890Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".db",
       "lines": 0
     },
@@ -2076,7 +2309,7 @@
       "name": "camera-vault.db.backup",
       "path": "full-backup-before-cleanup/data/camera-vault.db.backup",
       "size": 12288,
-      "modified": "2025-08-10T20:23:17.890Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".backup",
       "lines": 0
     },
@@ -2084,7 +2317,7 @@
       "name": "camera-vault.db.backup-before-fix",
       "path": "full-backup-before-cleanup/data/camera-vault.db.backup-before-fix",
       "size": 151552,
-      "modified": "2025-08-10T20:23:17.890Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".backup-before-fix",
       "lines": 0
     },
@@ -2092,7 +2325,7 @@
       "name": "cameras.json",
       "path": "full-backup-before-cleanup/data/cameras.json",
       "size": 267,
-      "modified": "2025-08-10T20:23:17.890Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".json",
       "lines": 15
     },
@@ -2100,68 +2333,15 @@
       "name": "implement-cmv.sh",
       "path": "implement-cmv.sh",
       "size": 13790,
-      "modified": "2025-08-10T20:23:17.890Z",
+      "modified": "2025-08-10T20:24:12.143Z",
       "extension": ".sh",
       "lines": 0
-    },
-    "migrate-to-comprehensive.js": {
-      "name": "migrate-to-comprehensive.js",
-      "path": "migrate-to-comprehensive.js",
-      "size": 21054,
-      "modified": "2025-08-10T20:23:17.890Z",
-      "extension": ".js",
-      "lines": 558,
-      "functions": [],
-      "imports": [
-        "sqlite3",
-        "path",
-        "fs"
-      ]
-    },
-    "minimal-syntax-fix.js": {
-      "name": "minimal-syntax-fix.js",
-      "path": "minimal-syntax-fix.js",
-      "size": 1287,
-      "modified": "2025-08-10T20:23:17.890Z",
-      "extension": ".js",
-      "lines": 42,
-      "functions": [],
-      "imports": [
-        "fs"
-      ]
-    },
-    "monitor.js": {
-      "name": "monitor.js",
-      "path": "monitor.js",
-      "size": 1050,
-      "modified": "2025-08-10T20:23:17.890Z",
-      "extension": ".js",
-      "lines": 32,
-      "functions": [
-        "monitor"
-      ],
-      "imports": [
-        "sqlite3",
-        "fs"
-      ]
-    },
-    "nano fix-api-response.js": {
-      "name": "nano fix-api-response.js",
-      "path": "nano fix-api-response.js",
-      "size": 488,
-      "modified": "2025-08-10T20:23:17.890Z",
-      "extension": ".js",
-      "lines": 20,
-      "functions": [],
-      "imports": [
-        "sqlite3"
-      ]
     },
     "package-lock.json": {
       "name": "package-lock.json",
       "path": "package-lock.json",
       "size": 312005,
-      "modified": "2025-08-10T20:23:17.891Z",
+      "modified": "2025-08-10T20:24:12.144Z",
       "extension": ".json",
       "lines": 8082
     },
@@ -2169,7 +2349,7 @@
       "name": "package.json",
       "path": "package.json",
       "size": 837,
-      "modified": "2025-08-10T20:23:17.891Z",
+      "modified": "2025-08-10T20:24:12.144Z",
       "extension": ".json",
       "lines": 38
     },
@@ -2177,7 +2357,7 @@
       "name": "attribution.html",
       "path": "public/attribution.html",
       "size": 13534,
-      "modified": "2025-08-10T20:23:17.892Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".html",
       "lines": 397,
       "pageInfo": {
@@ -2217,7 +2397,7 @@
       "name": "automation-monitor.html",
       "path": "public/automation-monitor.html",
       "size": 14539,
-      "modified": "2025-08-10T20:23:17.892Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".html",
       "lines": 433,
       "pageInfo": {
@@ -2232,7 +2412,7 @@
       "name": "camera-blog.html",
       "path": "public/camera-blog.html",
       "size": 23846,
-      "modified": "2025-08-10T20:23:17.892Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".html",
       "lines": 723,
       "pageInfo": {
@@ -2272,7 +2452,7 @@
       "name": "camera-detail.html",
       "path": "public/camera-detail.html",
       "size": 31833,
-      "modified": "2025-08-10T20:23:17.892Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".html",
       "lines": 967,
       "pageInfo": {
@@ -2312,7 +2492,7 @@
       "name": "camera-finder.html",
       "path": "public/camera-finder.html",
       "size": 23910,
-      "modified": "2025-08-10T20:23:17.892Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".html",
       "lines": 729,
       "pageInfo": {
@@ -2352,7 +2532,7 @@
       "name": "cameras-fixed.html.save",
       "path": "public/cameras-fixed.html.save",
       "size": 7355,
-      "modified": "2025-08-10T20:23:17.892Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".save",
       "lines": 0
     },
@@ -2360,7 +2540,7 @@
       "name": "cameras.html",
       "path": "public/cameras.html",
       "size": 7355,
-      "modified": "2025-08-10T20:23:17.892Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".html",
       "lines": 212,
       "pageInfo": {
@@ -2402,7 +2582,7 @@
       "name": "cameras.html.backup",
       "path": "public/cameras.html.backup",
       "size": 70560,
-      "modified": "2025-08-10T20:23:17.892Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".backup",
       "lines": 0
     },
@@ -2410,7 +2590,7 @@
       "name": "main.css",
       "path": "public/css/main.css",
       "size": 10448,
-      "modified": "2025-08-10T20:23:17.892Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".css",
       "lines": 429,
       "cssInfo": {
@@ -2643,7 +2823,7 @@
       "name": "dmca.html",
       "path": "public/dmca.html",
       "size": 10262,
-      "modified": "2025-08-10T20:23:17.893Z",
+      "modified": "2025-08-10T20:24:12.145Z",
       "extension": ".html",
       "lines": 323,
       "pageInfo": {
@@ -2683,7 +2863,7 @@
       "name": "camera-placeholder.jpg",
       "path": "public/images/camera-placeholder.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.893Z",
+      "modified": "2025-08-10T20:24:12.146Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2691,7 +2871,7 @@
       "name": "arri-alexa-mini-lf.jpg",
       "path": "public/images/cameras/arri-alexa-mini-lf.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.893Z",
+      "modified": "2025-08-10T20:24:12.146Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2699,7 +2879,7 @@
       "name": "blackmagic-ursa-mini-pro-12k.jpg",
       "path": "public/images/cameras/blackmagic-ursa-mini-pro-12k.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.894Z",
+      "modified": "2025-08-10T20:24:12.147Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2707,7 +2887,7 @@
       "name": "canon-ae-1.jpg",
       "path": "public/images/cameras/canon-ae-1.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.894Z",
+      "modified": "2025-08-10T20:24:12.147Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2715,7 +2895,7 @@
       "name": "canon-eos-5d-mark-iv.jpg",
       "path": "public/images/cameras/canon-eos-5d-mark-iv.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.894Z",
+      "modified": "2025-08-10T20:24:12.147Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2723,7 +2903,7 @@
       "name": "canon-eos-r5-undefined.jpg",
       "path": "public/images/cameras/canon-eos-r5-undefined.jpg",
       "size": 15672,
-      "modified": "2025-08-10T20:23:17.894Z",
+      "modified": "2025-08-10T20:24:12.147Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2731,7 +2911,7 @@
       "name": "canon-eos-r5.jpg",
       "path": "public/images/cameras/canon-eos-r5.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.895Z",
+      "modified": "2025-08-10T20:24:12.147Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2739,7 +2919,7 @@
       "name": "canon-eos-r6-mark-ii-undefined.jpg",
       "path": "public/images/cameras/canon-eos-r6-mark-ii-undefined.jpg",
       "size": 17211,
-      "modified": "2025-08-10T20:23:17.895Z",
+      "modified": "2025-08-10T20:24:12.148Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2747,7 +2927,7 @@
       "name": "canon-eos-r6.jpg",
       "path": "public/images/cameras/canon-eos-r6.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.895Z",
+      "modified": "2025-08-10T20:24:12.148Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2755,7 +2935,7 @@
       "name": "canon-eos-r7.jpg",
       "path": "public/images/cameras/canon-eos-r7.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.895Z",
+      "modified": "2025-08-10T20:24:12.148Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2763,7 +2943,7 @@
       "name": "fujifilm-gfx-100-ii.jpg",
       "path": "public/images/cameras/fujifilm-gfx-100-ii.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.896Z",
+      "modified": "2025-08-10T20:24:12.148Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2771,7 +2951,7 @@
       "name": "fujifilm-x-h2s.jpg",
       "path": "public/images/cameras/fujifilm-x-h2s.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.896Z",
+      "modified": "2025-08-10T20:24:12.149Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2779,7 +2959,7 @@
       "name": "fujifilm-x-t5.jpg",
       "path": "public/images/cameras/fujifilm-x-t5.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.896Z",
+      "modified": "2025-08-10T20:24:12.149Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2787,7 +2967,7 @@
       "name": "hasselblad-500c-m.jpg",
       "path": "public/images/cameras/hasselblad-500c-m.jpg",
       "size": 14682,
-      "modified": "2025-08-10T20:23:17.896Z",
+      "modified": "2025-08-10T20:24:12.149Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2795,7 +2975,7 @@
       "name": "leica-m6.jpg",
       "path": "public/images/cameras/leica-m6.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.896Z",
+      "modified": "2025-08-10T20:24:12.149Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2803,7 +2983,7 @@
       "name": "nikon-d780.jpg",
       "path": "public/images/cameras/nikon-d780.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.897Z",
+      "modified": "2025-08-10T20:24:12.150Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2811,7 +2991,7 @@
       "name": "nikon-d850.jpg",
       "path": "public/images/cameras/nikon-d850.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.897Z",
+      "modified": "2025-08-10T20:24:12.150Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2819,7 +2999,7 @@
       "name": "nikon-f3.jpg",
       "path": "public/images/cameras/nikon-f3.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.897Z",
+      "modified": "2025-08-10T20:24:12.150Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2827,7 +3007,7 @@
       "name": "nikon-z6-iii.jpg",
       "path": "public/images/cameras/nikon-z6-iii.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.898Z",
+      "modified": "2025-08-10T20:24:12.151Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2835,7 +3015,7 @@
       "name": "nikon-z8-undefined.jpg",
       "path": "public/images/cameras/nikon-z8-undefined.jpg",
       "size": 12653,
-      "modified": "2025-08-10T20:23:17.898Z",
+      "modified": "2025-08-10T20:24:12.151Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2843,7 +3023,7 @@
       "name": "nikon-z9-undefined.jpg",
       "path": "public/images/cameras/nikon-z9-undefined.jpg",
       "size": 12655,
-      "modified": "2025-08-10T20:23:17.898Z",
+      "modified": "2025-08-10T20:24:12.151Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2851,7 +3031,7 @@
       "name": "nikon-z9.jpg",
       "path": "public/images/cameras/nikon-z9.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.898Z",
+      "modified": "2025-08-10T20:24:12.151Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2859,7 +3039,7 @@
       "name": "red-komodo.jpg",
       "path": "public/images/cameras/red-komodo.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.898Z",
+      "modified": "2025-08-10T20:24:12.151Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2867,7 +3047,7 @@
       "name": "sony-a7-iv-undefined.jpg",
       "path": "public/images/cameras/sony-a7-iv-undefined.jpg",
       "size": 14142,
-      "modified": "2025-08-10T20:23:17.899Z",
+      "modified": "2025-08-10T20:24:12.151Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2875,7 +3055,7 @@
       "name": "sony-a7-iv.jpg",
       "path": "public/images/cameras/sony-a7-iv.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.899Z",
+      "modified": "2025-08-10T20:24:12.152Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2883,7 +3063,7 @@
       "name": "sony-a7r-v-undefined.jpg",
       "path": "public/images/cameras/sony-a7r-v-undefined.jpg",
       "size": 14502,
-      "modified": "2025-08-10T20:23:17.899Z",
+      "modified": "2025-08-10T20:24:12.152Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2891,7 +3071,7 @@
       "name": "sony-a7r-v.jpg",
       "path": "public/images/cameras/sony-a7r-v.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.899Z",
+      "modified": "2025-08-10T20:24:12.152Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2899,7 +3079,7 @@
       "name": "sony-a7s-iii.jpg",
       "path": "public/images/cameras/sony-a7s-iii.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.152Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2907,7 +3087,7 @@
       "name": "sony-fx3.jpg",
       "path": "public/images/cameras/sony-fx3.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2915,7 +3095,7 @@
       "name": "sony-fx6.jpg",
       "path": "public/images/cameras/sony-fx6.jpg",
       "size": 70142,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2923,7 +3103,7 @@
       "name": "arri-alexa-mini-lf-thumb.jpg",
       "path": "public/images/cameras/thumbs/arri-alexa-mini-lf-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2931,7 +3111,7 @@
       "name": "blackmagic-ursa-mini-pro-12k-thumb.jpg",
       "path": "public/images/cameras/thumbs/blackmagic-ursa-mini-pro-12k-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2939,7 +3119,7 @@
       "name": "canon-ae-1-thumb.jpg",
       "path": "public/images/cameras/thumbs/canon-ae-1-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2947,7 +3127,7 @@
       "name": "canon-eos-5d-mark-iv-thumb.jpg",
       "path": "public/images/cameras/thumbs/canon-eos-5d-mark-iv-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2955,7 +3135,7 @@
       "name": "canon-eos-r5-thumb.jpg",
       "path": "public/images/cameras/thumbs/canon-eos-r5-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2963,7 +3143,7 @@
       "name": "canon-eos-r6-thumb.jpg",
       "path": "public/images/cameras/thumbs/canon-eos-r6-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2971,7 +3151,7 @@
       "name": "canon-eos-r7-thumb.jpg",
       "path": "public/images/cameras/thumbs/canon-eos-r7-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2979,7 +3159,7 @@
       "name": "fujifilm-gfx-100-ii-thumb.jpg",
       "path": "public/images/cameras/thumbs/fujifilm-gfx-100-ii-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.900Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2987,7 +3167,7 @@
       "name": "fujifilm-x-h2s-thumb.jpg",
       "path": "public/images/cameras/thumbs/fujifilm-x-h2s-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -2995,7 +3175,7 @@
       "name": "fujifilm-x-t5-thumb.jpg",
       "path": "public/images/cameras/thumbs/fujifilm-x-t5-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3003,7 +3183,7 @@
       "name": "hasselblad-500c-m-thumb.jpg",
       "path": "public/images/cameras/thumbs/hasselblad-500c-m-thumb.jpg",
       "size": 1727,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3011,7 +3191,7 @@
       "name": "leica-m6-thumb.jpg",
       "path": "public/images/cameras/thumbs/leica-m6-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.153Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3019,7 +3199,7 @@
       "name": "nikon-d780-thumb.jpg",
       "path": "public/images/cameras/thumbs/nikon-d780-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3027,7 +3207,7 @@
       "name": "nikon-d850-thumb.jpg",
       "path": "public/images/cameras/thumbs/nikon-d850-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3035,7 +3215,7 @@
       "name": "nikon-f3-thumb.jpg",
       "path": "public/images/cameras/thumbs/nikon-f3-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3043,7 +3223,7 @@
       "name": "nikon-z6-iii-thumb.jpg",
       "path": "public/images/cameras/thumbs/nikon-z6-iii-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3051,7 +3231,7 @@
       "name": "nikon-z9-thumb.jpg",
       "path": "public/images/cameras/thumbs/nikon-z9-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3059,7 +3239,7 @@
       "name": "red-komodo-thumb.jpg",
       "path": "public/images/cameras/thumbs/red-komodo-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3067,7 +3247,7 @@
       "name": "sony-a7-iv-thumb.jpg",
       "path": "public/images/cameras/thumbs/sony-a7-iv-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3075,7 +3255,7 @@
       "name": "sony-a7r-v-thumb.jpg",
       "path": "public/images/cameras/thumbs/sony-a7r-v-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3083,7 +3263,7 @@
       "name": "sony-a7s-iii-thumb.jpg",
       "path": "public/images/cameras/thumbs/sony-a7s-iii-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3091,7 +3271,7 @@
       "name": "sony-fx3-thumb.jpg",
       "path": "public/images/cameras/thumbs/sony-fx3-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3099,7 +3279,7 @@
       "name": "sony-fx6-thumb.jpg",
       "path": "public/images/cameras/thumbs/sony-fx6-thumb.jpg",
       "size": 2667,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".jpg",
       "lines": 0
     },
@@ -3107,7 +3287,7 @@
       "name": "index.html",
       "path": "public/index.html",
       "size": 1583,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".html",
       "lines": 51,
       "pageInfo": {
@@ -3149,7 +3329,7 @@
       "name": "legal.html",
       "path": "public/legal.html",
       "size": 11921,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".html",
       "lines": 370,
       "pageInfo": {
@@ -3189,7 +3369,7 @@
       "name": "login.html",
       "path": "public/login.html",
       "size": 14369,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".html",
       "lines": 483,
       "pageInfo": {
@@ -3229,7 +3409,7 @@
       "name": "privacy.html",
       "path": "public/privacy.html",
       "size": 9086,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".html",
       "lines": 326,
       "pageInfo": {
@@ -3269,7 +3449,7 @@
       "name": "productions.html",
       "path": "public/productions.html",
       "size": 26530,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".html",
       "lines": 754,
       "pageInfo": {
@@ -3309,7 +3489,7 @@
       "name": "search.html",
       "path": "public/search.html",
       "size": 33038,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".html",
       "lines": 984,
       "pageInfo": {
@@ -3349,7 +3529,7 @@
       "name": "terms.html",
       "path": "public/terms.html",
       "size": 10462,
-      "modified": "2025-08-10T20:23:17.901Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".html",
       "lines": 331,
       "pageInfo": {
@@ -3385,59 +3565,11 @@
         ]
       }
     },
-    "quick-db-fix.js": {
-      "name": "quick-db-fix.js",
-      "path": "quick-db-fix.js",
-      "size": 1464,
-      "modified": "2025-08-10T20:23:17.901Z",
-      "extension": ".js",
-      "lines": 64,
-      "functions": [],
-      "imports": [
-        "sqlite3",
-        "fs"
-      ]
-    },
-    "restore-generate-structure.sh": {
-      "name": "restore-generate-structure.sh",
-      "path": "restore-generate-structure.sh",
-      "size": 2524,
-      "modified": "2025-08-10T20:23:17.902Z",
-      "extension": ".sh",
-      "lines": 0
-    },
-    "safe-check-database-status.js": {
-      "name": "safe-check-database-status.js",
-      "path": "safe-check-database-status.js",
-      "size": 15470,
-      "modified": "2025-08-10T20:23:17.902Z",
-      "extension": ".js",
-      "lines": 377,
-      "functions": [],
-      "imports": [
-        "sqlite3",
-        "path"
-      ]
-    },
-    "safe-database-fix.js": {
-      "name": "safe-database-fix.js",
-      "path": "safe-database-fix.js",
-      "size": 10622,
-      "modified": "2025-08-10T20:23:17.902Z",
-      "extension": ".js",
-      "lines": 300,
-      "functions": [],
-      "imports": [
-        "sqlite3",
-        "path",
-        "fs"
-      ]
-    },
     "scripts/generate-structure.js": {
       "name": "generate-structure.js",
       "path": "scripts/generate-structure.js",
       "size": 24221,
-      "modified": "2025-08-10T20:23:17.902Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".js",
       "lines": 840,
       "functions": [
@@ -3453,7 +3585,7 @@
       "name": "server-minimal.js",
       "path": "server-minimal.js",
       "size": 9753,
-      "modified": "2025-08-10T20:23:17.902Z",
+      "modified": "2025-08-10T20:24:12.154Z",
       "extension": ".js",
       "lines": 331,
       "functions": [
@@ -3481,7 +3613,7 @@
       "name": "server.js",
       "path": "server.js",
       "size": 19967,
-      "modified": "2025-08-10T20:23:17.902Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".js",
       "lines": 611,
       "functions": [
@@ -3510,57 +3642,11 @@
         "net"
       ]
     },
-    "server.js.backup": {
-      "name": "server.js.backup",
-      "path": "server.js.backup",
-      "size": 19967,
-      "modified": "2025-08-10T20:23:17.902Z",
-      "extension": ".backup",
-      "lines": 0
-    },
-    "simple-migrate.js": {
-      "name": "simple-migrate.js",
-      "path": "simple-migrate.js",
-      "size": 15038,
-      "modified": "2025-08-10T20:23:17.902Z",
-      "extension": ".js",
-      "lines": 383,
-      "functions": [
-        "runSQL",
-        "getOne",
-        "getAll",
-        "createSlug",
-        "migrate"
-      ],
-      "imports": [
-        "sqlite3",
-        "path",
-        "fs"
-      ]
-    },
-    "smart-fix-unified-system.js": {
-      "name": "smart-fix-unified-system.js",
-      "path": "smart-fix-unified-system.js",
-      "size": 5163,
-      "modified": "2025-08-10T20:23:17.902Z",
-      "extension": ".js",
-      "lines": 127,
-      "functions": [
-        "smartFix"
-      ],
-      "imports": [
-        "fs",
-        "path",
-        "child_process",
-        "util",
-        "./camera-utils"
-      ]
-    },
     "start-cmv.sh": {
       "name": "start-cmv.sh",
       "path": "start-cmv.sh",
       "size": 1987,
-      "modified": "2025-08-10T20:23:17.902Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".sh",
       "lines": 0
     },
@@ -3568,95 +3654,15 @@
       "name": "start-fresh-cmv.sh",
       "path": "start-fresh-cmv.sh",
       "size": 6095,
-      "modified": "2025-08-10T20:23:17.902Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".sh",
       "lines": 0
-    },
-    "ultimate-schema-fix.js": {
-      "name": "ultimate-schema-fix.js",
-      "path": "ultimate-schema-fix.js",
-      "size": 21244,
-      "modified": "2025-08-10T20:23:17.902Z",
-      "extension": ".js",
-      "lines": 459,
-      "functions": [
-        "finishSetup"
-      ],
-      "imports": [
-        "sqlite3",
-        "path",
-        "fs"
-      ]
-    },
-    "undo-and-fix.sh": {
-      "name": "undo-and-fix.sh",
-      "path": "undo-and-fix.sh",
-      "size": 3313,
-      "modified": "2025-08-10T20:23:17.903Z",
-      "extension": ".sh",
-      "lines": 0
-    },
-    "unified-camera-system-temp.js": {
-      "name": "unified-camera-system-temp.js",
-      "path": "unified-camera-system-temp.js",
-      "size": 14,
-      "modified": "2025-08-10T20:23:17.903Z",
-      "extension": ".js",
-      "lines": 1,
-      "functions": [],
-      "imports": []
-    },
-    "unified-camera-system.backup-1754340358242.js": {
-      "name": "unified-camera-system.backup-1754340358242.js",
-      "path": "unified-camera-system.backup-1754340358242.js",
-      "size": 20804,
-      "modified": "2025-08-10T20:23:17.903Z",
-      "extension": ".js",
-      "lines": 556,
-      "functions": [],
-      "imports": [
-        "axios",
-        "cheerio",
-        "sqlite3",
-        "fs",
-        "path",
-        "sharp",
-        "crypto",
-        "node-cron",
-        "./camera-utils"
-      ]
-    },
-    "unified-camera-system.broken.js": {
-      "name": "unified-camera-system.broken.js",
-      "path": "unified-camera-system.broken.js",
-      "size": 13286,
-      "modified": "2025-08-10T20:23:17.903Z",
-      "extension": ".js",
-      "lines": 384,
-      "functions": [
-        "scheduleDiscovery",
-        "scheduleBackup",
-        "createBackup",
-        "cleanOldBackups",
-        "delay"
-      ],
-      "imports": [
-        "axios",
-        "cheerio",
-        "sqlite3",
-        "fs",
-        "path",
-        "sharp",
-        "crypto",
-        "node-cron",
-        "./camera-utils"
-      ]
     },
     "unified-camera-system.js": {
       "name": "unified-camera-system.js",
       "path": "unified-camera-system.js",
       "size": 13420,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".js",
       "lines": 393,
       "functions": [
@@ -3678,35 +3684,11 @@
         "./camera-utils"
       ]
     },
-    "unified-camera-system.js.backup-1754342972273": {
-      "name": "unified-camera-system.js.backup-1754342972273",
-      "path": "unified-camera-system.js.backup-1754342972273",
-      "size": 13248,
-      "modified": "2025-08-10T20:23:17.903Z",
-      "extension": ".backup-1754342972273",
-      "lines": 0
-    },
-    "unified-camera-system.js.backup-before-fix": {
-      "name": "unified-camera-system.js.backup-before-fix",
-      "path": "unified-camera-system.js.backup-before-fix",
-      "size": 13331,
-      "modified": "2025-08-10T20:23:17.903Z",
-      "extension": ".backup-before-fix",
-      "lines": 0
-    },
-    "unified-camera-system.js.syntax-backup": {
-      "name": "unified-camera-system.js.syntax-backup",
-      "path": "unified-camera-system.js.syntax-backup",
-      "size": 13239,
-      "modified": "2025-08-10T20:23:17.903Z",
-      "extension": ".syntax-backup",
-      "lines": 0
-    },
     "update-camera-images.js": {
       "name": "update-camera-images.js",
       "path": "update-camera-images.js",
       "size": 6983,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".js",
       "lines": 182,
       "functions": [
@@ -3721,24 +3703,11 @@
         "path"
       ]
     },
-    "view-cameras.js": {
-      "name": "view-cameras.js",
-      "path": "view-cameras.js",
-      "size": 2940,
-      "modified": "2025-08-10T20:23:17.903Z",
-      "extension": ".js",
-      "lines": 71,
-      "functions": [],
-      "imports": [
-        "sqlite3",
-        "path"
-      ]
-    },
     "views/pages/404.ejs": {
       "name": "404.ejs",
       "path": "views/pages/404.ejs",
       "size": 406,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3746,7 +3715,7 @@
       "name": "attribution.ejs",
       "path": "views/pages/attribution.ejs",
       "size": 234,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3754,7 +3723,7 @@
       "name": "camera-blog.ejs",
       "path": "views/pages/camera-blog.ejs",
       "size": 569,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3762,7 +3731,7 @@
       "name": "camera-detail.ejs",
       "path": "views/pages/camera-detail.ejs",
       "size": 1869,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3770,7 +3739,7 @@
       "name": "camera-finder.ejs",
       "path": "views/pages/camera-finder.ejs",
       "size": 2704,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3778,7 +3747,7 @@
       "name": "cameras.ejs",
       "path": "views/pages/cameras.ejs",
       "size": 2233,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3786,7 +3755,7 @@
       "name": "dmca.ejs",
       "path": "views/pages/dmca.ejs",
       "size": 213,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3794,7 +3763,7 @@
       "name": "error.ejs",
       "path": "views/pages/error.ejs",
       "size": 313,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3802,7 +3771,7 @@
       "name": "index.ejs",
       "path": "views/pages/index.ejs",
       "size": 1606,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3810,7 +3779,7 @@
       "name": "legal.ejs",
       "path": "views/pages/legal.ejs",
       "size": 211,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3818,7 +3787,7 @@
       "name": "login.ejs",
       "path": "views/pages/login.ejs",
       "size": 894,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3826,7 +3795,7 @@
       "name": "privacy.ejs",
       "path": "views/pages/privacy.ejs",
       "size": 276,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3834,7 +3803,7 @@
       "name": "productions.ejs",
       "path": "views/pages/productions.ejs",
       "size": 561,
-      "modified": "2025-08-10T20:23:17.903Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3842,7 +3811,7 @@
       "name": "search.ejs",
       "path": "views/pages/search.ejs",
       "size": 1584,
-      "modified": "2025-08-10T20:23:17.904Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     },
@@ -3850,40 +3819,55 @@
       "name": "terms.ejs",
       "path": "views/pages/terms.ejs",
       "size": 261,
-      "modified": "2025-08-10T20:23:17.904Z",
+      "modified": "2025-08-10T20:24:12.155Z",
       "extension": ".ejs",
       "lines": 0
     }
   },
   "directories": {
-    "backup-20250804-121715": {
+    "archive": {
+      "name": "archive",
+      "path": "archive",
+      "fileCount": 0
+    },
+    "archive/old-backups": {
+      "name": "old-backups",
+      "path": "archive/old-backups",
+      "fileCount": 0
+    },
+    "archive/old-backups/backup-20250804-121715": {
       "name": "backup-20250804-121715",
-      "path": "backup-20250804-121715",
+      "path": "archive/old-backups/backup-20250804-121715",
       "fileCount": 0
     },
-    "backup-20250804-121715/attributions": {
+    "archive/old-backups/backup-20250804-121715/attributions": {
       "name": "attributions",
-      "path": "backup-20250804-121715/attributions",
+      "path": "archive/old-backups/backup-20250804-121715/attributions",
       "fileCount": 0
     },
-    "backup-20250804-121715/cameras": {
+    "archive/old-backups/backup-20250804-121715/cameras": {
       "name": "cameras",
-      "path": "backup-20250804-121715/cameras",
+      "path": "archive/old-backups/backup-20250804-121715/cameras",
       "fileCount": 0
     },
-    "backup-20250804-121715/cameras/thumbs": {
+    "archive/old-backups/backup-20250804-121715/cameras/thumbs": {
       "name": "thumbs",
-      "path": "backup-20250804-121715/cameras/thumbs",
+      "path": "archive/old-backups/backup-20250804-121715/cameras/thumbs",
       "fileCount": 0
     },
-    "backup-fix-1754338654307": {
+    "archive/old-backups/backup-fix-1754338654307": {
       "name": "backup-fix-1754338654307",
-      "path": "backup-fix-1754338654307",
+      "path": "archive/old-backups/backup-fix-1754338654307",
       "fileCount": 0
     },
-    "backups": {
+    "archive/old-backups/backups": {
       "name": "backups",
-      "path": "backups",
+      "path": "archive/old-backups/backups",
+      "fileCount": 0
+    },
+    "archive/old-fixes-20250810": {
+      "name": "old-fixes-20250810",
+      "path": "archive/old-fixes-20250810",
       "fileCount": 0
     },
     "config": {
@@ -3958,24 +3942,23 @@
     }
   },
   "metrics": {
-    "totalFiles": 324,
-    "totalDirectories": 20,
-    "totalLines": 33962,
+    "totalFiles": 321,
+    "totalDirectories": 23,
+    "totalLines": 33730,
     "filesByType": {
       ".md": 2,
-      ".sh": 10,
-      ".js": 76,
       ".backup": 6,
-      ".json": 82,
+      ".json": 81,
+      ".js": 75,
       ".db": 11,
       ".jpg": 99,
-      ".backup-before-fix": 3,
-      ".txt": 1,
       ".save": 2,
+      ".backup-1754342972273": 1,
+      ".backup-before-fix": 3,
+      ".syntax-backup": 1,
+      ".sh": 10,
       ".html": 14,
       ".css": 1,
-      ".backup-1754342972273": 1,
-      ".syntax-backup": 1,
       ".ejs": 15
     },
     "largestFiles": [
@@ -3984,19 +3967,19 @@
         "size": 312005
       },
       {
-        "path": "backup-fix-1754338654307/camera-vault.db",
+        "path": "archive/old-backups/backup-fix-1754338654307/camera-vault.db",
         "size": 151552
       },
       {
-        "path": "backups/pre-fix-2025-08-04T23-25-29-439Z.db",
+        "path": "archive/old-backups/backups/pre-fix-2025-08-04T23-25-29-439Z.db",
         "size": 151552
       },
       {
-        "path": "backups/pre-migration-2025-08-04T23-26-22-873Z.db",
+        "path": "archive/old-backups/backups/pre-migration-2025-08-04T23-26-22-873Z.db",
         "size": 151552
       },
       {
-        "path": "backups/pre-migration-2025-08-04T23-32-06-176Z.db",
+        "path": "archive/old-backups/backups/pre-migration-2025-08-04T23-32-06-176Z.db",
         "size": 151552
       },
       {
@@ -4016,7 +3999,7 @@
         "size": 151552
       },
       {
-        "path": "backup-20250804-121715/camera-vault.db",
+        "path": "archive/old-backups/backup-20250804-121715/camera-vault.db",
         "size": 131072
       },
       {
@@ -4032,31 +4015,31 @@
         "size": 70560
       },
       {
-        "path": "backup-20250804-121715/cameras/arri-alexa-mini-lf.jpg",
+        "path": "archive/old-backups/backup-20250804-121715/cameras/arri-alexa-mini-lf.jpg",
         "size": 70142
       },
       {
-        "path": "backup-20250804-121715/cameras/blackmagic-ursa-mini-pro-12k.jpg",
+        "path": "archive/old-backups/backup-20250804-121715/cameras/blackmagic-ursa-mini-pro-12k.jpg",
         "size": 70142
       },
       {
-        "path": "backup-20250804-121715/cameras/canon-ae-1.jpg",
+        "path": "archive/old-backups/backup-20250804-121715/cameras/canon-ae-1.jpg",
         "size": 70142
       },
       {
-        "path": "backup-20250804-121715/cameras/canon-eos-5d-mark-iv.jpg",
+        "path": "archive/old-backups/backup-20250804-121715/cameras/canon-eos-5d-mark-iv.jpg",
         "size": 70142
       },
       {
-        "path": "backup-20250804-121715/cameras/canon-eos-r5.jpg",
+        "path": "archive/old-backups/backup-20250804-121715/cameras/canon-eos-r5.jpg",
         "size": 70142
       },
       {
-        "path": "backup-20250804-121715/cameras/canon-eos-r6.jpg",
+        "path": "archive/old-backups/backup-20250804-121715/cameras/canon-eos-r6.jpg",
         "size": 70142
       },
       {
-        "path": "backup-20250804-121715/cameras/canon-eos-r7.jpg",
+        "path": "archive/old-backups/backup-20250804-121715/cameras/canon-eos-r7.jpg",
         "size": 70142
       }
     ]

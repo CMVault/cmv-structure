@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/10/2025, 8:23:19 PM
+Generated: 8/10/2025, 8:24:17 PM
 
 ## Project Overview
-- **Total Files**: 324
-- **Total Lines**: 33,962
+- **Total Files**: 321
+- **Total Lines**: 33,730
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -76,8 +76,8 @@ node scripts/generate-structure.js ../cmv-structure
 
 ## File Type Distribution
 - .jpg: 99 files
-- .json: 82 files
-- .js: 76 files
+- .json: 81 files
+- .js: 75 files
 - .ejs: 15 files
 - .html: 14 files
 - .db: 11 files
@@ -88,12 +88,12 @@ node scripts/generate-structure.js ../cmv-structure
 
 ## Largest Files
 - package-lock.json: 304.69 KB
-- backup-fix-1754338654307/camera-vault.db: 148.00 KB
-- backups/pre-fix-2025-08-04T23-25-29-439Z.db: 148.00 KB
-- backups/pre-migration-2025-08-04T23-26-22-873Z.db: 148.00 KB
-- backups/pre-migration-2025-08-04T23-32-06-176Z.db: 148.00 KB
+- archive/old-backups/backup-fix-1754338654307/camera-vault.db: 148.00 KB
+- archive/old-backups/backups/pre-fix-2025-08-04T23-25-29-439Z.db: 148.00 KB
+- archive/old-backups/backups/pre-migration-2025-08-04T23-26-22-873Z.db: 148.00 KB
+- archive/old-backups/backups/pre-migration-2025-08-04T23-32-06-176Z.db: 148.00 KB
 - data/camera-vault.db: 148.00 KB
 - data/camera-vault.db.backup-before-fix: 148.00 KB
 - full-backup-before-cleanup/data/camera-vault.db: 148.00 KB
 - full-backup-before-cleanup/data/camera-vault.db.backup-before-fix: 148.00 KB
-- backup-20250804-121715/camera-vault.db: 128.00 KB
+- archive/old-backups/backup-20250804-121715/camera-vault.db: 128.00 KB
