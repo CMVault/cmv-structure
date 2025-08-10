@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 8:35:45 PM
+Generated: 8/10/2025, 8:39:00 PM
 
 ## Directory Structure
 
@@ -213,6 +213,7 @@ Generated: 8/10/2025, 8:35:45 PM
 │   ├── cameras.json
 │   └── db-backups
 │       └── camera-vault-20250810-132604.db
+├── direct-fix.sh
 ├── ecosystem.config.js
 ├── fix-schema-mismatch.js
 ├── fixed-migrate-to-comprehensive.js
@@ -1917,6 +1918,11 @@ Generated: 8/10/2025, 8:35:45 PM
 - Lines: 209
 - Modified: 8/10/2025
 - Functions: fixServerFile, testEverything, addCameras, finishUp
+
+#### direct-fix.sh
+- Size: 949.00 B
+- Lines: 0
+- Modified: 8/10/2025
 
 #### ecosystem.config.js
 - Size: 902.00 B
