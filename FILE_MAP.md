@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 8:39:00 PM
+Generated: 8/10/2025, 8:39:26 PM
 
 ## Directory Structure
 
@@ -334,6 +334,8 @@ Generated: 8/10/2025, 8:39:00 PM
 │   └── generate-structure.js
 ├── server-minimal.js
 ├── server.js
+├── server.js.backup-1754858340
+├── server.js.bak
 ├── start-cmv.sh
 ├── start-fresh-cmv.sh
 ├── unified-camera-system.js
@@ -1976,6 +1978,16 @@ Generated: 8/10/2025, 8:39:00 PM
 - Lines: 611
 - Modified: 8/10/2025
 - Functions: dbAll, dbGet, dbRun, findAvailablePort, isPortAvailable...
+
+#### server.js.backup-1754858340
+- Size: 19.48 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### server.js.bak
+- Size: 19.48 KB
+- Lines: 0
+- Modified: 8/10/2025
 
 #### start-cmv.sh
 - Size: 1.94 KB
