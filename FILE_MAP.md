@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 9:44:55 PM
+Generated: 8/10/2025, 9:50:09 PM
 
 ## Directory Structure
 
@@ -1532,8 +1532,8 @@ Generated: 8/10/2025, 9:44:55 PM
 ### /public
 
 #### 404.html
-- Size: 1.02 KB
-- Lines: 34
+- Size: 1.03 KB
+- Lines: 33
 - Modified: 8/10/2025
 - Page Title: 404 - Page Not Found
 
