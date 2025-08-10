@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 8:46:11 PM
+Generated: 8/10/2025, 9:12:57 PM
 
 ## Directory Structure
 
@@ -264,6 +264,7 @@ Generated: 8/10/2025, 8:46:11 PM
 │   ├── cameras-fixed.html.save
 │   ├── cameras.html
 │   ├── cameras.html.backup
+│   ├── cameras.html.backup-20250810
 │   ├── css
 │   │   └── main.css
 │   ├── dmca.html
@@ -1561,6 +1562,11 @@ Generated: 8/10/2025, 8:46:11 PM
 
 #### cameras.html.backup
 - Size: 68.91 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### cameras.html.backup-20250810
+- Size: 7.18 KB
 - Lines: 0
 - Modified: 8/10/2025
 
