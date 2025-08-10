@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 9:44:21 PM
+Generated: 8/10/2025, 9:44:55 PM
 
 ## Directory Structure
 
@@ -218,6 +218,7 @@ Generated: 8/10/2025, 9:44:21 PM
 ├── ecosystem.config.js
 ├── errors.txt
 ├── fix-cmv-system.sh
+├── fix-database.js
 ├── fix-schema-mismatch.js
 ├── fixed-migrate-to-comprehensive.js
 ├── full-backup-before-cleanup
@@ -1961,6 +1962,11 @@ Generated: 8/10/2025, 9:44:21 PM
 #### fix-cmv-system.sh
 - Size: 2.36 KB
 - Lines: 0
+- Modified: 8/10/2025
+
+#### fix-database.js
+- Size: 1.93 KB
+- Lines: 53
 - Modified: 8/10/2025
 
 #### fix-schema-mismatch.js

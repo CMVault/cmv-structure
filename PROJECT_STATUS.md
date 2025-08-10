@@ -187,10 +187,10 @@ npx pm2 restart cmv-server
 *Next priority: Fix spec display, then implement real data scraping*
 
 ## 🏗️ Architecture Status:
-- Total Files: 335
+- Total Files: 336
 - Total Directories: 24
-- Total Lines of Code: 34,087
-- Main File Types: .jpg (99), .json (82), .js (77), .html (15), .ejs (15)
+- Total Lines of Code: 34,140
+- Main File Types: .jpg (99), .json (82), .js (78), .html (15), .ejs (15)
 - API Routes: 6
 - Database Tables: 0
 - CSS Classes: 31
