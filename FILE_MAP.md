@@ -1,5 +1,5 @@
 # FILE MAP - Camera Manual Vault
-Generated: 8/10/2025, 8:22:15 PM
+Generated: 8/10/2025, 8:23:19 PM
 
 ## Directory Structure
 
@@ -190,6 +190,41 @@ Generated: 8/10/2025, 8:22:15 PM
 ├── fix-sql-query.js
 ├── fix-syntax-error.js
 ├── fixed-migrate-to-comprehensive.js
+├── full-backup-before-cleanup
+│   └── data
+│       ├── attributions
+│       │   ├── arri-alexa-mini-lf.json
+│       │   ├── attribution-report.json
+│       │   ├── blackmagic-ursa-mini-pro-12k.json
+│       │   ├── canon-ae-1.json
+│       │   ├── canon-eos-5d-mark-iv.json
+│       │   ├── canon-eos-r5.json
+│       │   ├── canon-eos-r6.json
+│       │   ├── canon-eos-r7.json
+│       │   ├── fujifilm-gfx-100-ii.json
+│       │   ├── fujifilm-x-h2s.json
+│       │   ├── fujifilm-x-t5.json
+│       │   ├── hasselblad-500c-m.json
+│       │   ├── leica-m6.json
+│       │   ├── nikon-d780.json
+│       │   ├── nikon-d850.json
+│       │   ├── nikon-f3.json
+│       │   ├── nikon-z6-iii.json
+│       │   ├── nikon-z9.json
+│       │   ├── red-komodo.json
+│       │   ├── sony-a7-iv.json
+│       │   ├── sony-a7r-v.json
+│       │   ├── sony-a7s-iii.json
+│       │   ├── sony-fx3.json
+│       │   ├── sony-fx6.json
+│       │   └── update-report.json
+│       ├── automation-report.json
+│       ├── camera-vault-backup-1754268515576.db
+│       ├── camera-vault-backup-1754269121092.db
+│       ├── camera-vault.db
+│       ├── camera-vault.db.backup
+│       ├── camera-vault.db.backup-before-fix
+│       └── cameras.json
 ├── implement-cmv.sh
 ├── migrate-to-comprehensive.js
 ├── minimal-syntax-fix.js
@@ -911,6 +946,170 @@ Generated: 8/10/2025, 8:22:15 PM
 - Modified: 8/10/2025
 
 ### /data/attributions
+
+#### arri-alexa-mini-lf.json
+- Size: 222.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### attribution-report.json
+- Size: 3.52 KB
+- Lines: 126
+- Modified: 8/10/2025
+
+#### blackmagic-ursa-mini-pro-12k.json
+- Size: 232.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### canon-ae-1.json
+- Size: 275.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### canon-eos-5d-mark-iv.json
+- Size: 295.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### canon-eos-r5.json
+- Size: 279.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### canon-eos-r6.json
+- Size: 279.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### canon-eos-r7.json
+- Size: 279.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### fujifilm-gfx-100-ii.json
+- Size: 223.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### fujifilm-x-h2s.json
+- Size: 218.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### fujifilm-x-t5.json
+- Size: 217.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### hasselblad-500c-m.json
+- Size: 243.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### leica-m6.json
+- Size: 212.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### nikon-d780.json
+- Size: 275.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### nikon-d850.json
+- Size: 275.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### nikon-f3.json
+- Size: 271.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### nikon-z6-iii.json
+- Size: 279.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### nikon-z9.json
+- Size: 271.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### red-komodo.json
+- Size: 214.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### sony-a7-iv.json
+- Size: 273.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### sony-a7r-v.json
+- Size: 273.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### sony-a7s-iii.json
+- Size: 277.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### sony-fx3.json
+- Size: 269.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### sony-fx6.json
+- Size: 269.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### update-report.json
+- Size: 97.00 B
+- Lines: 6
+- Modified: 8/10/2025
+
+### /full-backup-before-cleanup/data
+
+#### automation-report.json
+- Size: 178.00 B
+- Lines: 9
+- Modified: 8/10/2025
+
+#### camera-vault-backup-1754268515576.db
+- Size: 68.00 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### camera-vault-backup-1754269121092.db
+- Size: 112.00 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### camera-vault.db
+- Size: 148.00 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### camera-vault.db.backup
+- Size: 12.00 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### camera-vault.db.backup-before-fix
+- Size: 148.00 KB
+- Lines: 0
+- Modified: 8/10/2025
+
+#### cameras.json
+- Size: 267.00 B
+- Lines: 15
+- Modified: 8/10/2025
+
+### /full-backup-before-cleanup/data/attributions
 
 #### arri-alexa-mini-lf.json
 - Size: 222.00 B
