@@ -1,9 +1,9 @@
 # QUICK REFERENCE - Camera Manual Vault
-Generated: 8/10/2025, 9:42:45 PM
+Generated: 8/10/2025, 9:43:24 PM
 
 ## Project Overview
 - **Total Files**: 334
-- **Total Lines**: 34,531
+- **Total Lines**: 34,053
 - **Primary Language**: JavaScript
 - **Framework**: Express.js + SQLite
 
@@ -37,27 +37,10 @@ Generated: 8/10/2025, 9:42:45 PM
 ### API Endpoints Summary
 - GET /api/cameras
 - GET /api/camera/:id
-- GET /api/search
 - GET /api/stats
-- GET /api/homepage
 - GET /api/brands
-- POST /api/camera-finder
-- GET /api/networks
-- GET /api/image-proxy
-- GET /
 - GET /cameras
 - GET /camera/:id
-- GET /camera-finder
-- GET /productions
-- GET /camera-blog
-- GET /search
-- GET /login
-- GET /privacy
-- GET /terms
-- GET /dmca
-- GET /attribution
-- GET /legal
-- GET /automation-monitor
 
 ## Recent Changes
 No recent commits
